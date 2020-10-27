@@ -1,0 +1,27 @@
+SET CCC(CCCRRRAAA)  'All Countries'
+/                                  
+NORWAY                             
+DENMARK                            
+FINLAND                            
+GERMANY4                           
+NETHERLANDS                        
+SWEDEN                             
+UNITED_KINGDOM                     
+ESTONIA                            
+LATVIA                             
+LITHUANIA                          
+POLAND                             
+AUSTRIA                            
+CZECH_REPUBLIC                     
+SWITZERLAND                        
+HUNGARY                            
+ITALY                              
+SLOVENIA                           
+SLOVAKIA                           
+GERMANY                            
+FRANCE                             
+SPAIN                              
+PORTUGAL                           
+BELGIUM                            
+LUXEMBOURG                         
+/;                                 

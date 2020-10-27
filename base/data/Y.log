@@ -1,0 +1,13 @@
+--- Job Y.inc Start 04/09/19 17:41:08 26.1.0 rf2b37b9 WEX-WEI x86 64bit/MS Windows
+GAMS 26.1.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S180927:0404AO-WIN
+          TU Wien, Energy Economics Group                           DC14452
+          License for teaching and research at degree granting institutions
+          License Admin: Albert Hiesl, hiesl@eeg.tuwien.ac.at              
+--- Starting compilation
+--- Y.inc(1) 2 Mb 1 Error
+*** Error 120 in C:\Users\geipel\Desktop\Balmorel_Real\EEG_Balmorel_repository\Balmorel_master_2018\base\data\Y.inc
+    Unknown identifier entered as set
+--- Y.inc(6) 3 Mb 1 Error
+*** Status: Compilation error(s)
+--- Job Y.inc Stop 04/09/19 17:41:08 elapsed 0:00:00.018

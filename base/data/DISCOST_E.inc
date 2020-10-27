@@ -1,0 +1,39 @@
+PARAMETER DISCOST_E(RRR)  'Cost of electricity distribution (Money/MWh)'     
+/                                                                            
+DK1                                                                      5   
+DK2                                                                      5   
+FIN                                                                      5   
+DE4-E                                                                    5   
+DE4-N                                                                    5   
+DE4-S                                                                    5   
+DE4-W                                                                    5   
+NL                                                                       5   
+NO1                                                                      5   
+NO2                                                                      5   
+NO3                                                                      5   
+NO4                                                                      5   
+NO5                                                                      5   
+SE1                                                                      5   
+SE2                                                                      5   
+SE3                                                                      5   
+SE4                                                                      5   
+UK                                                                       5   
+EE                                                                       5   
+LV                                                                       5   
+LT                                                                       5   
+PL                                                                       5   
+AT                                                                       5   
+CZ                                                                       5   
+CH                                                                       5   
+HU                                                                       5   
+IT                                                                       5   
+SI                                                                       5   
+SK                                                                       5   
+DE                                                                       5   
+FR                                                                       5   
+ES                                                                       5   
+ES-CSP                                                                   5   
+PT                                                                       5   
+BE                                                                       5   
+LU                                                                       5   
+/;                                                                           

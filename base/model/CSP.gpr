@@ -1,0 +1,44 @@
+[PROJECT]
+
+[GDXDISP: XKACC Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+SqTrail0=0
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: DH_DEMAND_YCRAST Par 8]
+PlaneDim=0
+RowDim=8
+Squeeze=1
+SqTrail0=0
+Order=1,2,3,4,5,6,7,8
+Decim=7
+PlaneRownr=-1
+
+[RP:UNTITLED_1]
+1=
+
+[RP:BALMOREL]
+1=
+
+[MRUFILES]
+1=C:\Users\schoeniger\Dropbox\Balmorel course SS19\CSP\base\model\Untitled_1.gms
+2=C:\Users\geipel\Desktop\Balmorel_Real\EEG_Balmorel_repository\Balmorel_2017_CSP\base\model\balopt.opt
+3=C:\Users\geipel\Desktop\Balmorel_Real\EEG_Balmorel_repository\Balmorel_master_2018\base\model\Balmorel.gms
+4=C:\Users\geipel\Desktop\Balmorel_Real\EEG_Balmorel_repository\Balmorel_2017_CSP\base\model\Balmorel.gms
+5=C:\Users\geipel\Desktop\Balmorel_Real\EEG_Balmorel_repository\Balmorel_master_2018\base\model\Balmorel.lst
+6=C:\Users\geipel\Desktop\Balmorel_Real\EEG_Balmorel_repository\Balmorel_master_2018\base\model\../data/DE.inc
+7=C:\Users\geipel\Desktop\Balmorel_Real\EEG_Balmorel_repository\Balmorel_master_2018\base\model\../data/CCCRRRAAA.inc
+
+[OPENWINDOW_1]
+FILE0=C:\Users\schoeniger\Dropbox\Balmorel course SS19\CSP\base\model\Balmorel.gms
+FILE1=C:\Users\schoeniger\Dropbox\Balmorel course SS19\CSP\base\model\Balmorel.lst
+FILE2=C:\Users\schoeniger\Dropbox\Balmorel course SS19\CSP\base\model\Balmorel.lst
+MAXIM=0
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=1277

@@ -1,0 +1,39 @@
+PARAMETER DEFP_BASE(RRR)  'Nominal annual average consumer electricity price (including taxes) in the base year (Money/MWh)'                     
+/                                                                                                                                                
+DK1                                                                                                                          40                  
+DK2                                                                                                                          40                  
+FIN                                                                                                                          40                  
+DE4-E                                                                                                                        50.2                
+DE4-N                                                                                                                        50.2                
+DE4-S                                                                                                                        50.2                
+DE4-W                                                                                                                        50.2                
+NL                                                                                                                           50.2                
+NO1                                                                                                                          40                  
+NO2                                                                                                                          40                  
+NO3                                                                                                                          40                  
+NO4                                                                                                                          40                  
+NO5                                                                                                                          40                  
+SE1                                                                                                                          40                  
+SE2                                                                                                                          40                  
+SE3                                                                                                                          40                  
+SE4                                                                                                                          40                  
+UK                                                                                                                           40                  
+EE                                                                                                                           40                  
+LV                                                                                                                           40                  
+LT                                                                                                                           40                  
+PL                                                                                                                           13.9966666666667    
+AT                                                                                                                           19.8333333333333    
+CZ                                                                                                                           14.91               
+CH                                                                                                                           18                  
+HU                                                                                                                           11.2066666666667    
+IT                                                                                                                           21.8033333333333    
+SI                                                                                                                           16.1333333333333    
+SK                                                                                                                           14.7466666666667    
+DE                                                                                                                           29.89               
+FR                                                                                                                           17.0966666666667    
+ES                                                                                                                           22.88               
+ES-CSP                                                                                                                       22.88               
+PT                                                                                                                           22.9333333333333    
+BE                                                                                                                           26.92               
+LU                                                                                                                           16.6133333333333    
+/;                                                                                                                                               

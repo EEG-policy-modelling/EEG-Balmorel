@@ -1,0 +1,39 @@
+SET CCCRRR(CCC,RRR) "Regions in countries"                          
+/                                                                   
+DENMARK                                                .    DK2     
+DENMARK                                                .    DK1     
+FINLAND                                                .    FIN     
+GERMANY4                                               .    DE4-E   
+GERMANY4                                               .    DE4-N   
+GERMANY4                                               .    DE4-S   
+GERMANY4                                               .    DE4-W   
+NETHERLANDS                                            .    NL      
+ESTONIA                                                .    EE      
+LATVIA                                                 .    LV      
+LITHUANIA                                              .    LT      
+POLAND                                                 .    PL      
+NORWAY                                                 .    NO1     
+NORWAY                                                 .    NO2     
+NORWAY                                                 .    NO3     
+NORWAY                                                 .    NO4     
+NORWAY                                                 .    NO5     
+SWEDEN                                                 .    SE1     
+SWEDEN                                                 .    SE2     
+SWEDEN                                                 .    SE3     
+SWEDEN                                                 .    SE4     
+UNITED_KINGDOM                                         .    UK      
+AUSTRIA                                                .    AT      
+CZECH_REPUBLIC                                         .    CZ      
+SWITZERLAND                                            .    CH      
+HUNGARY                                                .    HU      
+ITALY                                                  .    IT      
+SLOVENIA                                               .    SI      
+SLOVAKIA                                               .    SK      
+GERMANY                                                .    DE      
+FRANCE                                                 .    FR      
+SPAIN                                                  .    ES      
+SPAIN                                                  .    ES-CSP  
+PORTUGAL                                               .    PT      
+BELGIUM                                                .    BE      
+LUXEMBOURG                                             .    LU      
+/;                                                                  
