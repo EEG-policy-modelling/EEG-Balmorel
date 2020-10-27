@@ -1,12 +1,12 @@
 
---- Job Balmorel.gms Start 10/27/20 15:50:15 27.3.0 r58c491d WEX-WEI x86 64bit/MS Windows
+--- Job Balmorel.gms Start 10/27/20 17:24:11 27.3.0 r58c491d WEX-WEI x86 64bit/MS Windows
 --- GAMS Parameters defined
     Input C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.gms
     PageWidth 80
     PageSize 0
     PageContr 3
     Action CE
-    ScrDir C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\225b\
+    ScrDir C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\225a\
     SysDir C:\GAMS\win64\27.3\
     WorkDir C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\
     LogOption 3
@@ -197,9 +197,6 @@ Licensee: Small MUD - 5 User License                     S180927:0404AO-WIN
 --- .. ../../base/model/bb4datainc.inc(680) 4 Mb
 --- ... ../data/XLOSS.inc(60) 4 Mb
 --- .. ../../base/model/bb4datainc.inc(687) 4 Mb
-<<<<<<< Updated upstream
---
-=======
 --- ... ../data/XKRATE.inc(5) 4 Mb
 --- .. ../../base/model/bb4datainc.inc(698) 4 Mb
 --- ... ../data/XMAXINV.inc(46) 4 Mb
@@ -315,60 +312,108 @@ Licensee: Small MUD - 5 User License                     S180927:0404AO-WIN
 --- ... ../../base/addons/EV/bb4/EV_vardeclare.inc(33) 62 Mb
 --- .. ../../base/addons/_hooks/vardeclare.inc(26) 62 Mb
 --- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_vardeclare.inc(3) 62 Mb
+--- .. ../../base/addons/_hooks/vardeclare.inc(29) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_declare.inc(36) 62 Mb
 --- .. ../../base/addons/_hooks/vardeclare.inc(32) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1280) 62 Mb
 --- .. ../../base/addons/_hooks/qobj.inc(20) 62 Mb
 --- ... ../../base/addons/EV/bb4/EV_qobj.inc(67) 62 Mb
 --- .. ../../base/addons/_hooks/qobj.inc(26) 62 Mb
 --- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_qobj.inc(1) 62 Mb
+--- .. ../../base/addons/_hooks/qobj.inc(30) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(77) 62 Mb
 --- .. ../../base/addons/_hooks/qobj.inc(33) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1314) 62 Mb
 --- .. ../../base/addons/_hooks/qeeq.inc(13) 62 Mb
 --- ... ../../base/addons/EV/bb4/EV_qeeq.inc(31) 62 Mb
+--- .. ../../base/addons/_hooks/qeeq.inc(24) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qeeq.inc(27) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1334) 62 Mb
+--- .. ../../base/addons/_hooks/qheq.inc(19) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qheq.inc(22) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1350) 62 Mb
 --- .. ../../base/addons/_hooks/qgfeq.inc(19) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1415) 62 Mb
+--- .. ../../base/addons/_hooks/qhyrsseq.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qhyrsseq.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1425) 62 Mb
+--- .. ../../base/addons/_hooks/qhyrsminvol.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qhyrsminvol.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1436) 62 Mb
+--- .. ../../base/addons/_hooks/qhyrsmaxvol.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qhyrsmaxvol.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1450) 62 Mb
+--- .. ../../base/addons/_hooks/qhymaxg.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qhymaxg.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1461) 62 Mb
+--- .. ../../base/addons/_hooks/qestovolt.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qestovolt.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1474) 62 Mb
+--- .. ../../base/addons/_hooks/qestovolts.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qestovolts.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1484) 62 Mb
+--- .. ../../base/addons/_hooks/qhstovolt.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qhstovolt.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1497) 62 Mb
+--- .. ../../base/addons/_hooks/qhstovolts.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qhstovolts.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1657) 62 Mb
+--- .. ../../base/addons/_hooks/qkefuelc.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qkefuelc.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1665) 62 Mb
+--- .. ../../base/addons/_hooks/qkefuelr.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qkefuelr.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1673) 62 Mb
+--- .. ../../base/addons/_hooks/qkefuela.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qkefuela.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1830) 62 Mb
+--- .. ../../base/addons/_hooks/qktechgroupc.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qktechgroupc.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1838) 62 Mb
+--- .. ../../base/addons/_hooks/qktechgroupr.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qktechgroupr.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1846) 62 Mb
+--- .. ../../base/addons/_hooks/qktechgroupa.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qktechgroupa.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1865) 62 Mb
+--- .. ../../base/addons/_hooks/qxk_up.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qxk_up.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1876) 62 Mb
+--- .. ../../base/addons/_hooks/qxknaccumnet.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qxknaccumnet.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1944) 62 Mb
+--- .. ../../base/addons/_hooks/qgknaccumgross.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qgknaccumgross.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1963) 62 Mb
+--- .. ../../base/addons/_hooks/qgknaccumnet.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qgknaccumnet.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1987) 62 Mb
+--- .. ../../base/addons/_hooks/qgke_up.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qgke_up.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(1996) 62 Mb
+--- .. ../../base/addons/_hooks/qgkh_up.inc(5) 62 Mb
+--- ... ../../base/addons/vqdebug/bb4/vqdebug_equations.inc(29) 62 Mb
 --- .. ../../base/addons/_hooks/qgkh_up.inc(8) 62 Mb
 --- . ../../base/model/Balmorelbb4.inc(2103) 62 Mb
 --- .. ../../base/addons/_hooks/eqndecdef.inc(16) 62 Mb
@@ -396,6 +441,8 @@ Licensee: Small MUD - 5 User License                     S180927:0404AO-WIN
 --- .. ../../base/model/Balmorelbb4.sim(377) 62 Mb
 --- ... ../../base/addons/_hooks/varloupfx.inc(8) 62 Mb
 --- .. ../../base/model/Balmorelbb4.sim(402) 62 Mb
+--- ... ../../base/addons/_hooks/solveend.inc(11) 62 Mb
+--- .... ../../base/addons/vqdebug/bb4/vqdebug_m2zero.inc(24) 62 Mb
 --- ... ../../base/addons/_hooks/solveend.inc(17) 62 Mb
 --- .. ../../base/model/Balmorelbb4.sim(407) 62 Mb
 --- ... ../../base/logerror/logerinc/balbase4.mss(120) 62 Mb
@@ -412,297 +459,129 @@ Licensee: Small MUD - 5 User License                     S180927:0404AO-WIN
 --- Balmorel.gms(3306) 62 Mb
 --- . ../../base/output/OUTPUT_SUMMARY.inc(664) 62 Mb
 --- Balmorel.gms(3313) 62 Mb
---- Starting execution: elapsed 0:00:04.815
+--- Starting execution: elapsed 0:00:03.624
 --- Balmorel.gms(824) 62 Mb
 --- Balmorel.gms(827) 62 Mb
---- Balmorel.gms(6030) 63 MbC:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\*.gdx konnte nicht gefunden werden
 --- Balmorel.gms(638163) 145 Mb
 --- Balmorel.gms(639203) 148 Mb
 --- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\output\inputout\INPUTDATAOUT.gdx
 --- Balmorel.gms(639277) 148 Mb
 --- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../output/temp/1INPUT.gdx
---- Balmorel.gms(641321) 148 Mb
+--- Balmorel.gms(642072) 148 Mb
 --- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../output/temp/IWEIGHTY.gdx
---- Balmorel.gms(641440) 162 Mb
+--- Balmorel.gms(642191) 162 Mb
 --- Generating LP model BALBASE4
---- Balmorel.gms(639522) 223 Mb  8 secs
---- Balmorel.gms(641705) 1142 Mb  3 secs
+--- Balmorel.gms(639558) 381 Mb  13 secs
+--- Balmorel.gms(642456) 1343 Mb  3 secs
 --- LOOPS IYALIAS = 2020
----   2,254,615 rows  2,079,507 columns  6,823,063 non-zeroes
---- Executing CPLEX: elapsed 0:00:33.899
---- Balmorel.gms(641705) 1142 Mb  4 secs
+---   2,254,615 rows  3,513,343 columns  9,113,863 non-zeroes
+--- Executing CPLEX: elapsed 0:00:33.702
+--- Balmorel.gms(642456) 1343 Mb  4 secs
 
 IBM ILOG CPLEX   27.3.0 r58c491d Released Jul 04, 2019 WEI x86 64bit/MS Window
 --- GAMS/Cplex Link licensed for continuous and discrete problems.
 Cplex 12.9.0.0
 
-*** Error Cannot open parameter file "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\cplex.op6"
-*** Error Error code = 2; No such file or directory
+Reading parameter(s) from "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\cplex.op6"
+>>  * Option file 6 for CPLEX solver. For possible options, see the GAMS Solver Manual.
+>>  * To use with CPLEX,  set  '$Setglobal USEOPTIONFILE 6' in balgams.opt.
+>>  * Do not change this file, it is predefined.
+>>  * To use other options with CPLEX, make and/or use some other file, see USEOPTIONFILE in balgams.opt. 
+>>  * "LPmethod  6": This concurrent option runs multiple methods in parallel.
+>>  * "Threads  -1": Use all available threads except 1.
+>> »* The first thread uses dual simplex. The second thread uses barrier. The next thread uses primal simplex. Remaining threads are u»
+>> »sed by the barrier run.
+>> »* If the aspect ratio (number of columns versus number of rows) is large, and if more than 10 threads are available, then concurre»
+>> »nt optimization also invokes sifting on the LP.
+>>  * The solution is returned by first method to finish.
+>>  * If memory tight, set the Threads parameter to 1.
+>> 
+>>  LPmethod  6
+>>  Threads  -1
+>> 
+>> 
+Finished reading from "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\cplex.op6"
+Resetting option THREADS of value -1 to 3 (4 cores detected).
 Reading data...
 Starting Cplex...
-Space for names approximately 239.82 Mb
+Space for names approximately 327.25 Mb
 Use option 'names no' to turn use of names off
 CPXPARAM_Advance                                 0
-CPXPARAM_Threads                                 1
+CPXPARAM_LPMethod                                6
+CPXPARAM_Threads                                 3
 CPXPARAM_Parallel                                1
 CPXPARAM_Simplex_Limits_Iterations               2000000000
 CPXPARAM_TimeLimit                               1209600
 CPXPARAM_Tune_TimeLimit                          241920
+Parallel mode: deterministic, using up to 3 threads for concurrent optimization.
 Row 'QEV_PHEV_SOCBALANCE(2030.AT.S17.T055)' infeasible, all entries at implied bounds.
-Presolve time = 0.91 sec. (728.53 ticks)
+Presolve time = 1.06 sec. (934.13 ticks)
 LP status(3): infeasible
-Cplex Time: 0.92sec (det. 734.98 ticks)
+Cplex Time: 1.08sec (det. 940.58 ticks)
 Rerunning with presolve turned off and solving with LPMETHOD=0
 CPXPARAM_Advance                                 2
 CPXPARAM_Preprocessing_Presolve                  0
 CPXPARAM_LPMethod                                1
-CPXPARAM_Threads                                 1
+CPXPARAM_Threads                                 3
 CPXPARAM_Parallel                                1
 CPXPARAM_Simplex_Limits_Iterations               2000000000
 CPXPARAM_TimeLimit                               1209600
 CPXPARAM_Tune_TimeLimit                          241920
 
 Iteration log . . .
-Iteration:     1    Scaled infeas =    4818814848.081574
-Iteration: 54084    Scaled infeas =     100274563.610732
-Iteration: 64703    Scaled infeas =      93048178.955922
-Iteration: 69049    Scaled infeas =      88333166.892356
-Iteration: 71534    Scaled infeas =      86347525.575225
-Iteration: 72688    Scaled infeas =      85629476.300583
-Iteration: 73429    Scaled infeas =      84946330.455060
-Iteration: 73849    Scaled infeas =      84119456.414833
-Iteration: 74158    Scaled infeas =      83708124.080742
-Iteration: 74429    Scaled infeas =      83366006.120173
-Iteration: 74802    Scaled infeas =      82794605.079540
-Iteration: 75018    Scaled infeas =      82276017.425768
-Elapsed time = 11.23 sec. (10001.02 ticks, 77624 iterations)
-Iteration: 77703    Scaled infeas =      40346523.376866
-Iteration: 78889    Scaled infeas =      38706149.702964
-Iteration: 79519    Scaled infeas =      38680905.465819
-Iteration: 81236    Scaled infeas =      38119831.301855
-Iteration: 82031    Scaled infeas =      38030695.721536
-Iteration: 82318    Scaled infeas =      37998634.122494
-Switched to devex.
-Iteration: 84966    Scaled infeas =      36470675.795438
-Iteration: 86691    Scaled infeas =      31244987.243079
-Elapsed time = 21.19 sec. (20268.65 ticks, 90906 iterations)
-Iteration: 90906    Scaled infeas =      28927716.400804
-Iteration: 92470    Scaled infeas =      28426892.631079
-Iteration: 94393    Scaled infeas =      27832282.900110
-Iteration: 94808    Scaled infeas =      27832151.249763
-Iteration: 96769    Scaled infeas =      25949881.001110
-Iteration: 100513    Scaled infeas =      24515047.999686
-Iteration: 104553    Scaled infeas =      21973643.889912
-Iteration: 106332    Scaled infeas =      21497745.997757
-Iteration: 108750    Scaled infeas =      20839686.211539
-Elapsed time = 34.13 sec. (30268.70 ticks, 109145 iterations)
-Iteration: 109195    Scaled infeas =      20838541.781210
-Iteration: 113113    Scaled infeas =      19663129.723100
-Iteration: 114676    Scaled infeas =      18452344.863210
-Iteration: 117671    Scaled infeas =      17453017.014089
-Iteration: 120949    Scaled infeas =      16025026.163084
-Iteration: 124203    Scaled infeas =      15417302.596732
-Iteration: 125928    Scaled infeas =      15247378.360644
-Iteration: 128679    Scaled infeas =      14321979.262894
-Elapsed time = 46.41 sec. (40268.76 ticks, 130823 iterations)
-Iteration: 131083    Scaled infeas =      13528938.260991
-Iteration: 133007    Scaled infeas =      13034928.993308
-Iteration: 137285    Scaled infeas =      12199421.814698
-Iteration: 140507    Scaled infeas =      11693682.161301
-Iteration: 142328    Scaled infeas =      11451938.578192
-Iteration: 146207    Scaled infeas =      10667500.468152
-Iteration: 149219    Scaled infeas =       9503130.826239
-Elapsed time = 59.58 sec. (50327.60 ticks, 151299 iterations)
-Iteration: 151929    Scaled infeas =       8989069.047632
-Iteration: 154692    Scaled infeas =       8725078.849424
-Iteration: 158307    Scaled infeas =       8314112.231384
-Iteration: 159337    Scaled infeas =       8211970.824106
-Iteration: 160957    Scaled infeas =       8064722.861376
-Iteration: 163860    Scaled infeas =       7228936.010460
-Iteration: 166432    Scaled infeas =       6900098.534938
-Iteration: 169195    Scaled infeas =       6607097.245653
-Elapsed time = 74.06 sec. (60327.67 ticks, 171776 iterations)
-Iteration: 172018    Scaled infeas =       6346682.217097
-Iteration: 174503    Scaled infeas =       6118226.332738
-Iteration: 175092    Scaled infeas =       6113306.493999
-Iteration: 179342    Scaled infeas =       5722852.132736
-Iteration: 182950    Scaled infeas =       4440417.409420
-Iteration: 184860    Scaled infeas =       3073537.050945
-Iteration: 186584    Scaled infeas =       2935111.522296
-Elapsed time = 90.16 sec. (70328.55 ticks, 187064 iterations)
-Iteration: 188760    Scaled infeas =       2755576.491079
-Iteration: 191486    Scaled infeas =       2554236.704676
-Iteration: 193498    Scaled infeas =       2227600.624515
-Iteration: 194257    Scaled infeas =       2206479.694863
-Iteration: 198152    Scaled infeas =       1967333.069274
-Iteration: 200074    Scaled infeas =       1790927.462568
-Iteration: 202169    Scaled infeas =       1674135.203882
-Elapsed time = 105.67 sec. (80329.65 ticks, 203011 iterations)
-Iteration: 203949    Scaled infeas =        926835.090655
-Iteration: 205951    Scaled infeas =        799657.018529
-Iteration: 208825    Scaled infeas =        669401.210548
-Iteration: 209672    Scaled infeas =        647153.082257
-Iteration: 211195    Scaled infeas =        601661.865506
-Iteration: 211555    Scaled infeas =        601661.865506
-Iteration: 215506    Scaled infeas =        543186.474403
-Iteration: 216515    Scaled infeas =        510562.565405
-Elapsed time = 119.81 sec. (90329.71 ticks, 217808 iterations)
-Iteration: 219749    Scaled infeas =        461248.843179
-Iteration: 221369    Scaled infeas =        421891.366219
-Iteration: 222769    Scaled infeas =        403798.192494
-Iteration: 224641    Scaled infeas =        374856.175997
-Iteration: 226948    Scaled infeas =        334114.772925
-Iteration: 227909    Scaled infeas =        323595.549584
-Iteration: 230445    Scaled infeas =        292207.621628
-Iteration: 232435    Scaled infeas =        266940.264061
-Elapsed time = 136.55 sec. (100367.19 ticks, 234151 iterations)
-Iteration: 234151    Scaled infeas =        231631.703460
-Iteration: 235744    Scaled infeas =        118260.914728
-Iteration: 238187    Scaled infeas =         71459.368518
-Iteration: 240386    Scaled infeas =         51918.339288
-Iteration: 242049    Scaled infeas =         37547.337645
-Iteration: 244000    Scaled infeas =         10328.133541
-Elapsed time = 155.89 sec. (110387.48 ticks, 244492 iterations)
-Iteration: 244492    Scaled infeas =         10159.421845
-Iteration: 246342    Scaled infeas =          9989.082774
-Iteration: 247313    Scaled infeas =          9896.774490
-Elapsed time = 180.92 sec. (120388.03 ticks, 248008 iterations)
-Iteration: 248428    Scaled infeas =          9803.354808
-Iteration: 249566    Scaled infeas =          9666.191358
-Elapsed time = 206.36 sec. (130391.23 ticks, 249700 iterations)
-Iteration: 250721    Scaled infeas =          9546.757605
-Elapsed time = 246.42 sec. (140395.06 ticks, 251422 iterations)
-Iteration: 251660    Scaled infeas =          9411.512903
-Iteration: 253145    Scaled infeas =          9189.604528
-Elapsed time = 271.42 sec. (150395.17 ticks, 253506 iterations)
-Iteration: 254467    Scaled infeas =          8993.270040
-Iteration: 255756    Scaled infeas =          8821.152784
-Elapsed time = 298.86 sec. (160398.77 ticks, 256694 iterations)
-Iteration: 257150    Scaled infeas =          8665.276007
-Iteration: 258437    Scaled infeas =          8544.977245
-Iteration: 259494    Scaled infeas =          8430.421350
-Elapsed time = 325.02 sec. (170431.52 ticks, 259571 iterations)
-Iteration: 260812    Scaled infeas =          8313.695420
-Elapsed time = 357.11 sec. (180435.27 ticks, 261789 iterations)
-Iteration: 262072    Scaled infeas =          8188.920725
-Iteration: 263514    Scaled infeas =          8052.351926
-Elapsed time = 394.75 sec. (190438.81 ticks, 264485 iterations)
-Iteration: 264609    Scaled infeas =          7964.713895
-Iteration: 266008    Scaled infeas =          7853.627632
-Iteration: 267398    Scaled infeas =          7731.836032
-Elapsed time = 434.69 sec. (200440.46 ticks, 267474 iterations)
-Iteration: 267475    Scaled infeas =          7731.836032
-Iteration: 268718    Scaled infeas =          7638.603959
-Iteration: 270033    Scaled infeas =          7540.485814
-Elapsed time = 477.09 sec. (210441.66 ticks, 270439 iterations)
-Iteration: 271019    Scaled infeas =          7466.045011
-Elapsed time = 528.84 sec. (220504.63 ticks, 272501 iterations)
-Iteration: 272501    Scaled infeas =          7369.759795
-Iteration: 273788    Scaled infeas =          7269.022795
-Iteration: 275141    Scaled infeas =          7167.632974
-Elapsed time = 563.42 sec. (230505.08 ticks, 275761 iterations)
-Iteration: 276323    Scaled infeas =          7084.664301
-Iteration: 277612    Scaled infeas =          6989.164418
-Elapsed time = 595.53 sec. (240871.50 ticks, 278968 iterations)
-Iteration: 278968    Scaled infeas =          6883.935301
-Iteration: 280350    Scaled infeas =          6782.575402
-Iteration: 281390    Scaled infeas =          6717.676006
-Elapsed time = 622.97 sec. (250875.90 ticks, 282087 iterations)
-Iteration: 282752    Scaled infeas =          6611.151808
-Iteration: 284034    Scaled infeas =          6510.637356
-Elapsed time = 652.52 sec. (260877.91 ticks, 284280 iterations)
-Elapsed time = 668.36 sec. (270939.88 ticks, 285258 iterations)
-Iteration: 285258    Scaled infeas =          6428.501030
-Iteration: 286189    Scaled infeas =          6344.895452
-Elapsed time = 700.55 sec. (280941.63 ticks, 287273 iterations)
-Iteration: 287283    Scaled infeas =          6264.837617
-Iteration: 288248    Scaled infeas =          6156.965328
-Elapsed time = 738.20 sec. (290944.93 ticks, 289062 iterations)
-Iteration: 289478    Scaled infeas =          6028.261902
-Iteration: 290520    Scaled infeas =          5920.668694
-Elapsed time = 772.63 sec. (300948.56 ticks, 291085 iterations)
-Iteration: 291336    Scaled infeas =          5849.332922
-Iteration: 292363    Scaled infeas =          5733.884008
-Elapsed time = 811.34 sec. (310954.17 ticks, 293041 iterations)
-Iteration: 293309    Scaled infeas =          5619.869403
-Iteration: 294485    Scaled infeas =          5450.383816
-Elapsed time = 851.75 sec. (320956.62 ticks, 294808 iterations)
-Iteration: 295449    Scaled infeas =          5328.905863
-Elapsed time = 884.38 sec. (330957.93 ticks, 296482 iterations)
-Iteration: 296506    Scaled infeas =          5194.553045
-Iteration: 297180    Scaled infeas =          5013.627873
-Elapsed time = 910.13 sec. (340961.22 ticks, 297900 iterations)
-Iteration: 298417    Scaled infeas =          4799.766595
-Iteration: 299617    Scaled infeas =          4536.592013
-Elapsed time = 945.06 sec. (350962.81 ticks, 299790 iterations)
-Iteration: 300541    Scaled infeas =          4242.542249
-Elapsed time = 977.78 sec. (360965.60 ticks, 301485 iterations)
-Iteration: 301756    Scaled infeas =          3873.138657
-Iteration: 302873    Scaled infeas =          3564.467940
-Elapsed time = 1016.61 sec. (370970.05 ticks, 302937 iterations)
-Iteration: 303642    Scaled infeas =          3297.033754
-Elapsed time = 1040.92 sec. (380972.18 ticks, 304272 iterations)
-Iteration: 304950    Scaled infeas =          2941.857556
-Iteration: 305922    Scaled infeas =          2658.655910
-Elapsed time = 1074.77 sec. (390973.13 ticks, 305939 iterations)
-Iteration: 307082    Scaled infeas =          2209.363191
-Iteration: 307500    Scaled infeas =          2069.243625
-Elapsed time = 1102.77 sec. (400973.51 ticks, 307599 iterations)
-Iteration: 308461    Scaled infeas =          1856.727360
-Iteration: 309613    Scaled infeas =          1375.374753
-Elapsed time = 1144.78 sec. (410974.25 ticks, 309654 iterations)
-Iteration: 310445    Scaled infeas =          1047.047456
-Iteration: 311476    Scaled infeas =           731.726722
-Elapsed time = 1182.00 sec. (420982.22 ticks, 311540 iterations)
-Elapsed time = 1198.30 sec. (430992.65 ticks, 312562 iterations)
-Iteration: 312564    Scaled infeas =           253.018322
-Removing shift (59).
+Iteration:     1    Scaled infeas =     392795465.468957
+Iteration: 13016    Scaled infeas =      26929608.371337
+Iteration: 24250    Scaled infeas =      11655239.951421
+Iteration: 32588    Scaled infeas =       1357111.936248
+Iteration: 33726    Scaled infeas =         86235.015119
+Iteration: 33994    Scaled infeas =          1337.807873
+Iteration: 34107    Scaled infeas =          1049.774437
 LP status(3): infeasible
-Cplex Time: 1214.69sec (det. 435485.84 ticks)
+Cplex Time: 11.77sec (det. 8216.74 ticks)
 
 Model has been proven infeasible.
 --- Restarting execution
---- Balmorel.gms(641705) 258 Mb
+--- Balmorel.gms(642456) 311 Mb
 --- Reading solution for model BALBASE4
---- Balmorel.gms(641705) 436 Mb
+--- Balmorel.gms(642456) 562 Mb
 --- GDX Point C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\BALBASE4_p.gdx
---- Executing after solve: elapsed 0:21:05.613
---- Balmorel.gms(641440) 437 Mb
+--- Executing after solve: elapsed 0:01:03.065
+--- Balmorel.gms(642191) 563 Mb
 
 C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model>move "BALBASE4_p.gdx" "..\output\temp/2020.gdx" 
         1 Datei(en) verschoben.
---- Balmorel.gms(641996) 437 Mb
+--- Balmorel.gms(642771) 563 Mb
 --- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../../simex/HYRSG.gdx
---- Balmorel.gms(641997) 437 Mb
+--- Balmorel.gms(642772) 563 Mb
 --- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../../simex/VHYRS_SL.gdx
---- Balmorel.gms(641998) 437 Mb
+--- Balmorel.gms(642773) 563 Mb
 --- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../../simex/WATERVAL.gdx
---- Balmorel.gms(642033) 437 Mb
+--- Balmorel.gms(642829) 563 Mb
 --- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\all_endofmodel.gdx
---- Balmorel.gms(642044) 437 Mb
+--- Balmorel.gms(642840) 563 Mb
 Output file: merged.gdx
 Reading file: ..\output\temp\1INPUT.gdx
 Reading file: ..\output\temp\2020.gdx
 Reading file: ..\output\temp\IWEIGHTY.gdx
 
 Merge complete, 3 input files merged
---- Balmorel.gms(642045) 437 Mb
+--- Balmorel.gms(642841) 563 Mb
         1 Datei(en) verschoben.
---- Balmorel.gms(642048) 437 Mb
+--- Balmorel.gms(642844) 563 Mb
 Output file: merged.gdx
 Reading file: ..\output\BASE.gdx
 
 Merge complete, 1 input files merged
---- Balmorel.gms(642050) 437 Mb
+--- Balmorel.gms(642846) 563 Mb
         1 Datei(en) verschoben.
---- Balmorel.gms(642055) 437 Mb
+--- Balmorel.gms(642851) 563 Mb
 GDX2SQLITE v 0.7
 GDX Library      27.3.0 r58c491d Released Jul 04, 2019 WEI x86 64bit/MS Window
 Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model
 
    InputFile:..\output\BASE-results.gdx
    OutputFile:..\output\BASE-results.db
-   Symbols:547
+   Symbols:566
    Uels:732
    Loading Uels
    Processing Symbols
@@ -1111,6 +990,25 @@ Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balm
      VEV_VG2V_PHEV(34944 records)
      VEV_VV2G_PHEV(0 records)
      VLIMITSFORFUELS_QGMAXCF(0 records)
+     VQEEQ(69888 records)
+     VQHEQ(69888 records)
+     VQESTOVOLT(0 records)
+     VQESTOVOLTS(69888 records)
+     VQHSTOVOLT(0 records)
+     VQHSTOVOLTS(0 records)
+     VQHYRSSEQ(416 records)
+     VQHYMAXG(34944 records)
+     VQGKNACCUMNET(288 records)
+     VQGKNACCUMGROSS(0 records)
+     VQXKNACCUMNET(0 records)
+     VQXKNACCUMGROSS(0 records)
+     VQHYRSMINVOL(208 records)
+     VQHYRSMAXVOL(208 records)
+     VQGKE_UP(1118208 records)
+     VQGKH_UP(69888 records)
+     VQXK_UP(0 records)
+     VQKFUEL(8 records)
+     VQKTECHGROUP(4 records)
      QOBJ(2 records)
      QEEQ(34944 records)
      QHEQ(34944 records)
@@ -1253,10 +1151,18 @@ Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balm
      DH_DEMAND_YCRAST(0 records)
      Merged_set_1(3 records)
      Merged_set_2(1 records)
-   Inserts:7446473
-   Elapsed:69.51 seconds
-   Inserts/second:107126.54
+   Inserts:8880309
+   Elapsed:49.20 seconds
+   Inserts/second:180508.76
    Done
 
-Exit code = 1
->>>>>>> Stashed changes
+--- Balmorel.gms(643190) 563 Mb  710 secs
+--- Balmorel.gms(643239) 563 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\MainResults.gdx
+--- Putfile fileMERGESAVEPOINTRESULTSbat C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\MERGESAVEPOINTRESULTS.bat
+--- Putfile errorfile C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\logerror\errors.out
+--- Putfile logfile C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\logerror\logfile.out
+--- Putfile printoutoverview C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../output/printout/printoutoverview.out
+--- Putfile BB4overview C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\logerror\BB4overview.out
+*** Status: Normal completion
+--- Job Balmorel.gms Stop 10/27/20 17:38:13 elapsed 0:14:02.046
