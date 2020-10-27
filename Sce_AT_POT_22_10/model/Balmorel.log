@@ -197,4 +197,1066 @@ Licensee: Small MUD - 5 User License                     S180927:0404AO-WIN
 --- .. ../../base/model/bb4datainc.inc(680) 4 Mb
 --- ... ../data/XLOSS.inc(60) 4 Mb
 --- .. ../../base/model/bb4datainc.inc(687) 4 Mb
+<<<<<<< Updated upstream
 --
+=======
+--- ... ../data/XKRATE.inc(5) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(698) 4 Mb
+--- ... ../data/XMAXINV.inc(46) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(708) 4 Mb
+--- ... ../data/FUELPRICE.inc(163) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(718) 4 Mb
+--- ... ../data/M_POL.inc(400) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(736) 4 Mb
+--- ... ../data/WEIGHT_S.inc(7) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(741) 4 Mb
+--- ... ../data/WEIGHT_T.inc(8) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(746) 4 Mb
+--- ... ../data/CHRONOHOUR.inc(4) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(751) 4 Mb
+--- ... ../data/GKRATE.inc(60) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(758) 4 Mb
+--- ... ../data/DE_VAR_T.inc(26220) 14 Mb
+--- .. ../../base/model/bb4datainc.inc(763) 14 Mb
+--- ... ../data/DH_VAR_T.inc(8800) 22 Mb
+--- .. ../../base/model/bb4datainc.inc(768) 22 Mb
+--- ... ../data/WTRRSVAR_S.inc(90) 22 Mb
+--- .. ../../base/model/bb4datainc.inc(773) 22 Mb
+--- ... ../data/WTRRRVAR_T.inc(72) 22 Mb
+--- .. ../../base/model/bb4datainc.inc(778) 22 Mb
+--- ... ../data/WND_VAR_T.inc(9462) 33 Mb
+--- .. ../../base/model/bb4datainc.inc(783) 33 Mb
+--- ... ../data/SOLE_VAR_T.inc(8749) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(788) 37 Mb
+--- ... ../data/SOLH_VAR_T.inc(8745) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(793) 37 Mb
+--- ... ../data/WAVE_VAR_T.inc(3) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(798) 37 Mb
+--- ... ../data/X3FX.inc(29) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(803) 37 Mb
+--- ... ../data/X3FX_VAR_T.inc(8751) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(808) 37 Mb
+--- ... ../data/HYPPROFILS.inc(18) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(825) 37 Mb
+--- ... ../data/YMODEL.inc(6) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(827) 37 Mb
+--- ... ../data/YMODELDELTA.inc(6) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(843) 37 Mb
+--- ... ../data/OMONEY.inc(2) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(848) 37 Mb
+--- ... ../data/PENALTYQ.inc(5) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(856) 37 Mb
+--- ... ../../base/addons/_hooks/pardefine.inc(21) 37 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(2) 37 Mb
+--- ..... ../data/EV_BEV_Dumb.inc(34951) 39 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(5) 39 Mb
+--- ..... ../data/EV_BEV_SOCDumb.inc(34951) 41 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(8) 41 Mb
+--- ..... ../data/EV_BEV_Flex.inc(34951) 42 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(11) 42 Mb
+--- ..... ../data/EV_BEV_Inflex.inc(34951) 42 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(14) 42 Mb
+--- ..... ../data/EV_BEV_SOCFlex.inc(34951) 44 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(17) 44 Mb
+--- ..... ../data/EV_BEV_Avail.inc(34951) 45 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(20) 45 Mb
+--- ..... ../data/EV_BEV_Max.inc(34951) 47 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(23) 47 Mb
+--- ..... ../data/EV_BEV_Min.inc(34951) 49 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(27) 49 Mb
+--- ..... ../data/EV_PHEV_Dumb.inc(34951) 51 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(30) 51 Mb
+--- ..... ../data/EV_PHEV_SOCDumb.inc(34951) 52 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(33) 52 Mb
+--- ..... ../data/EV_PHEV_Flex.inc(34951) 54 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(36) 54 Mb
+--- ..... ../data/EV_PHEV_Inflex.inc(34951) 54 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(39) 54 Mb
+--- ..... ../data/EV_PHEV_SOCFlex.inc(34951) 56 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(42) 56 Mb
+--- ..... ../data/EV_PHEV_Avail.inc(34951) 57 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(45) 57 Mb
+--- ..... ../data/EV_PHEV_Max.inc(34951) 60 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(48) 60 Mb
+--- ..... ../data/EV_PHEV_Min.inc(34951) 61 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(51) 61 Mb
+--- ..... ../data/EV_TECH_DATA.inc(46) 61 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(54) 61 Mb
+--- ..... ../data/EV_CHARGE_SCEN.inc(26) 61 Mb
+--- .... ../../base/addons/EV/bb4/EV_pardefine.inc(63) 61 Mb
+--- ... ../../base/addons/_hooks/pardefine.inc(27) 61 Mb
+--- .... ../../base/addons/limitsforfuels/bb4/limitsforfuels_pardefine.inc(3) 61 Mb
+--- ..... ../../base/data/LIMITSFORFUELS_CONVFACTOR.inc(9) 61 Mb
+--- .... ../../base/addons/limitsforfuels/bb4/limitsforfuels_pardefine.inc(4) 61 Mb
+--- ... ../../base/addons/_hooks/pardefine.inc(32) 61 Mb
+--- .. ../../base/model/bb4datainc.inc(861) 61 Mb
+--- ... ../data/DECOM_G.inc(27) 61 Mb
+--- .. ../../base/model/bb4datainc.inc(863) 61 Mb
+--- . ../../base/model/Balmorelbb4.inc(582) 61 Mb
+--- .. ../../base/addons/_hooks/isetdecdef.inc(14) 61 Mb
+--- ... ../../base/addons/EV/bb4/EV_isetdecdef.inc(1) 61 Mb
+--- .. ../../base/addons/_hooks/isetdecdef.inc(20) 61 Mb
+--- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_isetdecdef.inc(8) 61 Mb
+--- .. ../../base/addons/_hooks/isetdecdef.inc(23) 61 Mb
+--- . ../../base/model/Balmorelbb4.inc(608) 61 Mb
+--- .. ../../base/addons/_hooks/pardeclare.inc(24) 61 Mb
+--- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_pardeclare.inc(3) 61 Mb
+--- .. ../../base/addons/_hooks/pardeclare.inc(27) 61 Mb
+--- . ../../base/model/Balmorelbb4.inc(888) 61 Mb
+--- .. ../../base/addons/_hooks/ipardecdef.inc(16) 61 Mb
+--- . ../../base/model/Balmorelbb4.inc(910) 61 Mb
+--- .. ../../base/output/printout/printinc/print1.inc(353) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(918) 62 Mb
+--- .. ../../base/logerror/logerinc/error2.inc(1119) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(951) 62 Mb
+--- .. ../../base/addons/_hooks/reducecard.inc(4) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1049) 62 Mb
+--- .. ../../base/addons/_hooks/vardeclare.inc(20) 62 Mb
+--- ... ../../base/addons/EV/bb4/EV_vardeclare.inc(33) 62 Mb
+--- .. ../../base/addons/_hooks/vardeclare.inc(26) 62 Mb
+--- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_vardeclare.inc(3) 62 Mb
+--- .. ../../base/addons/_hooks/vardeclare.inc(32) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1280) 62 Mb
+--- .. ../../base/addons/_hooks/qobj.inc(20) 62 Mb
+--- ... ../../base/addons/EV/bb4/EV_qobj.inc(67) 62 Mb
+--- .. ../../base/addons/_hooks/qobj.inc(26) 62 Mb
+--- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_qobj.inc(1) 62 Mb
+--- .. ../../base/addons/_hooks/qobj.inc(33) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1314) 62 Mb
+--- .. ../../base/addons/_hooks/qeeq.inc(13) 62 Mb
+--- ... ../../base/addons/EV/bb4/EV_qeeq.inc(31) 62 Mb
+--- .. ../../base/addons/_hooks/qeeq.inc(27) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1334) 62 Mb
+--- .. ../../base/addons/_hooks/qheq.inc(22) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1350) 62 Mb
+--- .. ../../base/addons/_hooks/qgfeq.inc(19) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1415) 62 Mb
+--- .. ../../base/addons/_hooks/qhyrsseq.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1425) 62 Mb
+--- .. ../../base/addons/_hooks/qhyrsminvol.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1436) 62 Mb
+--- .. ../../base/addons/_hooks/qhyrsmaxvol.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1450) 62 Mb
+--- .. ../../base/addons/_hooks/qhymaxg.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1461) 62 Mb
+--- .. ../../base/addons/_hooks/qestovolt.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1474) 62 Mb
+--- .. ../../base/addons/_hooks/qestovolts.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1484) 62 Mb
+--- .. ../../base/addons/_hooks/qhstovolt.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1497) 62 Mb
+--- .. ../../base/addons/_hooks/qhstovolts.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1657) 62 Mb
+--- .. ../../base/addons/_hooks/qkefuelc.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1665) 62 Mb
+--- .. ../../base/addons/_hooks/qkefuelr.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1673) 62 Mb
+--- .. ../../base/addons/_hooks/qkefuela.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1830) 62 Mb
+--- .. ../../base/addons/_hooks/qktechgroupc.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1838) 62 Mb
+--- .. ../../base/addons/_hooks/qktechgroupr.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1846) 62 Mb
+--- .. ../../base/addons/_hooks/qktechgroupa.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1865) 62 Mb
+--- .. ../../base/addons/_hooks/qxk_up.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1876) 62 Mb
+--- .. ../../base/addons/_hooks/qxknaccumnet.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1944) 62 Mb
+--- .. ../../base/addons/_hooks/qgknaccumgross.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1963) 62 Mb
+--- .. ../../base/addons/_hooks/qgknaccumnet.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1987) 62 Mb
+--- .. ../../base/addons/_hooks/qgke_up.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(1996) 62 Mb
+--- .. ../../base/addons/_hooks/qgkh_up.inc(8) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(2103) 62 Mb
+--- .. ../../base/addons/_hooks/eqndecdef.inc(16) 62 Mb
+--- ... ../../base/addons/EV/bb4/EV_eqndecdef.inc(245) 62 Mb
+--- .. ../../base/addons/_hooks/eqndecdef.inc(23) 62 Mb
+--- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_eqndecdef.inc(13) 62 Mb
+--- .. ../../base/addons/_hooks/eqndecdef.inc(26) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(2247) 62 Mb
+--- .. ../../base/addons/_hooks/balbase4.inc(13) 62 Mb
+--- ... ../../base/addons/limitsforfuels/bb4/limitsforfuels_balbase4.inc(1) 62 Mb
+--- .. ../../base/addons/_hooks/balbase4.inc(16) 62 Mb
+--- ... ../../base/addons/EV/bb4/EV_balbase4.inc(33) 62 Mb
+--- .. ../../base/addons/_hooks/balbase4.inc(18) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(2283) 62 Mb
+--- .. ../../base/addons/_hooks/error2.inc(15) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(2284) 62 Mb
+--- .. ../../base/addons/BB4/errorBB4.inc(60) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(2311) 62 Mb
+--- .. ../../base/addons/BB4/BB4overview.inc(114) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(2314) 62 Mb
+--- .. ../../base/model/Balmorelbb4.sim(376) 62 Mb
+--- ... ../../base/addons/_hooks/sim.inc(20) 62 Mb
+--- .... ../../base/addons/EV/bb4/EV_sim.inc(43) 62 Mb
+--- ... ../../base/addons/_hooks/sim.inc(28) 62 Mb
+--- .. ../../base/model/Balmorelbb4.sim(377) 62 Mb
+--- ... ../../base/addons/_hooks/varloupfx.inc(8) 62 Mb
+--- .. ../../base/model/Balmorelbb4.sim(402) 62 Mb
+--- ... ../../base/addons/_hooks/solveend.inc(17) 62 Mb
+--- .. ../../base/model/Balmorelbb4.sim(407) 62 Mb
+--- ... ../../base/logerror/logerinc/balbase4.mss(120) 62 Mb
+--- .. ../../base/model/Balmorelbb4.sim(443) 62 Mb
+--- ... ../../base/addons/BB4/errorBB4.inc(60) 62 Mb
+--- .. ../../base/model/Balmorelbb4.sim(471) 62 Mb
+--- ... ../../base/addons/_hooks/varassign.inc(3) 62 Mb
+--- .. ../../base/model/Balmorelbb4.sim(503) 62 Mb
+--- . ../../base/model/Balmorelbb4.inc(2334) 62 Mb
+--- Balmorel.gms(3226) 62 Mb
+--- . ../../base/addons/_hooks/endofmodel_post.inc(5) 62 Mb
+--- .. ../../base/addons/all_endofmodelgdx/all_endofmodelgdx.inc(59) 62 Mb
+--- . ../../base/addons/_hooks/endofmodel_post.inc(5) 62 Mb
+--- Balmorel.gms(3306) 62 Mb
+--- . ../../base/output/OUTPUT_SUMMARY.inc(664) 62 Mb
+--- Balmorel.gms(3313) 62 Mb
+--- Starting execution: elapsed 0:00:04.815
+--- Balmorel.gms(824) 62 Mb
+--- Balmorel.gms(827) 62 Mb
+--- Balmorel.gms(6030) 63 MbC:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\*.gdx konnte nicht gefunden werden
+--- Balmorel.gms(638163) 145 Mb
+--- Balmorel.gms(639203) 148 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\output\inputout\INPUTDATAOUT.gdx
+--- Balmorel.gms(639277) 148 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../output/temp/1INPUT.gdx
+--- Balmorel.gms(641321) 148 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../output/temp/IWEIGHTY.gdx
+--- Balmorel.gms(641440) 162 Mb
+--- Generating LP model BALBASE4
+--- Balmorel.gms(639522) 223 Mb  8 secs
+--- Balmorel.gms(641705) 1142 Mb  3 secs
+--- LOOPS IYALIAS = 2020
+---   2,254,615 rows  2,079,507 columns  6,823,063 non-zeroes
+--- Executing CPLEX: elapsed 0:00:33.899
+--- Balmorel.gms(641705) 1142 Mb  4 secs
+
+IBM ILOG CPLEX   27.3.0 r58c491d Released Jul 04, 2019 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.9.0.0
+
+*** Error Cannot open parameter file "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\cplex.op6"
+*** Error Error code = 2; No such file or directory
+Reading data...
+Starting Cplex...
+Space for names approximately 239.82 Mb
+Use option 'names no' to turn use of names off
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               1209600
+CPXPARAM_Tune_TimeLimit                          241920
+Row 'QEV_PHEV_SOCBALANCE(2030.AT.S17.T055)' infeasible, all entries at implied bounds.
+Presolve time = 0.91 sec. (728.53 ticks)
+LP status(3): infeasible
+Cplex Time: 0.92sec (det. 734.98 ticks)
+Rerunning with presolve turned off and solving with LPMETHOD=0
+CPXPARAM_Advance                                 2
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_LPMethod                                1
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               1209600
+CPXPARAM_Tune_TimeLimit                          241920
+
+Iteration log . . .
+Iteration:     1    Scaled infeas =    4818814848.081574
+Iteration: 54084    Scaled infeas =     100274563.610732
+Iteration: 64703    Scaled infeas =      93048178.955922
+Iteration: 69049    Scaled infeas =      88333166.892356
+Iteration: 71534    Scaled infeas =      86347525.575225
+Iteration: 72688    Scaled infeas =      85629476.300583
+Iteration: 73429    Scaled infeas =      84946330.455060
+Iteration: 73849    Scaled infeas =      84119456.414833
+Iteration: 74158    Scaled infeas =      83708124.080742
+Iteration: 74429    Scaled infeas =      83366006.120173
+Iteration: 74802    Scaled infeas =      82794605.079540
+Iteration: 75018    Scaled infeas =      82276017.425768
+Elapsed time = 11.23 sec. (10001.02 ticks, 77624 iterations)
+Iteration: 77703    Scaled infeas =      40346523.376866
+Iteration: 78889    Scaled infeas =      38706149.702964
+Iteration: 79519    Scaled infeas =      38680905.465819
+Iteration: 81236    Scaled infeas =      38119831.301855
+Iteration: 82031    Scaled infeas =      38030695.721536
+Iteration: 82318    Scaled infeas =      37998634.122494
+Switched to devex.
+Iteration: 84966    Scaled infeas =      36470675.795438
+Iteration: 86691    Scaled infeas =      31244987.243079
+Elapsed time = 21.19 sec. (20268.65 ticks, 90906 iterations)
+Iteration: 90906    Scaled infeas =      28927716.400804
+Iteration: 92470    Scaled infeas =      28426892.631079
+Iteration: 94393    Scaled infeas =      27832282.900110
+Iteration: 94808    Scaled infeas =      27832151.249763
+Iteration: 96769    Scaled infeas =      25949881.001110
+Iteration: 100513    Scaled infeas =      24515047.999686
+Iteration: 104553    Scaled infeas =      21973643.889912
+Iteration: 106332    Scaled infeas =      21497745.997757
+Iteration: 108750    Scaled infeas =      20839686.211539
+Elapsed time = 34.13 sec. (30268.70 ticks, 109145 iterations)
+Iteration: 109195    Scaled infeas =      20838541.781210
+Iteration: 113113    Scaled infeas =      19663129.723100
+Iteration: 114676    Scaled infeas =      18452344.863210
+Iteration: 117671    Scaled infeas =      17453017.014089
+Iteration: 120949    Scaled infeas =      16025026.163084
+Iteration: 124203    Scaled infeas =      15417302.596732
+Iteration: 125928    Scaled infeas =      15247378.360644
+Iteration: 128679    Scaled infeas =      14321979.262894
+Elapsed time = 46.41 sec. (40268.76 ticks, 130823 iterations)
+Iteration: 131083    Scaled infeas =      13528938.260991
+Iteration: 133007    Scaled infeas =      13034928.993308
+Iteration: 137285    Scaled infeas =      12199421.814698
+Iteration: 140507    Scaled infeas =      11693682.161301
+Iteration: 142328    Scaled infeas =      11451938.578192
+Iteration: 146207    Scaled infeas =      10667500.468152
+Iteration: 149219    Scaled infeas =       9503130.826239
+Elapsed time = 59.58 sec. (50327.60 ticks, 151299 iterations)
+Iteration: 151929    Scaled infeas =       8989069.047632
+Iteration: 154692    Scaled infeas =       8725078.849424
+Iteration: 158307    Scaled infeas =       8314112.231384
+Iteration: 159337    Scaled infeas =       8211970.824106
+Iteration: 160957    Scaled infeas =       8064722.861376
+Iteration: 163860    Scaled infeas =       7228936.010460
+Iteration: 166432    Scaled infeas =       6900098.534938
+Iteration: 169195    Scaled infeas =       6607097.245653
+Elapsed time = 74.06 sec. (60327.67 ticks, 171776 iterations)
+Iteration: 172018    Scaled infeas =       6346682.217097
+Iteration: 174503    Scaled infeas =       6118226.332738
+Iteration: 175092    Scaled infeas =       6113306.493999
+Iteration: 179342    Scaled infeas =       5722852.132736
+Iteration: 182950    Scaled infeas =       4440417.409420
+Iteration: 184860    Scaled infeas =       3073537.050945
+Iteration: 186584    Scaled infeas =       2935111.522296
+Elapsed time = 90.16 sec. (70328.55 ticks, 187064 iterations)
+Iteration: 188760    Scaled infeas =       2755576.491079
+Iteration: 191486    Scaled infeas =       2554236.704676
+Iteration: 193498    Scaled infeas =       2227600.624515
+Iteration: 194257    Scaled infeas =       2206479.694863
+Iteration: 198152    Scaled infeas =       1967333.069274
+Iteration: 200074    Scaled infeas =       1790927.462568
+Iteration: 202169    Scaled infeas =       1674135.203882
+Elapsed time = 105.67 sec. (80329.65 ticks, 203011 iterations)
+Iteration: 203949    Scaled infeas =        926835.090655
+Iteration: 205951    Scaled infeas =        799657.018529
+Iteration: 208825    Scaled infeas =        669401.210548
+Iteration: 209672    Scaled infeas =        647153.082257
+Iteration: 211195    Scaled infeas =        601661.865506
+Iteration: 211555    Scaled infeas =        601661.865506
+Iteration: 215506    Scaled infeas =        543186.474403
+Iteration: 216515    Scaled infeas =        510562.565405
+Elapsed time = 119.81 sec. (90329.71 ticks, 217808 iterations)
+Iteration: 219749    Scaled infeas =        461248.843179
+Iteration: 221369    Scaled infeas =        421891.366219
+Iteration: 222769    Scaled infeas =        403798.192494
+Iteration: 224641    Scaled infeas =        374856.175997
+Iteration: 226948    Scaled infeas =        334114.772925
+Iteration: 227909    Scaled infeas =        323595.549584
+Iteration: 230445    Scaled infeas =        292207.621628
+Iteration: 232435    Scaled infeas =        266940.264061
+Elapsed time = 136.55 sec. (100367.19 ticks, 234151 iterations)
+Iteration: 234151    Scaled infeas =        231631.703460
+Iteration: 235744    Scaled infeas =        118260.914728
+Iteration: 238187    Scaled infeas =         71459.368518
+Iteration: 240386    Scaled infeas =         51918.339288
+Iteration: 242049    Scaled infeas =         37547.337645
+Iteration: 244000    Scaled infeas =         10328.133541
+Elapsed time = 155.89 sec. (110387.48 ticks, 244492 iterations)
+Iteration: 244492    Scaled infeas =         10159.421845
+Iteration: 246342    Scaled infeas =          9989.082774
+Iteration: 247313    Scaled infeas =          9896.774490
+Elapsed time = 180.92 sec. (120388.03 ticks, 248008 iterations)
+Iteration: 248428    Scaled infeas =          9803.354808
+Iteration: 249566    Scaled infeas =          9666.191358
+Elapsed time = 206.36 sec. (130391.23 ticks, 249700 iterations)
+Iteration: 250721    Scaled infeas =          9546.757605
+Elapsed time = 246.42 sec. (140395.06 ticks, 251422 iterations)
+Iteration: 251660    Scaled infeas =          9411.512903
+Iteration: 253145    Scaled infeas =          9189.604528
+Elapsed time = 271.42 sec. (150395.17 ticks, 253506 iterations)
+Iteration: 254467    Scaled infeas =          8993.270040
+Iteration: 255756    Scaled infeas =          8821.152784
+Elapsed time = 298.86 sec. (160398.77 ticks, 256694 iterations)
+Iteration: 257150    Scaled infeas =          8665.276007
+Iteration: 258437    Scaled infeas =          8544.977245
+Iteration: 259494    Scaled infeas =          8430.421350
+Elapsed time = 325.02 sec. (170431.52 ticks, 259571 iterations)
+Iteration: 260812    Scaled infeas =          8313.695420
+Elapsed time = 357.11 sec. (180435.27 ticks, 261789 iterations)
+Iteration: 262072    Scaled infeas =          8188.920725
+Iteration: 263514    Scaled infeas =          8052.351926
+Elapsed time = 394.75 sec. (190438.81 ticks, 264485 iterations)
+Iteration: 264609    Scaled infeas =          7964.713895
+Iteration: 266008    Scaled infeas =          7853.627632
+Iteration: 267398    Scaled infeas =          7731.836032
+Elapsed time = 434.69 sec. (200440.46 ticks, 267474 iterations)
+Iteration: 267475    Scaled infeas =          7731.836032
+Iteration: 268718    Scaled infeas =          7638.603959
+Iteration: 270033    Scaled infeas =          7540.485814
+Elapsed time = 477.09 sec. (210441.66 ticks, 270439 iterations)
+Iteration: 271019    Scaled infeas =          7466.045011
+Elapsed time = 528.84 sec. (220504.63 ticks, 272501 iterations)
+Iteration: 272501    Scaled infeas =          7369.759795
+Iteration: 273788    Scaled infeas =          7269.022795
+Iteration: 275141    Scaled infeas =          7167.632974
+Elapsed time = 563.42 sec. (230505.08 ticks, 275761 iterations)
+Iteration: 276323    Scaled infeas =          7084.664301
+Iteration: 277612    Scaled infeas =          6989.164418
+Elapsed time = 595.53 sec. (240871.50 ticks, 278968 iterations)
+Iteration: 278968    Scaled infeas =          6883.935301
+Iteration: 280350    Scaled infeas =          6782.575402
+Iteration: 281390    Scaled infeas =          6717.676006
+Elapsed time = 622.97 sec. (250875.90 ticks, 282087 iterations)
+Iteration: 282752    Scaled infeas =          6611.151808
+Iteration: 284034    Scaled infeas =          6510.637356
+Elapsed time = 652.52 sec. (260877.91 ticks, 284280 iterations)
+Elapsed time = 668.36 sec. (270939.88 ticks, 285258 iterations)
+Iteration: 285258    Scaled infeas =          6428.501030
+Iteration: 286189    Scaled infeas =          6344.895452
+Elapsed time = 700.55 sec. (280941.63 ticks, 287273 iterations)
+Iteration: 287283    Scaled infeas =          6264.837617
+Iteration: 288248    Scaled infeas =          6156.965328
+Elapsed time = 738.20 sec. (290944.93 ticks, 289062 iterations)
+Iteration: 289478    Scaled infeas =          6028.261902
+Iteration: 290520    Scaled infeas =          5920.668694
+Elapsed time = 772.63 sec. (300948.56 ticks, 291085 iterations)
+Iteration: 291336    Scaled infeas =          5849.332922
+Iteration: 292363    Scaled infeas =          5733.884008
+Elapsed time = 811.34 sec. (310954.17 ticks, 293041 iterations)
+Iteration: 293309    Scaled infeas =          5619.869403
+Iteration: 294485    Scaled infeas =          5450.383816
+Elapsed time = 851.75 sec. (320956.62 ticks, 294808 iterations)
+Iteration: 295449    Scaled infeas =          5328.905863
+Elapsed time = 884.38 sec. (330957.93 ticks, 296482 iterations)
+Iteration: 296506    Scaled infeas =          5194.553045
+Iteration: 297180    Scaled infeas =          5013.627873
+Elapsed time = 910.13 sec. (340961.22 ticks, 297900 iterations)
+Iteration: 298417    Scaled infeas =          4799.766595
+Iteration: 299617    Scaled infeas =          4536.592013
+Elapsed time = 945.06 sec. (350962.81 ticks, 299790 iterations)
+Iteration: 300541    Scaled infeas =          4242.542249
+Elapsed time = 977.78 sec. (360965.60 ticks, 301485 iterations)
+Iteration: 301756    Scaled infeas =          3873.138657
+Iteration: 302873    Scaled infeas =          3564.467940
+Elapsed time = 1016.61 sec. (370970.05 ticks, 302937 iterations)
+Iteration: 303642    Scaled infeas =          3297.033754
+Elapsed time = 1040.92 sec. (380972.18 ticks, 304272 iterations)
+Iteration: 304950    Scaled infeas =          2941.857556
+Iteration: 305922    Scaled infeas =          2658.655910
+Elapsed time = 1074.77 sec. (390973.13 ticks, 305939 iterations)
+Iteration: 307082    Scaled infeas =          2209.363191
+Iteration: 307500    Scaled infeas =          2069.243625
+Elapsed time = 1102.77 sec. (400973.51 ticks, 307599 iterations)
+Iteration: 308461    Scaled infeas =          1856.727360
+Iteration: 309613    Scaled infeas =          1375.374753
+Elapsed time = 1144.78 sec. (410974.25 ticks, 309654 iterations)
+Iteration: 310445    Scaled infeas =          1047.047456
+Iteration: 311476    Scaled infeas =           731.726722
+Elapsed time = 1182.00 sec. (420982.22 ticks, 311540 iterations)
+Elapsed time = 1198.30 sec. (430992.65 ticks, 312562 iterations)
+Iteration: 312564    Scaled infeas =           253.018322
+Removing shift (59).
+LP status(3): infeasible
+Cplex Time: 1214.69sec (det. 435485.84 ticks)
+
+Model has been proven infeasible.
+--- Restarting execution
+--- Balmorel.gms(641705) 258 Mb
+--- Reading solution for model BALBASE4
+--- Balmorel.gms(641705) 436 Mb
+--- GDX Point C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\BALBASE4_p.gdx
+--- Executing after solve: elapsed 0:21:05.613
+--- Balmorel.gms(641440) 437 Mb
+
+C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model>move "BALBASE4_p.gdx" "..\output\temp/2020.gdx" 
+        1 Datei(en) verschoben.
+--- Balmorel.gms(641996) 437 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../../simex/HYRSG.gdx
+--- Balmorel.gms(641997) 437 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../../simex/VHYRS_SL.gdx
+--- Balmorel.gms(641998) 437 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\../../simex/WATERVAL.gdx
+--- Balmorel.gms(642033) 437 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\all_endofmodel.gdx
+--- Balmorel.gms(642044) 437 Mb
+Output file: merged.gdx
+Reading file: ..\output\temp\1INPUT.gdx
+Reading file: ..\output\temp\2020.gdx
+Reading file: ..\output\temp\IWEIGHTY.gdx
+
+Merge complete, 3 input files merged
+--- Balmorel.gms(642045) 437 Mb
+        1 Datei(en) verschoben.
+--- Balmorel.gms(642048) 437 Mb
+Output file: merged.gdx
+Reading file: ..\output\BASE.gdx
+
+Merge complete, 1 input files merged
+--- Balmorel.gms(642050) 437 Mb
+        1 Datei(en) verschoben.
+--- Balmorel.gms(642055) 437 Mb
+GDX2SQLITE v 0.7
+GDX Library      27.3.0 r58c491d Released Jul 04, 2019 WEI x86 64bit/MS Window
+Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model
+
+   InputFile:..\output\BASE-results.gdx
+   OutputFile:..\output\BASE-results.db
+   Symbols:547
+   Uels:732
+   Loading Uels
+   Processing Symbols
+     IBALVERSN(1 records)
+     GINVESTSTART(1 records)
+     XINVESTSTART(1 records)
+     SystemDateTime(1 records)
+     INFODISPLAY(1 records)
+     IOF100(1 records)
+     IOF1000(1 records)
+     IOF1000000(1 records)
+     IOF0001(1 records)
+     IOF0000001(1 records)
+     IOF3P6(1 records)
+     IOF24(1 records)
+     IOF8760(1 records)
+     IOF8784(1 records)
+     IOF365(1 records)
+     IOF05(1 records)
+     IOF1_(1 records)
+     ISCALAR1(1 records)
+     ISCALAR2(1 records)
+     ISCALAR3(1 records)
+     ISCALAR4(1 records)
+     ISCALAR5(1 records)
+     ERRCOUNT2(1 records)
+     ERRCOUNT3(1 records)
+     ERRCOUNT4(1 records)
+     ERRSCALAR1(1 records)
+     CCCRRRAAA(117 records)
+     CCC(31 records)
+     C(1 records)
+     RRR(31 records)
+     AAA(55 records)
+     CCCRRR(31 records)
+     RRRAAA(55 records)
+     IR(1 records)
+     IA(1 records)
+     ICA(55 records)
+     YYY(39 records)
+     SSS(52 records)
+     TTT(168 records)
+     Y(4 records)
+     S(52 records)
+     T(168 records)
+     TWORKDAY(120 records)
+     TWEEKEND(48 records)
+     GGG(141 records)
+     GDATASET(51 records)
+     FFF(50 records)
+     FDATASET(6 records)
+     HYRSDATASET(4 records)
+     G(141 records)
+     AGKN(42 records)
+     DEUSER(3 records)
+     DHUSER(1 records)
+     DF_QP(2 records)
+     DEF(0 records)
+     DEF_D1(0 records)
+     DEF_U1(0 records)
+     DEF_D2(0 records)
+     DEF_U2(0 records)
+     DEF_D3(0 records)
+     DEF_U3(0 records)
+     DHF(0 records)
+     DHF_D1(0 records)
+     DHF_U1(0 records)
+     DHF_D2(0 records)
+     DHF_U2(0 records)
+     DHF_D3(0 records)
+     DHF_U3(0 records)
+     MPOLSET(6 records)
+     IGGGALIAS(141 records)
+     IGALIAS(141 records)
+     CCCRRRAAAALIAS(117 records)
+     IS3(0 records)
+     IS33(52 records)
+     IRRRE(31 records)
+     IRRRI(31 records)
+     IRE(1 records)
+     IRI(1 records)
+     IFFFALIAS(50 records)
+     IFFFALIAS2(50 records)
+     IYYYALIAS(39 records)
+     IYALIAS(4 records)
+     ISALIAS(52 records)
+     IS3LOOPSET(52 records)
+     ITALIAS(168 records)
+     GDATA(2504 records)
+     IGCND(50 records)
+     IGBPR(4 records)
+     IGEXT(55 records)
+     IGHOB(1 records)
+     IGETOH(1 records)
+     IGHTOE(0 records)
+     IGHSTO(0 records)
+     IGHSTOS(0 records)
+     IGHSTOALL(0 records)
+     IGESTO(0 records)
+     IGESTOS(4 records)
+     IGESTOALL(4 records)
+     IGHYRS(4 records)
+     IGHYRR(4 records)
+     IGWND(9 records)
+     IGSOLE(8 records)
+     IGSOLH(0 records)
+     IGWAVE(0 records)
+     IGHH(1 records)
+     IGHHNOSTO(1 records)
+     IGNOTETOH(140 records)
+     IGKH(2 records)
+     IGKHNOSTO(2 records)
+     IGKE(138 records)
+     IGKENOSTO(134 records)
+     IGDISPATCH(119 records)
+     IGEE(79 records)
+     IGEENOSTO(75 records)
+     IGKKNOWN(96 records)
+     IGKFIND(45 records)
+     IGEH(60 records)
+     IGE(139 records)
+     IGH(61 records)
+     IGBYPASS(0 records)
+     IWATERTANK(0 records)
+     IPIT(0 records)
+     IHEATPUMP(1 records)
+     IGHNOWT(1 records)
+     ILINKSTO(0 records)
+     GKFX(1896 records)
+     IAGK_HASORPOT(0 records)
+     YVALUE(39 records)
+     FDATA(130 records)
+     FMAXINVEST(0 records)
+     FMAXINVESTNA(0 records)
+     GROWTHCAPCG(4 records)
+     DISLOSS_E(30 records)
+     DISLOSS_H(51 records)
+     DISCOST_E(30 records)
+     DISCOST_H(51 records)
+     FKPOT(2 records)
+     FGEMIN(0 records)
+     FGEMAX(0 records)
+     FKMIN(0 records)
+     FKMAX(0 records)
+     FKEQ(0 records)
+     FKMINNA(0 records)
+     FKMAXNA(0 records)
+     FKEQNA(0 records)
+     GMINF(0 records)
+     GMAXF(0 records)
+     GEQF(0 records)
+     WTRRSFLH(51 records)
+     WTRRRFLH(51 records)
+     WNDFLH(55 records)
+     SOLEFLH(51 records)
+     SOLHFLH(50 records)
+     WAVEFLH(50 records)
+     HYRSMAXVOL_G(51 records)
+     HYRSDATA(5304 records)
+     TAX_FHO(0 records)
+     TAX_FHO_C(0 records)
+     TAX_GH(0 records)
+     TAX_FCHP_C(0 records)
+     TAX_HHO_C(0 records)
+     TAX_F(0 records)
+     TAX_DE(0 records)
+     TAX_DH(0 records)
+     ANNUITYCG(45 records)
+     ANNUITYCX(31 records)
+     DISCOUNTRATE(1 records)
+     GINVCOST(49 records)
+     GOMVCOST(6820 records)
+     GOMFCOST(7700 records)
+     GEFFRATE(141 records)
+     DEFP_BASE(30 records)
+     DHFP_BASE(55 records)
+     DE(909 records)
+     DH(535 records)
+     XKINI(4551 records)
+     XKFX(4551 records)
+     XINVCOST(2301 records)
+     XCOST(0 records)
+     XLOSS(930 records)
+     XKRATE(1100736 records)
+     M_POL(120 records)
+     M_POLNA(0 records)
+     WEIGHT_S(52 records)
+     WEIGHT_T(168 records)
+     CHRONOHOUR(8736 records)
+     GKRATE(0 records)
+     DE_VAR_T(25563 records)
+     DH_VAR_T(8736 records)
+     WTRRSVAR_S(52 records)
+     WTRRRVAR_T(8736 records)
+     WND_VAR_T(8733 records)
+     SOLE_VAR_T(4869 records)
+     WAVE_VAR_T(0 records)
+     X3FX_VAR_T(0 records)
+     HYPPROFILS(0 records)
+     HYRSG(0 records)
+     VHYRS_SL(0 records)
+     WATERVAL(0 records)
+     CO2FACTOR(90 records)
+     TECH_GROUP(21 records)
+     TECH_GROUP_VALUE(21 records)
+     LIMITSFORFUELS_NUMCONMAX(5 records)
+     LIMITSFORFUELS_GMAXFSET(0 records)
+     LIMITSFORFUELS_VGFSET(0 records)
+     INVDATASET(7 records)
+     INVDATA(1 records)
+     ALLOWEDINV(42 records)
+     GKFX1(1896 records)
+     TECHGROUPKPOT(1 records)
+     TAX_GF(0 records)
+     TAX_GE(0 records)
+     TAX_KN(0 records)
+     DE1(909 records)
+     DH1(535 records)
+     XMAXINV(0 records)
+     FUELPRICE(10395 records)
+     FUELPRICE1(189 records)
+     DE_VAR_T1(278907 records)
+     DH_VAR_T1(262080 records)
+     WTRRRVAR_S(1518 records)
+     WND_VAR_T1(330479 records)
+     SOLE_VAR_T1(108731 records)
+     SOLH_VAR_T(0 records)
+     SOLH_VAR_T1(0 records)
+     X3FX(0 records)
+     X3FX_VAR_T1(0 records)
+     YMODEL(4 records)
+     YMODELDELTA(3 records)
+     OMONEY(1 records)
+     PENALTYQ(1 records)
+     EV_BEV_Dumb(26623 records)
+     EV_2050_BEV_Dumb_Test(0 records)
+     EV_BEV_SOCDumb(34555 records)
+     EV_2050_BEV_SOCDumb(0 records)
+     EV_BEV_Flex(7540 records)
+     EV_2050_BEV_Flex(0 records)
+     EV_BEV_Inflex(12545 records)
+     EV_2050_BEV_Inflex(0 records)
+     EV_BEV_SOCFlex(23856 records)
+     EV_2050_BEV_SOCFlex(0 records)
+     EV_BEV_Avail(34555 records)
+     EV_2050_BEV_Avail(0 records)
+     EV_BEV_Max(34555 records)
+     EV_2050_BEV_Max(0 records)
+     EV_BEV_Min(34555 records)
+     EV_2050_BEV_Min(0 records)
+     EV_PHEV_Dumb(24659 records)
+     EV_2050_PHEV_Dumb(0 records)
+     EV_PHEV_SOCDumb(34733 records)
+     EV_2050_PHEV_SOCDumb(0 records)
+     EV_PHEV_Flex(7592 records)
+     EV_2050_PHEV_Flex(0 records)
+     EV_PHEV_Inflex(21915 records)
+     EV_2050_PHEV_Inflex(0 records)
+     EV_PHEV_SOCFlex(23957 records)
+     EV_2050_PHEV_SOCFlex(0 records)
+     EV_PHEV_Avail(34733 records)
+     EV_2050_PHEV_Avail(0 records)
+     EV_PHEV_Max(34733 records)
+     EV_2050_PHEV_Max(0 records)
+     EV_PHEV_Min(34733 records)
+     EV_2050_PHEV_Min(0 records)
+     EVTECH(10 records)
+     EV_BEV_CHARGERCAP(4 records)
+     EV_PHEV_CHARGERCAP(4 records)
+     EV_PEFF(4 records)
+     EV_BATTOVERSIZED(4 records)
+     EV_LIFEFACTOR(4 records)
+     EV_BATTCOST(4 records)
+     EV_BATTDEGCYCLE(4 records)
+     EV_BATTDEGCALCONST(4 records)
+     EV_BATTDEGCALFLEX(4 records)
+     EV_CHARGERCOST(4 records)
+     EVTechData(40 records)
+     EVSCEN(3 records)
+     EV_DUMB_SCEN(1 records)
+     EV_SMART_SCEN(1 records)
+     EV_V2G_SCEN(1 records)
+     EVScenData(3 records)
+     LIMITSFORFUELS_CONVFACTOR(1 records)
+     DECOM_G(177 records)
+     LIMITSFORFUELS_INUMCONMAXC(0 records)
+     IYMODEL4(4 records)
+     IYALIAS2(4 records)
+     IYALIAS44(4 records)
+     IY402(4 records)
+     IY411(0 records)
+     IY410(0 records)
+     IY401(0 records)
+     IY411FIRST(0 records)
+     IY411PREVY(0 records)
+     IYFIRST(1 records)
+     IGF(151 records)
+     IFIRSTYEARNEXTBB4(1 records)
+     IAGKFX(0 records)
+     IXKN(0 records)
+     IAGKN(0 records)
+     IAGKNY(0 records)
+     IPLUSMINUS(2 records)
+     IGKRATE(428064 records)
+     IM_CO2(90 records)
+     IM_CO2RE(0 records)
+     IM_SO2(53 records)
+     IM_N2O(90 records)
+     IWEIGHSUMS(1 records)
+     IWEIGHSUMT(1 records)
+     IHOURSINST(8736 records)
+     IDE_SUMST(3 records)
+     IDH_SUMST(1 records)
+     IX3FXSUMST(0 records)
+     IWND_SUMST(1 records)
+     ISOLESUMST(1 records)
+     ISOLHSUMST(0 records)
+     IWAVESUMST(0 records)
+     IWTRRSSUM(1 records)
+     IWTRRRSUM(1 records)
+     ITAX_GF(0 records)
+     ITAX_GH(0 records)
+     ITAX_GE(0 records)
+     ITAX_KN(0 records)
+     IGMAXF_Y(0 records)
+     IGMINF_Y(0 records)
+     IGEQF_Y(0 records)
+     IXK_HASORPOT(0 records)
+     IX3FX_T(0 records)
+     IHYINF_S(0 records)
+     IGROWTHCAPCG(0 records)
+     OCASEID(1 records)
+     OIMONEY(1 records)
+     OCARDSETA(1 records)
+     OCARDSETR(1 records)
+     OTLW(1 records)
+     OTLWCRA(1 records)
+     OTLWY(1 records)
+     OTLWS(1 records)
+     OTLWT(1 records)
+     OTLWG(1 records)
+     OALIASS(52 records)
+     OALIAST(168 records)
+     OEG_YAT(0 records)
+     OEG_YR(0 records)
+     OEG_YC(0 records)
+     OEG_YNA(0 records)
+     OEG_YNAF(0 records)
+     OEP_YRT(0 records)
+     OEP_YR(0 records)
+     OEP_YC(0 records)
+     OEP_YNA(0 records)
+     OHP_YAT(0 records)
+     OHP_YA(0 records)
+     OHP_YC(0 records)
+     OHP_YNA(0 records)
+     OAEP_YNA(0 records)
+     OGKN_YNAF(0 records)
+     OGK_YAG(0 records)
+     OGK_YCG(0 records)
+     OGK_YNAG(0 records)
+     OGK_YNAF(0 records)
+     IDE_T(34944 records)
+     IDH_T(0 records)
+     DE__YCU(0 records)
+     EP__YRT(0 records)
+     IWEIGHTY(4 records)
+     ERRSETGGG(0 records)
+     ICHECKWDAY(0 records)
+     IDISCOUNTFACTOR(4 records)
+     IXKRATE(8736 records)
+     IGMINF(0 records)
+     IGMAXF(0 records)
+     IGEQF(0 records)
+     ISIMWEIGHT(0 records)
+     IORD_IY(0 records)
+     VOBJ(2 records)
+     VGE_T(690144 records)
+     VGH_T(262080 records)
+     VGF_T(690144 records)
+     VX_T(0 records)
+     VGKN(39 records)
+     VXKN(0 records)
+     VDECOM(0 records)
+     VGHYPMS_T(0 records)
+     VHYRS_S(208 records)
+     VESTOLOADT(0 records)
+     VESTOLOADTS(61152 records)
+     VHSTOLOADT(0 records)
+     VHSTOLOADTS(0 records)
+     VESTOVOLT(0 records)
+     VESTOVOLTS(61152 records)
+     VHSTOVOLT(0 records)
+     VHSTOVOLTS(0 records)
+     VGKNACCUMNET(91 records)
+     VGKNACCUMGROSS(0 records)
+     VXKNACCUMNET(0 records)
+     VEV_VNETCHARGE_BEV(34944 records)
+     VEV_VNETCHARGE_PHEV(34944 records)
+     VEV_VNETDISCHARGE_BEV(34944 records)
+     VEV_VNETDISCHARGE_PHEV(34944 records)
+     VEV_VSOC_BEV(34944 records)
+     VEV_VSOC_PHEV(34944 records)
+     VEV_VG2V_BEV(34944 records)
+     VEV_VV2G_BEV(34944 records)
+     VEV_VG2V_PHEV(34944 records)
+     VEV_VV2G_PHEV(0 records)
+     VLIMITSFORFUELS_QGMAXCF(0 records)
+     QOBJ(2 records)
+     QEEQ(34944 records)
+     QHEQ(34944 records)
+     QGFEQ(690144 records)
+     QGFNEQ(0 records)
+     QGCBGBPR(61152 records)
+     QGCBGEXT(165984 records)
+     QGCVGEXT(165984 records)
+     QGGETOH(34944 records)
+     QHYRSSEQ(208 records)
+     QHYRSMINVOL(208 records)
+     QHYRSMAXVOL(208 records)
+     QHYMAXG(34944 records)
+     QHYMINRS(0 records)
+     QESTOVOLT(0 records)
+     QESTOVOLTS(61152 records)
+     QHSTOVOLT(0 records)
+     QHSTOVOLTS(0 records)
+     QHSTOLOADT(0 records)
+     QHSTOLOADTLIM(0 records)
+     QESTOLOADTLIM(0 records)
+     QHSTOVOLTLIM(0 records)
+     QESTOVOLTLIM(0 records)
+     QHSTOVGHTLIM(0 records)
+     QESTOVGETLIM(0 records)
+     QHSTOLOADTS(0 records)
+     QHSTOLOADTLIMS(0 records)
+     QESTOLOADTLIMS(61152 records)
+     QHSTOVOLTLIMS(0 records)
+     QESTOVOLTLIMS(61152 records)
+     QHSTOVGHTLIMS(0 records)
+     QESTOVGETLIMS(61152 records)
+     QKEFUELC(8 records)
+     QKEFUELR(0 records)
+     QKEFUELA(0 records)
+     QKTECHGROUPC(4 records)
+     QKTECHGROUPR(0 records)
+     QKTECHGROUPA(0 records)
+     QGMINFUELC(0 records)
+     QGMAXFUELC(0 records)
+     QGMINFUELR(0 records)
+     QGMAXFUELR(0 records)
+     QGMINFUELA(0 records)
+     QGMAXFUELA(0 records)
+     QGMINCF(0 records)
+     QGMAXCF(0 records)
+     QGEQCF(0 records)
+     QGMINRF(0 records)
+     QGMAXRF(0 records)
+     QGEQRF(0 records)
+     QGMINAF(0 records)
+     QGMAXAF(0 records)
+     QGEQAF(0 records)
+     QKMINFC(0 records)
+     QKMAXFC(0 records)
+     QKEQFC(0 records)
+     QKMINFR(0 records)
+     QKMAXFR(0 records)
+     QKEQFR(0 records)
+     QKMINFA(0 records)
+     QKMAXFA(0 records)
+     QKEQFA(0 records)
+     QKMINFNA(0 records)
+     QKMAXFNA(0 records)
+     QKEQFNA(0 records)
+     QLIMCO2(0 records)
+     QLIMSO2(0 records)
+     QLIMNOX(0 records)
+     QLIMCO2NA(0 records)
+     QHYFXRW(0 records)
+     QHYFXCW(0 records)
+     QBASELOAD(0 records)
+     QMAXINVESTCF(0 records)
+     QMAXINVESTGROWTHCG(0 records)
+     QMAXINVESTNAF(0 records)
+     QGKNACCUMNET(90 records)
+     QGKNACCUMGROSS(0 records)
+     QGKE_UP(244608 records)
+     QGKH_UP(34944 records)
+     QGKE_LO(0 records)
+     QGKH_LO(0 records)
+     QEGKCOMB1UP(0 records)
+     QEGKCOMB2UP(0 records)
+     QHGKCOMB1UP(0 records)
+     QHGKCOMB2UP(0 records)
+     QHYRRDISPATCH(61152 records)
+     QWNDDISPATCH(43680 records)
+     QSOLEDISPATCH(122304 records)
+     QSOLHDISPATCH(0 records)
+     QWAVEDISPATCH(0 records)
+     QXKN(0 records)
+     QXKNACCUMNET(0 records)
+     QXKNACCUMGROSS(0 records)
+     QXK_UP(0 records)
+     QXINVSYMMETRY(0 records)
+     help_IAGK_HASORPOT_complement(0 records)
+     help_IAGK_HASORPOT_complement_intersection(0 records)
+     help_QGKE_UP_generated_E(0 records)
+     help_QGKH_UP_generated_H(0 records)
+     help_VGE_T_UP_generated_E(0 records)
+     help_VGH_T_UP_generated_H(0 records)
+     help_QGKE_UP_VGE_T_UP_intersection_E(0 records)
+     help_QGKH_UP_VGH_T_UP_intersection_H(0 records)
+     help_QGKE_UP_VGE_T_UP_sum_E(0 records)
+     help_QGKH_UP_VGH_T_UP_sum_H(0 records)
+     QEV_BEV_SOCBALANCE(34944 records)
+     QEV_BEV_CHARGEBALANCE(34944 records)
+     QEV_PHEV_SOCBALANCE(34944 records)
+     QEV_PHEV_CHARGEBALANCE(34944 records)
+     QEV_BEV_NETCHARGETAX(34944 records)
+     QEV_PHEV_NETCHARGETAX(34944 records)
+     QEV_BEV_NETDISCHARGETAX(34944 records)
+     QEV_PHEV_NETDISCHARGETAX(34944 records)
+     QLIMITSFORFUELS_GMAXCF(0 records)
+     IYMODEL3(4 records)
+     CATEGORY(2 records)
+     SUBCATEGORY(8 records)
+     COMMODITY(2 records)
+     TECH_TYPE(15 records)
+     GTECH_TYPE(0 records)
+     PRICE_CATEGORY(3 records)
+     VARIABLE_CATEGORY(2 records)
+     UNITS(5 records)
+     G_CAP_YCRAF(0 records)
+     PRO_YCRAGFST(0 records)
+     PRO_YCRAGF(0 records)
+     F_CONS_YCRAST(0 records)
+     F_CONS_YCRA(0 records)
+     X_CAP_YCR(0 records)
+     X_FLOW_YCRST(0 records)
+     X_FLOW_YCR(0 records)
+     ECO_G_YCRAG(0 records)
+     ECO_X_OUTPUT_YCR(0 records)
+     OBJ_YCR(0 records)
+     EL_PRICE_YCR(0 records)
+     EL_PRICE_YCRST(0 records)
+     DH_PRICE_YCRA(0 records)
+     DH_PRICE_YCRAST(0 records)
+     EL_DEMAND_YCRST(0 records)
+     DH_DEMAND_YCRAST(0 records)
+     Merged_set_1(3 records)
+     Merged_set_2(1 records)
+   Inserts:7446473
+   Elapsed:69.51 seconds
+   Inserts/second:107126.54
+   Done
+
+Exit code = 1
+>>>>>>> Stashed changes
