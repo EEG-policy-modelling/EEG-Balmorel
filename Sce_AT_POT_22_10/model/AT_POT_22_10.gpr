@@ -1,0 +1,15 @@
+[PROJECT]
+
+[OPENWINDOW_1]
+MAXIM=0
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=1372
+
+[RP:BALMOREL]
+1=
+
+[MRUFILES]
+1=C:\DA offline\Modellierung\Sce_AT_POT_22_10\model\Balmorel.lst
+2=C:\DA offline\Modellierung\base\model\Balmorel.gms
