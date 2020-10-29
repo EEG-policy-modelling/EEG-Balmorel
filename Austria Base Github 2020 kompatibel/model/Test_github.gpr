@@ -1,0 +1,21 @@
+[RP:BALMOREL]
+1=
+
+[MRUFILES]
+1=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\Test Github\model\../data/GDATA.inc
+2=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\Test Github\model\../../base/model/Balmorelbb4.inc
+3=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\Test Github\model\../data/XKRATE.inc
+4=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\Test Github\model\../../base/addons/DECOM/DECOM_isetdecdef.inc
+5=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\Test Github\model\../../base/data/XKFX.inc
+6=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\Test Github\model\../../base/data/GMAXFS.inc
+7=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\Test Github\model\../data/GMINF.inc
+
+[OPENWINDOW_1]
+FILE0=C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\Balmorel.lst
+FILE1=C:\Users\schoeniger\Documents\Diplomarbeiten\Danijel Katsman\Model\base\model\Balmorel.gms
+FILE2=C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\Balmorel.lst
+MAXIM=0
+TOP=52
+LEFT=52
+HEIGHT=908
+WIDTH=1608

@@ -1,0 +1,1031 @@
+
+--- Job Balmorel.gms Start 09/03/20 18:06:27 26.1.0 rf2b37b9 WEX-WEI x86 64bit/MS Windows
+GAMS 26.1.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S190709/0001AO-WIN
+          TU Wien, Energy Economics Group                           DC14452
+          License for teaching and research at degree granting institutions
+          License Admin: Albert Hiesl, hiesl@eeg.tuwien.ac.at              
+--- Starting compilation
+--- Balmorel.gms(42) 2 Mb
+--- . ../../base/model/balgams.opt(156) 2 Mb
+--- Balmorel.gms(49) 2 Mb
+--- . ../../base/model/balopt.opt(762) 2 Mb
+--- Balmorel.gms(99) 2 Mb
+--- . ../../base/logerror/logerinc/error1.inc(44) 2 Mb
+--- .. ../../base/addons/_hooks/hellolog.inc(117) 2 Mb
+--- . ../../base/logerror/logerinc/error1.inc(56) 2 Mb
+--- Balmorel.gms(119) 2 Mb
+--- . ../../base/model/Balmorelbb4.inc(401) 2 Mb
+--- .. ../../base/model/bb4datainc.inc(29) 2 Mb
+--- ... ../data/CCCRRRAAA.inc(125) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(34) 3 Mb
+--- ... ../data/CCC.inc(34) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(39) 3 Mb
+--- ... ../data/RRR.inc(34) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(44) 3 Mb
+--- ... ../data/AAA.inc(58) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(49) 3 Mb
+--- ... ../data/CCCRRR.inc(34) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(54) 3 Mb
+--- ... ../data/RRRAAA.inc(58) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(59) 3 Mb
+--- ... ../data/C.inc(34) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(86) 3 Mb
+--- ... ../data/YYY.inc(2) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(91) 3 Mb
+--- ... ../data/SSS.inc(4) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(96) 3 Mb
+--- ... ../data/TTT.inc(4) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(101) 3 Mb
+--- ... ../data/DEUSER.inc(4) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(106) 3 Mb
+--- ... ../data/DHUSER.inc(2) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(111) 3 Mb
+--- ... ../data/FFF.inc(114) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(116) 3 Mb
+--- ... ../data/FDATASET.inc(9) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(121) 3 Mb
+--- ... ../data/FDATA.inc(96) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(126) 3 Mb
+--- ... ../data/GGG.inc(229) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(131) 3 Mb
+--- ... ../data/GDATASET.inc(58) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(136) 3 Mb
+--- ... ../data/TECH_GROUP.inc(20) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(141) 3 Mb
+--- ... ../data/TECH_GROUP_VALUE.inc(20) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(147) 3 Mb
+--- ... ../../base/data/SUBTECH_GROUP.inc(25) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(152) 3 Mb
+--- ... ../../base/data/SUBTECH_GROUP_VALUE.inc(25) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(156) 3 Mb
+--- ... ../data/G.inc(196) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(165) 3 Mb
+--- ... ../../base/addons/_hooks/acronyms.inc(15) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(166) 3 Mb
+--- ... ../../base/addons/_hooks/setdeclare.inc(36) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(167) 3 Mb
+--- ... ../../base/addons/_hooks/setdefine.inc(39) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(178) 3 Mb
+--- ... ../data/GDATA.inc(202) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(186) 3 Mb
+--- ... ../../base/addons/_hooks/gdataadditions.inc(17) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(202) 3 Mb
+--- ... ../data/HYRSMAXVOL_G.inc(888) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(207) 3 Mb
+--- ... ../data/HYRSDATASET.inc(8) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(212) 3 Mb
+--- ... ../data/DF_QP.inc(5) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(217) 3 Mb
+--- ... ../data/MPOLSET.inc(9) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(223) 3 Mb
+--- ... ../data/AGKN.inc(129) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(229) 3 Mb
+--- ... ../data/Y.inc(6) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(238) 3 Mb
+--- ... ../data/S.inc(6) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(247) 3 Mb
+--- ... ../data/T.inc(5) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(255) 3 Mb
+--- ... ../data/YVALUE.inc(12) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(265) 3 Mb
+--- ... ../data/TWORKDAY.inc(1) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(270) 3 Mb
+--- ... ../data/TWEEKEND.inc(1) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(390) 3 Mb
+--- ... ../data/GKFX.inc(336) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(396) 3 Mb
+--- ... ../data/FMAXINVEST.inc(4) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(413) 3 Mb
+--- ... ../data/DISLOSS_E.inc(34) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(418) 3 Mb
+--- ... ../data/DISLOSS_H.inc(56) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(423) 3 Mb
+--- ... ../data/DISCOST_E.inc(34) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(428) 3 Mb
+--- ... ../data/DISCOST_H.inc(56) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(433) 3 Mb
+--- ... ../data/FKPOT.inc(40) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(438) 3 Mb
+--- ... ../data/TECHGROUPKPOT.inc(33) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(444) 3 Mb
+--- ... ../../base/data/SUBTECHGROUPKPOT.inc(21) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(483) 3 Mb
+--- ... ../data/FGEMIN.inc(5) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(488) 3 Mb
+--- ... ../data/FGEMAX.inc(4) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(494) 3 Mb
+--- ... ../data/GMINF.inc(4) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(500) 3 Mb
+--- ... ../data/GMAXF.inc(5) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(506) 3 Mb
+--- ... ../data/GEQF.inc(4) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(511) 3 Mb
+--- ... ../data/GMAXFS.inc(6) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(523) 3 Mb
+--- ... ../data/WTRRSFLH.inc(55) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(528) 3 Mb
+--- ... ../data/WTRRRFLH.inc(54) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(534) 3 Mb
+--- ... ../data/WNDFLH.inc(59) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(540) 3 Mb
+--- ... ../data/SOLEFLH.inc(56) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(547) 3 Mb
+--- ... ../data/SOLHFLH.inc(54) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(553) 3 Mb
+--- ... ../data/WAVEFLH.inc(54) 3 Mb
+--- .. ../../base/model/bb4datainc.inc(558) 3 Mb
+--- ... ../data/HYRSDATA.inc(108) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(564) 4 Mb
+--- ... ../../base/data/DISCOUNTRATE.inc(2) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(569) 4 Mb
+--- ... ../../base/data/LIFETIME_X.inc(2) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(573) 4 Mb
+--- ... ../data/ANNUITYCG.inc(6) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(578) 4 Mb
+--- ... ../data/ANNUITYCX.inc(6) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(583) 4 Mb
+--- ... ../data/GINVCOST.inc(3) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(589) 4 Mb
+--- ... ../../base/data/GOMVCOSTO.inc(6) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(594) 4 Mb
+--- ... ../../base/data/GOMVCOSTIN.inc(6) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(598) 4 Mb
+--- ... ../data/GOMFCOST.inc(7) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(603) 4 Mb
+--- ... ../data/GEFFRATE.inc(5) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(608) 4 Mb
+--- ... ../data/DEFP_BASE.inc(33) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(613) 4 Mb
+--- ... ../data/DHFP_BASE.inc(57) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(619) 4 Mb
+--- ... ../../base/data/GKF_LO.inc(4) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(631) 4 Mb
+--- ... ../data/DE.inc(126) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(640) 4 Mb
+--- ... ../data/DH.inc(174) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(650) 4 Mb
+--- ... ../data/XINVCOST.inc(88) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(655) 4 Mb
+--- ... ../data/XKFX.inc(148) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(660) 4 Mb
+--- ... ../data/XCOST.inc(49) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(665) 4 Mb
+--- ... ../data/XLOSS.inc(60) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(672) 4 Mb
+--- ... ../data/XKRATE.inc(5) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(677) 4 Mb
+--- ... ../data/XMAXINV.inc(46) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(687) 4 Mb
+--- ... ../data/FUELPRICE.inc(163) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(697) 4 Mb
+--- ... ../data/M_POL.inc(400) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(715) 4 Mb
+--- ... ../data/WEIGHT_S.inc(7) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(720) 4 Mb
+--- ... ../data/WEIGHT_T.inc(8) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(725) 4 Mb
+--- ... ../data/CHRONOHOUR.inc(4) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(730) 4 Mb
+--- ... ../data/GKRATE.inc(60) 4 Mb
+--- .. ../../base/model/bb4datainc.inc(735) 4 Mb
+--- ... ../data/DE_VAR_T.inc(26220) 14 Mb
+--- .. ../../base/model/bb4datainc.inc(740) 14 Mb
+--- ... ../data/DH_VAR_T.inc(8800) 22 Mb
+--- .. ../../base/model/bb4datainc.inc(745) 22 Mb
+--- ... ../data/WTRRSVAR_S.inc(90) 22 Mb
+--- .. ../../base/model/bb4datainc.inc(750) 22 Mb
+--- ... ../data/WTRRRVAR_T.inc(72) 22 Mb
+--- .. ../../base/model/bb4datainc.inc(755) 22 Mb
+--- ... ../data/WND_VAR_T.inc(9462) 33 Mb
+--- .. ../../base/model/bb4datainc.inc(760) 33 Mb
+--- ... ../data/SOLE_VAR_T.inc(8749) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(765) 37 Mb
+--- ... ../data/SOLH_VAR_T.inc(8745) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(770) 37 Mb
+--- ... ../data/WAVE_VAR_T.inc(3) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(775) 37 Mb
+--- ... ../data/X3FX.inc(29) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(780) 37 Mb
+--- ... ../data/X3FX_VAR_T.inc(8751) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(785) 37 Mb
+--- ... ../data/HYPPROFILS.inc(18) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(802) 37 Mb
+--- ... ../data/YMODEL.inc(6) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(804) 37 Mb
+--- ... ../data/YMODELDELTA.inc(6) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(820) 37 Mb
+--- ... ../data/OMONEY.inc(2) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(825) 37 Mb
+--- ... ../data/PENALTYQ.inc(5) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(833) 37 Mb
+--- ... ../../base/addons/_hooks/pardefine.inc(36) 37 Mb
+--- .. ../../base/model/bb4datainc.inc(835) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(596) 37 Mb
+--- .. ../../base/addons/_hooks/isetdecdef.inc(24) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(622) 37 Mb
+--- .. ../../base/addons/_hooks/pardeclare.inc(29) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1023) 37 Mb
+--- .. ../../base/addons/_hooks/ipardecdef.inc(22) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1143) 37 Mb
+--- .. ../../base/output/printout/printinc/print1.inc(353) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1148) 37 Mb
+--- .. ../../base/logerror/logerinc/error2.inc(1119) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1179) 37 Mb
+--- .. ../../base/addons/_hooks/reducecard.inc(4) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1274) 37 Mb
+--- .. ../../base/addons/_hooks/vardeclare.inc(33) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1504) 37 Mb
+--- .. ../../base/addons/_hooks/qobj.inc(36) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1536) 37 Mb
+--- .. ../../base/addons/_hooks/qeeq.inc(24) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1553) 37 Mb
+--- .. ../../base/addons/_hooks/qheq.inc(22) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1568) 37 Mb
+--- .. ../../base/addons/_hooks/qgfeq.inc(20) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1645) 37 Mb
+--- .. ../../base/addons/_hooks/qhyrsseq.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1656) 37 Mb
+--- .. ../../base/addons/_hooks/qhyrsminvol.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1668) 37 Mb
+--- .. ../../base/addons/_hooks/qhyrsmaxvol.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1683) 37 Mb
+--- .. ../../base/addons/_hooks/qhymaxg.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1695) 37 Mb
+--- .. ../../base/addons/_hooks/qestovolt.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1708) 37 Mb
+--- .. ../../base/addons/_hooks/qestovolts.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1718) 37 Mb
+--- .. ../../base/addons/_hooks/qhstovolt.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1731) 37 Mb
+--- .. ../../base/addons/_hooks/qhstovolts.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1908) 37 Mb
+--- .. ../../base/addons/_hooks/qkefuelc.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1919) 37 Mb
+--- .. ../../base/addons/_hooks/qkefuelr.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1930) 37 Mb
+--- .. ../../base/addons/_hooks/qkefuela.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(1983) 37 Mb
+--- .. ../../base/addons/_hooks/qgeqcf.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2000) 37 Mb
+--- .. ../../base/addons/_hooks/qgeqrf.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2017) 37 Mb
+--- .. ../../base/addons/_hooks/qgeqaf.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2140) 37 Mb
+--- .. ../../base/addons/_hooks/qktechgroupc.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2151) 37 Mb
+--- .. ../../base/addons/_hooks/qktechgroupr.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2162) 37 Mb
+--- .. ../../base/addons/_hooks/qktechgroupa.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2215) 37 Mb
+--- .. ../../base/addons/_hooks/qxk_up.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2226) 37 Mb
+--- .. ../../base/addons/_hooks/qxknaccumnet.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2293) 37 Mb
+--- .. ../../base/addons/_hooks/qgknaccumgross.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2309) 37 Mb
+--- .. ../../base/addons/_hooks/qgknaccumnet.inc(9) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2334) 37 Mb
+--- .. ../../base/addons/_hooks/qgke_up.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2344) 37 Mb
+--- .. ../../base/addons/_hooks/qgkh_up.inc(8) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2455) 37 Mb
+--- .. ../../base/addons/_hooks/eqndecdef.inc(30) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2614) 37 Mb
+--- .. ../../base/addons/_hooks/balbase4.inc(21) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2650) 37 Mb
+--- .. ../../base/addons/_hooks/error2.inc(15) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2651) 37 Mb
+--- .. ../../base/addons/BB4/errorBB4.inc(62) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2678) 37 Mb
+--- .. ../../base/addons/BB4/BB4overview.inc(114) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2683) 37 Mb
+--- .. ../../base/model/Balmorelbb4.sim(250) 37 Mb
+--- ... ../../base/addons/_hooks/sim.inc(26) 37 Mb
+--- .. ../../base/model/Balmorelbb4.sim(251) 37 Mb
+--- ... ../../base/addons/_hooks/varloupfx.inc(8) 37 Mb
+--- .. ../../base/model/Balmorelbb4.sim(300) 37 Mb
+--- ... ../../base/addons/_hooks/solveend.inc(17) 37 Mb
+--- .. ../../base/model/Balmorelbb4.sim(305) 37 Mb
+--- ... ../../base/logerror/logerinc/balbase4.mss(120) 37 Mb
+--- .. ../../base/model/Balmorelbb4.sim(341) 37 Mb
+--- ... ../../base/addons/BB4/errorBB4.inc(62) 37 Mb
+--- .. ../../base/model/Balmorelbb4.sim(369) 37 Mb
+--- ... ../../base/addons/_hooks/varassign.inc(4) 37 Mb
+--- .. ../../base/model/Balmorelbb4.sim(392) 37 Mb
+--- . ../../base/model/Balmorelbb4.inc(2748) 37 Mb
+--- Balmorel.gms(3225) 37 Mb
+--- . ../../base/addons/_hooks/endofmodel_post.inc(5) 37 Mb
+--- .. ../../base/addons/all_endofmodelgdx/all_endofmodelgdx.inc(59) 37 Mb
+--- . ../../base/addons/_hooks/endofmodel_post.inc(5) 37 Mb
+--- Balmorel.gms(3305) 37 Mb
+--- . ../../base/output/OUTPUT_SUMMARY.inc(704) 37 Mb
+--- Balmorel.gms(3312) 37 Mb
+--- Starting execution: elapsed 0:00:01.532
+--- Balmorel.gms(962) 38 Mb
+--- Balmorel.gms(965) 38 Mb
+--- Balmorel.gms(78717) 102 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../output/temp/IWEIGHTY.gdx
+--- Balmorel.gms(79152) 102 Mb
+--- Balmorel.gms(80189) 105 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\output\inputout\INPUTDATAOUT.gdx
+--- Balmorel.gms(80262) 105 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../output/temp/1INPUT.gdx
+--- Balmorel.gms(82225) 130 Mb
+--- Generating LP model BALBASE4
+--- Balmorel.gms(80492) 144 Mb  3 secs
+--- Balmorel.gms(82473) 494 Mb
+--- LOOPS IYALIAS = 2030
+---   987,325 rows  1,485,173 columns  3,319,889 non-zeroes
+--- Executing CPLEX: elapsed 0:00:15.028
+
+IBM ILOG CPLEX   26.1.0 rf2b37b9 Released Feb 02, 2019 WEI x86 64bit/MS Window
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.8.0.0
+
+*** Error Cannot open parameter file "C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\cplex.op6"
+*** Error Error code = 2; No such file or directory
+Reading data...
+Starting Cplex...
+Space for names approximately 168.77 Mb
+Use option 'names no' to turn use of names off
+CPXPARAM_Advance                                 0
+CPXPARAM_Simplex_Limits_Iterations               2000000000
+CPXPARAM_TimeLimit                               1209600
+CPXPARAM_Threads                                 1
+CPXPARAM_Parallel                                1
+CPXPARAM_Tune_TimeLimit                          241920
+Tried aggregator 1 time.
+LP Presolve eliminated 506798 rows and 576780 columns.
+Aggregator did 331968 substitutions.
+Reduced LP has 148559 rows, 576425 columns, and 1179061 nonzeros.
+Presolve time = 2.09 sec. (1292.98 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =    1575234385.886355
+Iteration:  1198   Dual objective     =    1587134351.626976
+Iteration:  2200   Dual objective     =    1603589259.402644
+Iteration:  3305   Dual objective     =    1629248704.508652
+Iteration:  4209   Dual objective     =    1990798888.639745
+Iteration:  4959   Dual objective     =    2106385687.629118
+Iteration:  5656   Dual objective     =    2264953325.167761
+Iteration:  7331   Dual objective     =    2530661349.252737
+Iteration:  8203   Dual objective     =    2594275645.676975
+Iteration:  9060   Dual objective     =    2649728521.147916
+Iteration:  9931   Dual objective     =    2708379566.870167
+Iteration: 10782   Dual objective     =    2746261047.946486
+Iteration: 11544   Dual objective     =    2781628178.395345
+Iteration: 12318   Dual objective     =    2799165390.098435
+Iteration: 13173   Dual objective     =    2815272018.307486
+Iteration: 13996   Dual objective     =    2827842503.013937
+Iteration: 14825   Dual objective     =    2836634634.243555
+Iteration: 15654   Dual objective     =    2840238225.949869
+Iteration: 16463   Dual objective     =    2842409848.129169
+Iteration: 17311   Dual objective     =    2844572839.151890
+Iteration: 18125   Dual objective     =    2845872411.381601
+Iteration: 18984   Dual objective     =    2847597677.528677
+Iteration: 19762   Dual objective     =    2851787959.917287
+Iteration: 20459   Dual objective     =    2853964106.658724
+Iteration: 21322   Dual objective     =    2855884667.883256
+Iteration: 22173   Dual objective     =    2857787642.814442
+Iteration: 22972   Dual objective     =    2859495393.154636
+Iteration: 23904   Dual objective     =    2861589828.929751
+Iteration: 24797   Dual objective     =    2863613650.815651
+Iteration: 25623   Dual objective     =    2864750212.816772
+Perturbation started.
+Iteration: 25958   Dual objective     =    2864750398.778347
+Iteration: 26796   Dual objective     =    2865825009.484838
+Iteration: 27256   Dual objective     =    2866339001.869730
+Iteration: 28986   Dual objective     =    2868096711.710244
+Iteration: 29655   Dual objective     =    2868862447.178670
+Iteration: 30208   Dual objective     =    2869503779.726423
+Iteration: 31626   Dual objective     =    2871010767.267461
+Iteration: 32444   Dual objective     =    2871529730.522845
+Iteration: 33277   Dual objective     =    2871669102.268665
+Iteration: 34390   Dual objective     =    2871847817.141943
+Iteration: 35401   Dual objective     =    2872148274.257530
+Iteration: 35842   Dual objective     =    2872930097.578081
+Iteration: 37111   Dual objective     =    2874445275.682070
+Iteration: 38901   Dual objective     =    2877056279.732381
+Iteration: 40209   Dual objective     =    2882013515.488884
+Iteration: 41876   Dual objective     =    2889046361.938403
+Iteration: 43611   Dual objective     =    2893467441.323123
+Iteration: 45195   Dual objective     =    2894744938.232486
+Iteration: 45855   Dual objective     =    2895109814.222565
+Iteration: 47133   Dual objective     =    2895451899.731269
+Iteration: 47739   Dual objective     =    2895547620.489199
+Iteration: 49114   Dual objective     =    2896018694.956061
+Iteration: 50473   Dual objective     =    2896193083.218099
+Iteration: 51566   Dual objective     =    2896246715.118971
+Iteration: 52392   Dual objective     =    2896295111.879027
+Iteration: 53592   Dual objective     =    2896421947.508942
+Iteration: 55230   Dual objective     =    2896704514.157485
+Iteration: 56115   Dual objective     =    2896853775.091022
+Iteration: 57541   Dual objective     =    2897080301.082153
+Iteration: 59055   Dual objective     =    2897281990.677324
+Iteration: 59785   Dual objective     =    2897289830.955849
+Iteration: 61014   Dual objective     =    2897295803.932703
+Iteration: 62157   Dual objective     =    2897300905.096893
+Iteration: 63276   Dual objective     =    2897319037.399781
+Iteration: 64741   Dual objective     =    2897346780.588558
+Iteration: 66172   Dual objective     =    2897401547.061966
+Iteration: 67605   Dual objective     =    2897457352.584795
+Iteration: 68727   Dual objective     =    2897497355.439354
+Iteration: 70211   Dual objective     =    2897563016.450974
+Iteration: 71900   Dual objective     =    2897622021.440536
+Iteration: 73248   Dual objective     =    2897679512.615873
+Iteration: 74215   Dual objective     =    2897680748.243632
+Iteration: 74791   Dual objective     =    2897681795.294676
+Iteration: 75596   Dual objective     =    2897684398.832083
+Iteration: 77220   Dual objective     =    2897708193.385305
+Iteration: 78216   Dual objective     =    2897722029.609597
+Iteration: 79062   Dual objective     =    2897722535.533831
+Iteration: 79833   Dual objective     =    2897722774.265475
+Iteration: 81566   Dual objective     =    2897735557.180969
+Iteration: 83514   Dual objective     =    2897764996.204585
+Iteration: 84825   Dual objective     =    2897779619.241072
+Iteration: 86289   Dual objective     =    2897797436.613676
+Iteration: 88158   Dual objective     =    2897824422.931149
+Iteration: 89146   Dual objective     =    2897837153.390015
+Iteration: 90943   Dual objective     =    2897840184.876330
+Iteration: 92225   Dual objective     =    2897841780.477604
+Iteration: 93577   Dual objective     =    2897843621.367257
+Iteration: 95304   Dual objective     =    2897846562.357463
+Removing perturbation.
+LP status(1): optimal
+Cplex Time: 9.91sec (det. 8019.79 ticks)
+
+Optimal solution found.
+Objective :  2897846592.962047
+
+--- Restarting execution
+--- Balmorel.gms(82473) 148 Mb
+--- Reading solution for model BALBASE4
+--- Balmorel.gms(82473) 235 Mb
+--- GDX Point C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\BALBASE4_p.gdx
+--- Executing after solve: elapsed 0:00:31.329
+--- Balmorel.gms(82225) 235 Mb
+
+C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model>move "BALBASE4_p.gdx" "..\output\temp/2030.gdx" 
+        1 Datei(en) verschoben.
+--- Balmorel.gms(82780) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../../simex/HYRSG.gdx
+--- Balmorel.gms(82781) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../../simex/VHYRS_SL.gdx
+--- Balmorel.gms(82782) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../../simex/WATERVAL.gdx
+--- Balmorel.gms(82795) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../../simex/XKACCUMNET.gdx
+--- Balmorel.gms(82796) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../../simex/GKACCUMNET.gdx
+--- Balmorel.gms(82809) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../../simex/GVESTOVOLTS.gdx
+--- Balmorel.gms(82810) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../../simex/GVHSTOVOLTS.gdx
+--- Balmorel.gms(82849) 235 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\all_endofmodel.gdx
+--- Balmorel.gms(82860) 235 Mb
+Output file: merged.gdx
+Reading file: ..\output\temp\1INPUT.gdx
+Reading file: ..\output\temp\2030.gdx
+Reading file: ..\output\temp\IWEIGHTY.gdx
+
+Merge complete, 3 input files merged
+--- Balmorel.gms(82861) 235 Mb
+        1 Datei(en) verschoben.
+--- Balmorel.gms(82864) 235 Mb
+Output file: merged.gdx
+Reading file: ..\output\BASE.gdx
+
+Merge complete, 1 input files merged
+--- Balmorel.gms(82866) 235 Mb
+        1 Datei(en) verschoben.
+--- Balmorel.gms(82871) 235 Mb
+GDX2SQLITE v 0.7
+GDX Library      26.1.0 rf2b37b9 Released Feb 02, 2019 WEI x86 64bit/MS Window
+Current directory:C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model
+
+   InputFile:..\output\BASE-results.gdx
+   OutputFile:..\output\BASE-results.db
+   Symbols:503
+   Uels:778
+   Loading Uels
+   Processing Symbols
+     IBALVERSN(1 records)
+     ROLLINGSEASONSNUMBER(1 records)
+     GINVESTSTART(1 records)
+     XINVESTSTART(1 records)
+     GDECOMEXOSTART(1 records)
+     GDECOMEXOPOTSTART(1 records)
+     SystemDateTime(1 records)
+     INFODISPLAY(1 records)
+     IOF100(1 records)
+     IOF1000(1 records)
+     IOF1000000(1 records)
+     IOF0001(1 records)
+     IOF0000001(1 records)
+     IOF3P6(1 records)
+     IOF24(1 records)
+     IOF8760(1 records)
+     IOF8784(1 records)
+     IOF365(1 records)
+     IOF05(1 records)
+     IOF1_(1 records)
+     ISCALAR1(1 records)
+     ISCALAR2(1 records)
+     ISCALAR3(1 records)
+     ISCALAR4(1 records)
+     ISCALAR5(1 records)
+     ERRCOUNT2(1 records)
+     ERRCOUNT3(1 records)
+     ERRCOUNT4(1 records)
+     ERRSCALAR1(1 records)
+     CCCRRRAAA(117 records)
+     CCC(31 records)
+     C(1 records)
+     RRR(31 records)
+     AAA(55 records)
+     CCCRRR(31 records)
+     RRRAAA(55 records)
+     IR(1 records)
+     IA(1 records)
+     ICA(55 records)
+     YYY(39 records)
+     SSS(52 records)
+     TTT(168 records)
+     Y(1 records)
+     S(52 records)
+     T(168 records)
+     TWORKDAY(120 records)
+     TWEEKEND(48 records)
+     GGG(184 records)
+     GDATASET(55 records)
+     FFF(50 records)
+     FDATASET(6 records)
+     HYRSDATASET(4 records)
+     G(184 records)
+     AGKN(8 records)
+     DEUSER(3 records)
+     DHUSER(1 records)
+     DF_QP(2 records)
+     DEF(0 records)
+     DEF_D1(0 records)
+     DEF_U1(0 records)
+     DEF_D2(0 records)
+     DEF_U2(0 records)
+     DEF_D3(0 records)
+     DEF_U3(0 records)
+     DHF(0 records)
+     DHF_D1(0 records)
+     DHF_U1(0 records)
+     DHF_D2(0 records)
+     DHF_U2(0 records)
+     DHF_D3(0 records)
+     DHF_U3(0 records)
+     MPOLSET(6 records)
+     IGGGALIAS(184 records)
+     IGALIAS(184 records)
+     CCCRRRAAAALIAS(117 records)
+     IS3(0 records)
+     IS33(52 records)
+     SREV(52 records)
+     SREV2(52 records)
+     TREV(168 records)
+     TREV2(168 records)
+     IRRRE(31 records)
+     IRRRI(31 records)
+     IRE(1 records)
+     IRI(1 records)
+     IFFFALIAS(50 records)
+     IFFFALIAS2(50 records)
+     IYYYALIAS(39 records)
+     IYYYALIAS2(39 records)
+     IYALIAS(1 records)
+     ISALIAS(52 records)
+     ISALIAS2(52 records)
+     ISALIAS3(52 records)
+     IS3LOOPSET(52 records)
+     ITALIAS(168 records)
+     ITALIAS2(168 records)
+     ITALIAS3(168 records)
+     GDATA(2865 records)
+     IGCND(50 records)
+     IGBPR(4 records)
+     IGEXT(55 records)
+     IGHOB(1 records)
+     IGETOH(38 records)
+     IGHSTO(6 records)
+     IGHSTOS(0 records)
+     IGHSTOALL(6 records)
+     IGESTO(0 records)
+     IGESTOS(4 records)
+     IGESTOALL(4 records)
+     IGHYRS(4 records)
+     IGHYRR(4 records)
+     IGWND(9 records)
+     IGSOLE(8 records)
+     IGSOLH(0 records)
+     IGWAVE(0 records)
+     IGHH(7 records)
+     IGHHNOSTO(1 records)
+     IGNOTETOH(146 records)
+     IGKH(45 records)
+     IGKHNOSTO(39 records)
+     IGKE(138 records)
+     IGKENOSTO(134 records)
+     IGDISPATCH(162 records)
+     IGEE(79 records)
+     IGEENOSTO(75 records)
+     IGKKNOWN(181 records)
+     IGKFIND(3 records)
+     IGEH(97 records)
+     IGE(176 records)
+     IGH(104 records)
+     IGBYPASS(0 records)
+     IWATERTANK(1 records)
+     IPIT(1 records)
+     IHEATPUMP(38 records)
+     IHEATPUMPAIR(0 records)
+     IHEATPUMPEXCESSHEAT(0 records)
+     IHEATPUMPGROUND(0 records)
+     IGHNOWT(0 records)
+     ILINKSTO(0 records)
+     GKFX(1917 records)
+     YVALUE(39 records)
+     IWEIGHTY(2 records)
+     FDATA(130 records)
+     FMAXINVEST(0 records)
+     FMAXINVESTNA(0 records)
+     GROWTHCAPCG(184 records)
+     DISLOSS_E(30 records)
+     DISLOSS_H(51 records)
+     DISCOST_E(30 records)
+     DISCOST_H(51 records)
+     FKPOT(0 records)
+     FGEMIN(0 records)
+     FGEMAX(0 records)
+     FKMIN(0 records)
+     FKMAX(0 records)
+     FKEQ(0 records)
+     FKMINNA(0 records)
+     FKMAXNA(0 records)
+     FKEQNA(0 records)
+     GMINF(0 records)
+     GMAXF(0 records)
+     GEQF(0 records)
+     WTRRSFLH(51 records)
+     WTRRRFLH(51 records)
+     WNDFLH(55 records)
+     SOLEFLH(51 records)
+     SOLHFLH(50 records)
+     WAVEFLH(50 records)
+     HYRSMAXVOL_G(51 records)
+     HYRSDATA(5304 records)
+     ANNUITYCG(3 records)
+     ANNUITYCX(31 records)
+     LIFETIME_X(1 records)
+     DISCOUNTRATE(1 records)
+     GINVCOST(58 records)
+     GOMVCOSTO(24 records)
+     GOMVCOSTIN(9 records)
+     GOMFCOST(9735 records)
+     GEFFRATE(0 records)
+     DEFP_BASE(30 records)
+     DHFP_BASE(55 records)
+     DE(911 records)
+     DH(539 records)
+     XKFX(4551 records)
+     XINVCOST(2301 records)
+     XCOST(0 records)
+     XLOSS(930 records)
+     XKRATE(6500 records)
+     M_POL(120 records)
+     M_POLNA(0 records)
+     WEIGHT_S(52 records)
+     WEIGHT_T(168 records)
+     CHRONOHOUR(8736 records)
+     GKRATE(0 records)
+     DE_VAR_T(25563 records)
+     DH_VAR_T(8736 records)
+     WTRRSVAR_S(52 records)
+     WTRRRVAR_T(8736 records)
+     WND_VAR_T(8733 records)
+     SOLE_VAR_T(4869 records)
+     WAVE_VAR_T(0 records)
+     X3FX_VAR_T(0 records)
+     HYPPROFILS(0 records)
+     HYRSG(0 records)
+     VHYRS_SL(0 records)
+     WATERVAL(0 records)
+     GKACCUMNET(0 records)
+     XKACCUMNET(0 records)
+     GVESTOVOLTS(0 records)
+     GVHSTOVOLTS(0 records)
+     CO2FACTOR(90 records)
+     TECH_GROUP(17 records)
+     TECH_GROUP_VALUE(17 records)
+     SUBTECH_GROUP(22 records)
+     SUBTECH_GROUP_VALUE(22 records)
+     INVDATASET(7 records)
+     INVDATA(1 records)
+     ALLOWEDINV(8 records)
+     IYALIAS2(1 records)
+     GKFX1(1917 records)
+     TECHGROUPKPOT(0 records)
+     SUBTECHGROUPKPOT(153 records)
+     GMAXFS(0 records)
+     GKF_LO(0 records)
+     DE1(911 records)
+     DH1(539 records)
+     XMAXINV(0 records)
+     FUELPRICE(10395 records)
+     FUELPRICE1(189 records)
+     DE_VAR_T1(278907 records)
+     DH_VAR_T1(262080 records)
+     WTRRRVAR_S(1518 records)
+     WND_VAR_T1(330479 records)
+     SOLE_VAR_T1(108731 records)
+     SOLH_VAR_T(0 records)
+     SOLH_VAR_T1(0 records)
+     X3FX(0 records)
+     X3FX_VAR_T1(0 records)
+     YMODEL(1 records)
+     YMODELDELTA(0 records)
+     OMONEY(1 records)
+     PENALTYQ(1 records)
+     IYMODEL4(1 records)
+     IYALIAS44(1 records)
+     IY402(1 records)
+     IY411(0 records)
+     IY410(0 records)
+     IY401(0 records)
+     IY411FIRST(0 records)
+     IY411PREVY(0 records)
+     IYFIRST(1 records)
+     IGF(194 records)
+     ILOOPBREAK(1 records)
+     IFIRSTYEARNEXTBB4(1 records)
+     IAGKFX(57 records)
+     IXKN(0 records)
+     IAGKN(0 records)
+     IAGKNY(0 records)
+     IXK_HASORPOT(0 records)
+     IAGK_HASORPOT(57 records)
+     IGDECOMEXOPOT(0 records)
+     IPLUSMINUS(2 records)
+     IYHASANNUITYG(0 records)
+     IYHASANNUITYX(0 records)
+     IINVYEARG_LEFT(0 records)
+     IINVYEARX_LEFT(0 records)
+     IN_INV_G(0 records)
+     IN_INV_X(0 records)
+     IGKRATE(0 records)
+     IM_CO2(90 records)
+     IM_CO2RE(0 records)
+     IM_SO2(53 records)
+     IM_N2O(90 records)
+     IWEIGHSUMS(1 records)
+     IWEIGHSUMT(1 records)
+     IHOURSINST(8736 records)
+     IHYRST(8736 records)
+     IDE_SUMST(3 records)
+     IDH_SUMST(1 records)
+     IX3FXSUMST(0 records)
+     IWND_SUMST(1 records)
+     ISOLESUMST(1 records)
+     ISOLHSUMST(0 records)
+     IWAVESUMST(0 records)
+     IWTRRSSUM(1 records)
+     IWTRRRSUM(1 records)
+     ITAX_GF(0 records)
+     ITAX_GH(0 records)
+     ITAX_GE(0 records)
+     ITAX_KN(0 records)
+     IGMAXF_Y(0 records)
+     IGMINF_Y(0 records)
+     IGEQF_Y(0 records)
+     IX3FX_T(0 records)
+     IHYINF_S(52 records)
+     IGROWTHCAPCG(0 records)
+     OCASEID(1 records)
+     OIMONEY(1 records)
+     OCARDSETA(1 records)
+     OCARDSETR(1 records)
+     OTLW(1 records)
+     OTLWCRA(1 records)
+     OTLWY(1 records)
+     OTLWS(1 records)
+     OTLWT(1 records)
+     OTLWG(1 records)
+     OALIASS(52 records)
+     OALIAST(168 records)
+     OEG_YAT(0 records)
+     OEG_YR(0 records)
+     OEG_YC(0 records)
+     OEG_YNA(0 records)
+     OEG_YNAF(0 records)
+     OEP_YRT(0 records)
+     OEP_YR(0 records)
+     OEP_YC(0 records)
+     OEP_YNA(0 records)
+     OHP_YAT(0 records)
+     OHP_YA(0 records)
+     OHP_YC(0 records)
+     OHP_YNA(0 records)
+     OAEP_YNA(0 records)
+     OGKN_YNAF(0 records)
+     OGK_YAG(0 records)
+     OGK_YCG(0 records)
+     OGK_YNAG(0 records)
+     OGK_YNAF(0 records)
+     IDE_T(16827 records)
+     IDH_T(8736 records)
+     DE__YCU(0 records)
+     EP__YRT(0 records)
+     ERRSETGGG(0 records)
+     ICHECKWDAY(0 records)
+     IDISCOUNTFACTOR(1 records)
+     IXKRATE(0 records)
+     IGMINF(0 records)
+     IGMAXF(0 records)
+     IGEQF(0 records)
+     IGMAXFS(0 records)
+     ISIMWEIGHT(0 records)
+     IORD_IY(0 records)
+     VOBJ(2 records)
+     VGE_T(445536 records)
+     VGH_T(419328 records)
+     VGF_T(497952 records)
+     VX_T(0 records)
+     VGKN(0 records)
+     VXKN(0 records)
+     VGHYPMS_T(0 records)
+     VHYRS_S(52 records)
+     VESTOLOADT(0 records)
+     VESTOLOADTS(8736 records)
+     VHSTOLOADT(52416 records)
+     VHSTOLOADTS(0 records)
+     VESTOVOLT(0 records)
+     VESTOVOLTS(8736 records)
+     VHSTOVOLT(52416 records)
+     VHSTOVOLTS(0 records)
+     VGKNACCUMNET(0 records)
+     VGKNACCUMGROSS(0 records)
+     VXKNACCUMNET(0 records)
+     QOBJ(2 records)
+     QEEQ(8736 records)
+     QHEQ(8736 records)
+     QGFEQ(497952 records)
+     QGFNEQ(0 records)
+     QGCBGBPR(8736 records)
+     QGCBGBPRBYPASS1(0 records)
+     QGCBGBPRBYPASS2(0 records)
+     QGCBGEXT(34944 records)
+     QGCVGEXT(34944 records)
+     QGGETOH(323232 records)
+     QHYRSSEQ(52 records)
+     QHYRSMINVOL(52 records)
+     QHYRSMAXVOL(52 records)
+     QHYMAXG(8736 records)
+     QHYMINRS(0 records)
+     QESTOVOLT(0 records)
+     QESTOVOLTS(8736 records)
+     QHSTOVOLT(52416 records)
+     QHSTOVOLTS(0 records)
+     QHSTOLOADT(0 records)
+     QHSTOLOADTLIM(0 records)
+     QESTOLOADTLIM(0 records)
+     QHSTOVOLTLIM(0 records)
+     QESTOVOLTLIM(0 records)
+     QHSTOVGHTLIM(0 records)
+     QESTOVGETLIM(0 records)
+     QHSTOLOADTS(0 records)
+     QHSTOLOADTLIMS(0 records)
+     QESTOLOADTLIMS(0 records)
+     QHSTOVOLTLIMS(0 records)
+     QESTOVOLTLIMS(0 records)
+     QHSTOVGHTLIMS(0 records)
+     QESTOVGETLIMS(0 records)
+     QKEFUELC(0 records)
+     QKEFUELR(0 records)
+     QKEFUELA(0 records)
+     QKTECHGROUPC(0 records)
+     QKTECHGROUPR(0 records)
+     QKTECHGROUPA(0 records)
+     QKSUBTECHGROUPC(0 records)
+     QKSUBTECHGROUPR(0 records)
+     QKSUBTECHGROUPA(0 records)
+     QGMINFUELC(0 records)
+     QGMAXFUELC(0 records)
+     QGMINFUELR(0 records)
+     QGMAXFUELR(0 records)
+     QGMINFUELA(0 records)
+     QGMAXFUELA(0 records)
+     QGMINCF(0 records)
+     QGMAXCF(0 records)
+     QGEQCF(0 records)
+     QGMINRF(0 records)
+     QGMAXRF(0 records)
+     QGEQRF(0 records)
+     QGMINAF(0 records)
+     QGMAXAF(0 records)
+     QGEQAF(0 records)
+     QKMINFC(0 records)
+     QKMAXFC(0 records)
+     QKEQFC(0 records)
+     QKMINFR(0 records)
+     QKMAXFR(0 records)
+     QKEQFR(0 records)
+     QKMINFA(0 records)
+     QKMAXFA(0 records)
+     QKEQFA(0 records)
+     QKMINFNA(0 records)
+     QKMAXFNA(0 records)
+     QKEQFNA(0 records)
+     QGMAXCFS(0 records)
+     QGMAXRFS(0 records)
+     QGMAXAFS(0 records)
+     QLIMCO2(0 records)
+     QLIMSO2(0 records)
+     QLIMNOX(0 records)
+     QLIMCO2NA(0 records)
+     QHYFXRW(0 records)
+     QHYFXCW(0 records)
+     QBASELOAD(0 records)
+     QMAXINVESTCF(0 records)
+     QMAXINVESTGROWTHCG(0 records)
+     QMAXINVESTNAF(0 records)
+     QGKNACCUMNET(0 records)
+     QGKNACCUMGROSS(0 records)
+     QGKE_UP(0 records)
+     QGKH_UP(0 records)
+     QGKE_LO(0 records)
+     QGKH_LO(0 records)
+     QEGKCOMB1UP(0 records)
+     QEGKCOMB2UP(0 records)
+     QHGKCOMB1UP(0 records)
+     QHGKCOMB2UP(0 records)
+     QHYRRDISPATCH(0 records)
+     QWNDDISPATCH(0 records)
+     QSOLEDISPATCH(0 records)
+     QSOLHDISPATCH(0 records)
+     QWAVEDISPATCH(0 records)
+     QXKN(0 records)
+     QXKNACCUMNET(0 records)
+     QXKNACCUMGROSS(0 records)
+     QXK_UP(0 records)
+     QXINVSYMMETRY(0 records)
+     help_IAGK_HASORPOT_complement(0 records)
+     help_IAGK_HASORPOT_complement_intersection(0 records)
+     help_QGKE_UP_generated_E(0 records)
+     help_QGKH_UP_generated_H(0 records)
+     help_VGE_T_UP_generated_E(0 records)
+     help_VGH_T_UP_generated_H(0 records)
+     help_QGKE_UP_VGE_T_UP_intersection_E(0 records)
+     help_QGKH_UP_VGH_T_UP_intersection_H(0 records)
+     help_QGKE_UP_VGE_T_UP_sum_E(0 records)
+     help_QGKH_UP_VGH_T_UP_sum_H(0 records)
+     IYMODEL3(1 records)
+     CATEGORY(2 records)
+     SUBCATEGORY(8 records)
+     COMMODITY(2 records)
+     TECH_TYPE(15 records)
+     GTECH_TYPE(0 records)
+     PRICE_CATEGORY(3 records)
+     VARIABLE_CATEGORY(3 records)
+     UNITS(6 records)
+     G_CAP_YCRAF(0 records)
+     PRO_YCRAGFST(0 records)
+     PRO_YCRAGF(0 records)
+     F_CONS_YCRAST(0 records)
+     F_CONS_YCRA(0 records)
+     X_CAP_YCR(0 records)
+     X_FLOW_YCRST(0 records)
+     X_FLOW_YCR(0 records)
+     ECO_G_YCRAG(0 records)
+     ECO_X_OUTPUT_YCR(0 records)
+     OBJ_YCR(0 records)
+     EL_PRICE_YCR(0 records)
+     EL_PRICE_YCRST(0 records)
+     DH_PRICE_YCRA(0 records)
+     DH_PRICE_YCRAST(0 records)
+     EL_DEMAND_YCRST(0 records)
+     DH_DEMAND_YCRAST(0 records)
+     EMI_YCRAG(0 records)
+     Merged_set_1(3 records)
+     Merged_set_2(1 records)
+   Inserts:3619944
+   Elapsed:25.53 seconds
+   Inserts/second:141769.56
+   Done
+
+--- Balmorel.gms(83299) 245 Mb
+--- GDX File C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\MainResults.gdx
+--- Putfile fileMERGESAVEPOINTRESULTSbat C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\MERGESAVEPOINTRESULTS.bat
+--- Putfile errorfile C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\logerror\errors.out
+--- Putfile logfile C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\logerror\logfile.out
+--- Putfile printoutoverview C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\model\../output/printout/printoutoverview.out
+--- Putfile BB4overview C:\Users\schoeniger\Documents\Balmorel\Github Aug 2020\Austria Base Github kompatibel\logerror\BB4overview.out
+*** Status: Normal completion
+--- Job Balmorel.gms Stop 09/03/20 18:07:33 elapsed 0:01:06.070
