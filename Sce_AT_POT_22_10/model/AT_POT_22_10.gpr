@@ -11,7 +11,7 @@
 FILE0=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.gms
 FILE1=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\Balmorel.lst
 FILE2=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\Balmorel.lst
-MAXIM=0
+MAXIM=1
 TOP=50
 LEFT=50
 HEIGHT=400
