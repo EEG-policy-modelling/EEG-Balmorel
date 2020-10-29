@@ -1,4 +1,21 @@
 # Files that should not be tracked
 ## all huge gdx and database files
-*.db
-*.gdx
+**/*.~*
+**/*.gdx
+**/*.accdb
+**/*.accdbbak
+**/*.mdb
+**/*.db
+**/*.bak
+**/*.out
+**/*.bat
+**/*.dat
+**/*.cmd
+**/*.lst
+#**/data/*.inc
+#**/model/Balmorel.l*
+#**/output/economic/*.*
+#/base/bui/gamsscr/*.*
+#**/*.xls*
+#**/*.gpr
+#**/*.xls*
