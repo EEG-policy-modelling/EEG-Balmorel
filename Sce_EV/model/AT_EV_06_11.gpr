@@ -1,0 +1,14 @@
+[PROJECT]
+
+[RP:BALMOREL]
+1=
+
+[OPENWINDOW_1]
+FILE0=C:\DA offline\Modellierung\base\model\Balmorel.gms
+FILE1=C:\DA offline\Modellierung\Sce_06_11\model\Balmorel.lst
+FILE2=C:\DA offline\Modellierung\Sce_06_11\model\Balmorel.lst
+MAXIM=0
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=400
