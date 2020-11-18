@@ -1,0 +1,18 @@
+[PROJECT]
+
+[RP:BALMOREL]
+1=
+
+[MRUFILES]
+1=C:\DA offline\Modellierung\Sce_AT_POT_22_10\model\Balmorel.lst
+2=C:\DA offline\Modellierung\base\model\Balmorel.gms
+
+[OPENWINDOW_1]
+FILE0=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.gms
+FILE1=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\Balmorel.lst
+FILE2=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\Sce_AT_POT_22_10\model\Balmorel.lst
+MAXIM=1
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=1372
