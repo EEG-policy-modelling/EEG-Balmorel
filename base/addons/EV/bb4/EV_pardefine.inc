@@ -55,6 +55,60 @@ $if     EXIST '../data/EV_CHARGE_SCEN.inc' $INCLUDE         '../data/EV_CHARGE_S
 $if not EXIST '../data/EV_CHARGE_SCEN.inc' $INCLUDE '../../base/data/EV_CHARGE_SCEN.inc';
 
 
+$ifi not %MIXEDFLEET%==yes $goto MIXEDFLEET_SET_END
+$if     EXIST '../data/EV_BEV_Dumb_n.inc' $INCLUDE      '../data/EV_BEV_Dumb_n.inc';
+$if not EXIST '../data/EV_BEV_Dumb_n.inc'  $INCLUDE '../../base/data/EV_BEV_Dumb_n.inc';
+
+$if     EXIST '../data/EV_BEV_SOCDumb_n.inc' $INCLUDE      '../data/EV_BEV_SOCDumb_n.inc';
+$if not EXIST '../data/EV_BEV_SOCDumb_n.inc'  $INCLUDE '../../base/data/EV_BEV_SOCDumb_n.inc';
+
+$if     EXIST '../data/EV_BEV_Flex_n.inc' $INCLUDE      '../data/EV_BEV_Flex_n.inc';
+$if not EXIST '../data/EV_BEV_Flex_n.inc' $INCLUDE '../../base/data/EV_BEV_Flex_n.inc';
+
+$if     EXIST '../data/EV_BEV_Inflex_n.inc' $INCLUDE         '../data/EV_BEV_Inflex_n.inc';
+$if not EXIST '../data/EV_BEV_Inflex_n.inc' $INCLUDE '../../base/data/EV_BEV_Inflex_n.inc';
+
+$if     EXIST '../data/EV_BEV_SOCFlex_n.inc' $INCLUDE         '../data/EV_BEV_SOCFlex_n.inc';
+$if not EXIST '../data/EV_BEV_SOCFlex_n.inc' $INCLUDE '../../base/data/EV_BEV_SOCFlex_n.inc';
+
+$if     EXIST '../data/EV_BEV_Avail_n.inc' $INCLUDE         '../data/EV_BEV_Avail_n.inc';
+$if not EXIST '../data/EV_BEV_Avail_n.inc' $INCLUDE '../../base/data/EV_BEV_Avail_n.inc';
+
+$if     EXIST '../data/EV_BEV_Max_n.inc' $INCLUDE         '../data/EV_BEV_Max_n.inc';
+$if not EXIST '../data/EV_BEV_Max_n.inc' $INCLUDE '../../base/data/EV_BEV_Max_n.inc';
+
+$if     EXIST '../data/EV_BEV_Min_n.inc' $INCLUDE         '../data/EV_BEV_Min_n.inc';
+$if not EXIST '../data/EV_BEV_Min_n.inc' $INCLUDE '../../base/data/EV_BEV_Min_n.inc';
+
+
+$if     EXIST '../data/EV_PHEV_Dumb_n.inc' $INCLUDE      '../data/EV_PHEV_Dumb_n.inc';
+$if not EXIST '../data/EV_PHEV_Dumb_n.inc'  $INCLUDE '../../base/data/EV_PHEV_Dumb_n.inc';
+
+$if     EXIST '../data/EV_PHEV_SOCDumb_n.inc' $INCLUDE      '../data/EV_PHEV_SOCDumb_n.inc';
+$if not EXIST '../data/EV_PHEV_SOCDumb_n.inc'  $INCLUDE '../../base/data/EV_PHEV_SOCDumb_n.inc';
+
+$if     EXIST '../data/EV_PHEV_Flex_n.inc' $INCLUDE      '../data/EV_PHEV_Flex_n.inc';
+$if not EXIST '../data/EV_PHEV_Flex_n.inc' $INCLUDE '../../base/data/EV_PHEV_Flex_n.inc';
+
+$if     EXIST '../data/EV_PHEV_Inflex_n.inc' $INCLUDE         '../data/EV_PHEV_Inflex_n.inc';
+$if not EXIST '../data/EV_PHEV_Inflex_n.inc' $INCLUDE '../../base/data/EV_PHEV_Inflex_n.inc';
+
+$if     EXIST '../data/EV_PHEV_SOCFlex_n.inc' $INCLUDE         '../data/EV_PHEV_SOCFlex_n.inc';
+$if not EXIST '../data/EV_PHEV_SOCFlex_n.inc' $INCLUDE '../../base/data/EV_PHEV_SOCFlex_n.inc';
+
+$if     EXIST '../data/EV_PHEV_Avail_n.inc' $INCLUDE         '../data/EV_PHEV_Avail_n.inc';
+$if not EXIST '../data/EV_PHEV_Avail_n.inc' $INCLUDE '../../base/data/EV_PHEV_Avail_n.inc';
+
+$if     EXIST '../data/EV_PHEV_Max_n.inc' $INCLUDE         '../data/EV_PHEV_Max_n.inc';
+$if not EXIST '../data/EV_PHEV_Max_n.inc' $INCLUDE '../../base/data/EV_PHEV_Max_n.inc';
+
+$if     EXIST '../data/EV_PHEV_Min_n.inc' $INCLUDE         '../data/EV_PHEV_Min_n.inc';
+$if not EXIST '../data/EV_PHEV_Min_n.inc' $INCLUDE '../../base/data/EV_PHEV_Min_n.inc';
+
+$if     EXIST '../data/EV_FLEETSIZE.inc' $INCLUDE         '../data/EV_FLEETSIZE.inc';
+$if not EXIST '../data/EV_FLEETSIZE.inc' $INCLUDE '../../base/data/EV_FLEETSIZE.inc';
+
+$label  MIXEDFLEET_SET_END
 
 
 

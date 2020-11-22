@@ -29,5 +29,33 @@ POSITIVE VARIABLE         VEV_VV2G_BEV(Y,RRR,S,T)        'Vehicle to grid. Disch
 POSITIVE VARIABLE         VEV_VG2V_PHEV(Y,RRR,S,T)       'Grid to vehicle. Charging of PHEVs.'
 POSITIVE VARIABLE         VEV_VV2G_PHEV(Y,RRR,S,T)       'Vehicle to grid. Discharging of PHEVs'
 $label  STEPCHARGSCHEME_END
+
+$ifi not %MIXEDFLEET%==yes $goto MIXEDFLEET_END
+*Fleet1
+POSITIVE VARIABLE         VEV_VSOC_BEV_1(Y,RRR,S,T)
+POSITIVE VARIABLE         VEV_VSOC_PHEV_1(Y,RRR,S,T)       'State of charge of the PHEV vehicle fleet.'
+POSITIVE VARIABLE         VEV_VG2V_BEV_1(Y,RRR,S,T)        'Grid to vehicle. Charging of BEVs.'
+POSITIVE VARIABLE         VEV_VV2G_BEV_1(Y,RRR,S,T)        'Vehicle to grid. Discharging of BEVs'
+POSITIVE VARIABLE         VEV_VG2V_PHEV_1(Y,RRR,S,T)       'Grid to vehicle. Charging of PHEVs.'
+POSITIVE VARIABLE         VEV_VV2G_PHEV_1(Y,RRR,S,T)       'Vehicle to grid. Discharging of PHEVs'
+
+POSITIVE VARIABLE         VEV_VNETCHARGE_BEV_1(Y,RRR,S,T)            'Net charging of BEV for tax and tariff calculation'
+POSITIVE VARIABLE         VEV_VNETCHARGE_PHEV_1(Y,RRR,S,T)           'Net charging of PHEV for tax and tariff calculation'
+POSITIVE VARIABLE         VEV_VNETDISCHARGE_BEV_1(Y,RRR,S,T)            'Net discharging of BEV for tax and tariff calculation'
+POSITIVE VARIABLE         VEV_VNETDISCHARGE_PHEV_1(Y,RRR,S,T)           'Net discharging of PHEV for tax and tariff calculation'
+
+*Fleet2
+POSITIVE VARIABLE         VEV_VSOC_BEV_2(Y,RRR,S,T)
+POSITIVE VARIABLE         VEV_VSOC_PHEV_2(Y,RRR,S,T)       'State of charge of the PHEV vehicle fleet.'
+POSITIVE VARIABLE         VEV_VG2V_BEV_2(Y,RRR,S,T)        'Grid to vehicle. Charging of BEVs.'
+POSITIVE VARIABLE         VEV_VV2G_BEV_2(Y,RRR,S,T)        'Vehicle to grid. Discharging of BEVs'
+POSITIVE VARIABLE         VEV_VG2V_PHEV_2(Y,RRR,S,T)       'Grid to vehicle. Charging of PHEVs.'
+POSITIVE VARIABLE         VEV_VV2G_PHEV_2(Y,RRR,S,T)       'Vehicle to grid. Discharging of PHEVs'
+
+POSITIVE VARIABLE         VEV_VNETCHARGE_BEV_2(Y,RRR,S,T)            'Net charging of BEV for tax and tariff calculation'
+POSITIVE VARIABLE         VEV_VNETCHARGE_PHEV_2(Y,RRR,S,T)           'Net charging of PHEV for tax and tariff calculation'
+POSITIVE VARIABLE         VEV_VNETDISCHARGE_BEV_2(Y,RRR,S,T)            'Net discharging of BEV for tax and tariff calculation'
+POSITIVE VARIABLE         VEV_VNETDISCHARGE_PHEV_2(Y,RRR,S,T)           'Net discharging of PHEV for tax and tariff calculation'
+$label  MIXEDFLEET_END
 ;
 
