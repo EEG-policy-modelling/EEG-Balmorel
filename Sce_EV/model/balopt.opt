@@ -17,7 +17,7 @@
 * Hence, if calculation time is an issue, it is recommended as default to not use them,
 * and then, if the solver declares the problem infeasible, use them and resolve.
 * Information of ... in the .log file?
-$setglobal vqdebug yes
+$setglobal vqdebug
 *!option yes
 
 
@@ -156,7 +156,12 @@ $setglobal EV yes
 *!option yes
 
 * EV Charging scheme
-$setglobal V2G yes
+$setglobal MIXEDFLEET yes
+*!option yes
+
+* EV Degradation Costs
+$setglobal DEGCYL 
+$setglobal DEGCAL 
 *!option yes
 
 * Combine two technologies to one to achieve e.g. multifuel characteristics.
