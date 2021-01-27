@@ -2,3 +2,4 @@
 ## all huge gdx and database files
 *.db
 *.gdx
+*.lst
