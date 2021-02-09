@@ -12,6 +12,7 @@
 **/*.dat
 **/*.cmd
 **/*.lst
+**/*.xlsm
 #**/data/*.inc
 #**/model/Balmorel.l*
 #**/output/economic/*.*
