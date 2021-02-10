@@ -13,6 +13,10 @@
 **/*.cmd
 **/*.lst
 **/*.xlsm
+!**/Input_Austria_2030 (compatible with current BB4)_NECP-NoTrade.xlsm
+!**/Input_Austria_2030 (compatible with current BB4)_NECP-Trade.xlsm
+!**/Input_Austria_2030 (compatible with current BB4)_RE40-NoTrade.xlsm
+!**/Input_Austria_2030 (compatible with current BB4)_RE40-Trade.xlsm
 #**/data/*.inc
 #**/model/Balmorel.l*
 #**/output/economic/*.*
