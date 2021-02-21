@@ -1,0 +1,66 @@
+                                                                          
+PARAMETER SOLEFLH(AAA)  'Full load hours for solar power'                 
+/                                                                         
+AT_A                                                      953.579106057194
+BE_A                                                      739.333337438613
+BG_A                                                      1128.96920072285
+CY_A                                                      1405.63398489228
+CZ_A                                                      874.917053824222
+DE_A                                                      895.202043315247
+DK_A                                                      805.676934251615
+EE_A                                                      845.341539693704
+EL_A                                                      1277.35352012442
+ES_A                                                      1379.2260390659 
+FI_A                                                      753.802625052689
+FR_A                                                      1102.23497881614
+HR_A                                                      1046.8616771115 
+HU_A                                                      1024.0803475955 
+IE_A                                                      778.920945226789
+IT_A                                                      1291.16811086777
+LT_A                                                      862.89301585336 
+LU_A                                                      799.586236883624
+LV_A                                                      865.029035117285
+MT_A                                                      1406.45877261713
+NL_A                                                      804.517075169565
+PO_A                                                      868.095466944789
+PT_A                                                      1347.05978728178
+RO_A                                                      1135.92028968742
+SE_A                                                      783.072328422229
+SI_A                                                      1018.67304528064
+SK_A                                                      949.212384626323
+CH_A                                                      800             
+NO_A                                                      800             
+UK_A                                                      800             
+AT_Offshore                                               1               
+BE_Offshore                                               1               
+BG_Offshore                                               1               
+CY_Offshore                                               1               
+CZ_Offshore                                               1               
+DE_Offshore                                               1               
+DK_Offshore                                               1               
+EE_Offshore                                               1               
+EL_Offshore                                               1               
+ES_Offshore                                               1               
+FI_Offshore                                               1               
+FR_Offshore                                               1               
+HR_Offshore                                               1               
+HU_Offshore                                               1               
+IE_Offshore                                               1               
+IT_Offshore                                               1               
+LT_Offshore                                               1               
+LU_Offshore                                               1               
+LV_Offshore                                               1               
+MT_Offshore                                               1               
+NL_Offshore                                               1               
+PO_Offshore                                               1               
+PT_Offshore                                               1               
+RO_Offshore                                               1               
+SE_Offshore                                               1               
+SI_Offshore                                               1               
+SK_Offshore                                               1               
+CH_Offshore                                               1               
+NO_Offshore                                               1               
+UK_Offshore                                               1               
+HUB_Offshore                                              1               
+/;                                                                        
+*SOLEFLH(AAA)$(SOLEFLH(AAA) EQ 0) = SOLEFLH('AT_A') ;                     
