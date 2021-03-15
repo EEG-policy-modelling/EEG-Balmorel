@@ -1,5 +1,0 @@
-gams: **** Error: Parameter error(s)
-    :             Reading parameter(s) from "command line"
-    :             *** Error Unknown option "dir"
-    :             Finished reading from "command line"
-    :             *** Error command line = I "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.gms" lo=3 ide=1 er=99 errmsg=1 pagesize=0 LstTitleLeftAligned=1 dir=
