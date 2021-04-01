@@ -1,371 +1,355 @@
 
---- Job Balmorel.gms Start 02/04/21 17:23:34 33.2.0 r4f23b21 WEX-WEI x86 64bit/MS Windows
---- Applying:
-    C:\GAMS\33\gmsprmNT.txt
---- GAMS Parameters defined
-    Input "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.gms"
-    PageWidth 80
-    PageSize 0
-    PageContr 3
-    Action CE
-    ScrDir "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\225a\"
-    SysDir C:\GAMS\33\
-    WorkDir "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\"
-    LogOption 3
-    DFormat 0
-    TFormat 0
-    ErrorLog 99
-    IDE 1
-Licensee: Small MUD - 5 User License                     S200810/0001AO-WIN
+--- Job Balmorel.gms Start 03/18/21 15:38:38 24.7.1 r56632 WEX-WEI x86 64bit/MS Windows
+GAMS 24.7.1   Copyright (C) 1987-2016 GAMS Development. All rights reserved
+Licensee: Small MUD - 5 User License                     S190709/0001AO-WIN
           TU Wien, Energy Economics Group                           DC14452
-          C:\GAMS\33\gamslice.txt
-GAMS 33.2.0   Copyright (C) 1987-2020 GAMS Development. All rights reserved
+          License for teaching and research at degree granting institutions
+          License Admin: Albert Hiesl, hiesl@eeg.tuwien.ac.at              
 --- Starting compilation
 --- Balmorel.gms(42) 2 Mb
---- . ../../base/model/balgams.opt(156) 2 Mb
+--- .../../base/model/balgams.opt(156) 2 Mb
 --- Balmorel.gms(49) 2 Mb
---- . ../../base/model/balopt.opt(762) 2 Mb
+--- .../../base/model/balopt.opt(762) 2 Mb
 --- Balmorel.gms(99) 2 Mb
---- . ../../base/logerror/logerinc/error1.inc(44) 2 Mb
---- .. ../../base/addons/_hooks/hellolog.inc(117) 2 Mb
---- . ../../base/logerror/logerinc/error1.inc(56) 2 Mb
+--- .../../base/logerror/logerinc/error1.inc(44) 2 Mb
+--- ..../../base/addons/_hooks/hellolog.inc(117) 2 Mb
+--- .../../base/logerror/logerinc/error1.inc(56) 2 Mb
 --- Balmorel.gms(119) 2 Mb
---- . ../../base/model/Balmorelbb4.inc(401) 2 Mb
---- .. ../../base/model/bb4datainc.inc(29) 2 Mb
---- ... ../data/CCCRRRAAA.inc(131) 3 Mb
---- .. ../../base/model/bb4datainc.inc(34) 3 Mb
---- ... ../data/CCC.inc(34) 3 Mb
---- .. ../../base/model/bb4datainc.inc(39) 3 Mb
---- ... ../data/RRR.inc(34) 3 Mb
---- .. ../../base/model/bb4datainc.inc(44) 3 Mb
---- ... ../data/AAA.inc(64) 3 Mb
---- .. ../../base/model/bb4datainc.inc(49) 3 Mb
---- ... ../data/CCCRRR.inc(34) 3 Mb
---- .. ../../base/model/bb4datainc.inc(54) 3 Mb
---- ... ../data/RRRAAA.inc(64) 3 Mb
---- .. ../../base/model/bb4datainc.inc(59) 3 Mb
---- ... ../data/C.inc(34) 3 Mb
---- .. ../../base/model/bb4datainc.inc(86) 3 Mb
---- ... ../data/YYY.inc(2) 3 Mb
---- .. ../../base/model/bb4datainc.inc(91) 3 Mb
---- ... ../data/SSS.inc(4) 3 Mb
---- .. ../../base/model/bb4datainc.inc(96) 3 Mb
---- ... ../data/TTT.inc(4) 3 Mb
---- .. ../../base/model/bb4datainc.inc(102) 3 Mb
---- ... ../../base/data/DEUSER.inc(4) 3 Mb
---- .. ../../base/model/bb4datainc.inc(107) 3 Mb
---- ... ../../base/data/DHUSER.inc(2) 3 Mb
---- .. ../../base/model/bb4datainc.inc(111) 3 Mb
---- ... ../data/FFF.inc(114) 3 Mb
---- .. ../../base/model/bb4datainc.inc(116) 3 Mb
---- ... ../data/FDATASET.inc(9) 3 Mb
---- .. ../../base/model/bb4datainc.inc(121) 3 Mb
---- ... ../data/FDATA.inc(96) 3 Mb
---- .. ../../base/model/bb4datainc.inc(126) 3 Mb
---- ... ../data/GGG.inc(183) 3 Mb
---- .. ../../base/model/bb4datainc.inc(131) 3 Mb
---- ... ../data/GDATASET.inc(58) 3 Mb
---- .. ../../base/model/bb4datainc.inc(136) 3 Mb
---- ... ../data/TECH_GROUP.inc(20) 3 Mb
---- .. ../../base/model/bb4datainc.inc(141) 3 Mb
---- ... ../data/TECH_GROUP_VALUE.inc(20) 3 Mb
---- .. ../../base/model/bb4datainc.inc(147) 3 Mb
---- ... ../../base/data/SUBTECH_GROUP.inc(25) 3 Mb
---- .. ../../base/model/bb4datainc.inc(152) 3 Mb
---- ... ../../base/data/SUBTECH_GROUP_VALUE.inc(25) 3 Mb
---- .. ../../base/model/bb4datainc.inc(156) 3 Mb
---- ... ../data/G.inc(183) 3 Mb
---- .. ../../base/model/bb4datainc.inc(165) 3 Mb
---- ... ../../base/addons/_hooks/acronyms.inc(15) 3 Mb
---- .. ../../base/model/bb4datainc.inc(166) 3 Mb
---- ... ../../base/addons/_hooks/setdeclare.inc(36) 3 Mb
---- .. ../../base/model/bb4datainc.inc(167) 3 Mb
---- ... ../../base/addons/_hooks/setdefine.inc(39) 3 Mb
---- .. ../../base/model/bb4datainc.inc(178) 3 Mb
---- ... ../data/GDATA.inc(188) 3 Mb
---- .. ../../base/model/bb4datainc.inc(186) 3 Mb
---- ... ../../base/addons/_hooks/gdataadditions.inc(17) 3 Mb
---- .. ../../base/model/bb4datainc.inc(202) 3 Mb
---- ... ../data/HYRSMAXVOL_G.inc(838) 3 Mb
---- .. ../../base/model/bb4datainc.inc(207) 3 Mb
---- ... ../data/HYRSDATASET.inc(8) 3 Mb
---- .. ../../base/model/bb4datainc.inc(212) 3 Mb
---- ... ../data/DF_QP.inc(5) 3 Mb
---- .. ../../base/model/bb4datainc.inc(217) 3 Mb
---- ... ../data/MPOLSET.inc(9) 3 Mb
---- .. ../../base/model/bb4datainc.inc(223) 3 Mb
---- ... ../data/AGKN.inc(138) 3 Mb
---- .. ../../base/model/bb4datainc.inc(229) 3 Mb
---- ... ../data/Y.inc(6) 3 Mb
---- .. ../../base/model/bb4datainc.inc(238) 3 Mb
---- ... ../data/S.inc(6) 3 Mb
---- .. ../../base/model/bb4datainc.inc(247) 3 Mb
---- ... ../data/T.inc(5) 3 Mb
---- .. ../../base/model/bb4datainc.inc(255) 3 Mb
---- ... ../data/YVALUE.inc(12) 3 Mb
---- .. ../../base/model/bb4datainc.inc(265) 3 Mb
---- ... ../data/TWORKDAY.inc(1) 3 Mb
---- .. ../../base/model/bb4datainc.inc(270) 3 Mb
---- ... ../data/TWEEKEND.inc(1) 3 Mb
---- .. ../../base/model/bb4datainc.inc(390) 3 Mb
---- ... ../data/GKFX.inc(803) 4 Mb
---- .. ../../base/model/bb4datainc.inc(396) 4 Mb
---- ... ../data/FMAXINVEST.inc(4) 4 Mb
---- .. ../../base/model/bb4datainc.inc(413) 4 Mb
---- ... ../data/DISLOSS_E.inc(35) 4 Mb
---- .. ../../base/model/bb4datainc.inc(418) 4 Mb
---- ... ../data/DISLOSS_H.inc(66) 4 Mb
---- .. ../../base/model/bb4datainc.inc(423) 4 Mb
---- ... ../data/DISCOST_E.inc(35) 4 Mb
---- .. ../../base/model/bb4datainc.inc(428) 4 Mb
---- ... ../data/DISCOST_H.inc(66) 4 Mb
---- .. ../../base/model/bb4datainc.inc(433) 4 Mb
---- ... ../data/FKPOT.inc(41) 4 Mb
---- .. ../../base/model/bb4datainc.inc(438) 4 Mb
---- ... ../data/TECHGROUPKPOT.inc(34) 4 Mb
---- .. ../../base/model/bb4datainc.inc(444) 4 Mb
---- ... ../../base/data/SUBTECHGROUPKPOT.inc(21) 4 Mb
---- .. ../../base/model/bb4datainc.inc(483) 4 Mb
---- ... ../data/FGEMIN.inc(5) 4 Mb
---- .. ../../base/model/bb4datainc.inc(488) 4 Mb
---- ... ../data/FGEMAX.inc(5) 4 Mb
---- .. ../../base/model/bb4datainc.inc(494) 4 Mb
---- ... ../data/GMINF.inc(4) 4 Mb
---- .. ../../base/model/bb4datainc.inc(500) 4 Mb
---- ... ../data/GMAXF.inc(5) 4 Mb
---- .. ../../base/model/bb4datainc.inc(506) 4 Mb
---- ... ../data/GEQF.inc(4) 4 Mb
---- .. ../../base/model/bb4datainc.inc(511) 4 Mb
---- ... ../data/GMAXFS.inc(6) 4 Mb
---- .. ../../base/model/bb4datainc.inc(523) 4 Mb
---- ... ../data/WTRRSFLH.inc(65) 4 Mb
---- .. ../../base/model/bb4datainc.inc(528) 4 Mb
---- ... ../data/WTRRRFLH.inc(64) 4 Mb
---- .. ../../base/model/bb4datainc.inc(534) 4 Mb
---- ... ../data/WNDFLH.inc(65) 4 Mb
---- .. ../../base/model/bb4datainc.inc(540) 4 Mb
---- ... ../data/SOLEFLH.inc(66) 4 Mb
---- .. ../../base/model/bb4datainc.inc(547) 4 Mb
---- ... ../data/SOLHFLH.inc(65) 4 Mb
---- .. ../../base/model/bb4datainc.inc(553) 4 Mb
---- ... ../data/WAVEFLH.inc(65) 4 Mb
---- .. ../../base/model/bb4datainc.inc(558) 4 Mb
---- ... ../data/HYRSDATA.inc(136) 4 Mb
---- .. ../../base/model/bb4datainc.inc(564) 4 Mb
---- ... ../../base/data/DISCOUNTRATE.inc(2) 4 Mb
---- .. ../../base/model/bb4datainc.inc(569) 4 Mb
---- ... ../../base/data/LIFETIME_X.inc(2) 4 Mb
---- .. ../../base/model/bb4datainc.inc(573) 4 Mb
---- ... ../data/ANNUITYCG.inc(6) 4 Mb
---- .. ../../base/model/bb4datainc.inc(578) 4 Mb
---- ... ../data/ANNUITYCX.inc(6) 4 Mb
---- .. ../../base/model/bb4datainc.inc(583) 4 Mb
---- ... ../data/GINVCOST.inc(3) 4 Mb
---- .. ../../base/model/bb4datainc.inc(589) 4 Mb
---- ... ../../base/data/GOMVCOSTO.inc(6) 4 Mb
---- .. ../../base/model/bb4datainc.inc(594) 4 Mb
---- ... ../../base/data/GOMVCOSTIN.inc(6) 4 Mb
---- .. ../../base/model/bb4datainc.inc(598) 4 Mb
---- ... ../data/GOMFCOST.inc(7) 4 Mb
---- .. ../../base/model/bb4datainc.inc(603) 4 Mb
---- ... ../data/GEFFRATE.inc(5) 4 Mb
---- .. ../../base/model/bb4datainc.inc(608) 4 Mb
---- ... ../data/DEFP_BASE.inc(34) 4 Mb
---- .. ../../base/model/bb4datainc.inc(613) 4 Mb
---- ... ../data/DHFP_BASE.inc(67) 4 Mb
---- .. ../../base/model/bb4datainc.inc(619) 4 Mb
---- ... ../../base/data/GKF_LO.inc(4) 4 Mb
---- .. ../../base/model/bb4datainc.inc(631) 4 Mb
---- ... ../data/DE.inc(48) 4 Mb
---- .. ../../base/model/bb4datainc.inc(640) 4 Mb
---- ... ../data/DH.inc(183) 4 Mb
---- .. ../../base/model/bb4datainc.inc(650) 4 Mb
---- ... ../data/XINVCOST.inc(90) 4 Mb
---- .. ../../base/model/bb4datainc.inc(655) 4 Mb
---- ... ../data/XKFX.inc(148) 4 Mb
---- .. ../../base/model/bb4datainc.inc(660) 4 Mb
---- ... ../data/XCOST.inc(50) 4 Mb
---- .. ../../base/model/bb4datainc.inc(665) 4 Mb
---- ... ../data/XLOSS.inc(61) 4 Mb
---- .. ../../base/model/bb4datainc.inc(672) 4 Mb
---- ... ../data/XKRATE.inc(5) 4 Mb
---- .. ../../base/model/bb4datainc.inc(677) 4 Mb
---- ... ../data/XMAXINV.inc(46) 4 Mb
---- .. ../../base/model/bb4datainc.inc(687) 4 Mb
---- ... ../data/FUELPRICE.inc(164) 4 Mb
---- .. ../../base/model/bb4datainc.inc(697) 4 Mb
---- ... ../data/M_POL.inc(401) 4 Mb
---- .. ../../base/model/bb4datainc.inc(715) 4 Mb
---- ... ../data/WEIGHT_S.inc(7) 4 Mb
---- .. ../../base/model/bb4datainc.inc(720) 4 Mb
---- ... ../data/WEIGHT_T.inc(8) 4 Mb
---- .. ../../base/model/bb4datainc.inc(725) 4 Mb
---- ... ../data/CHRONOHOUR.inc(4) 4 Mb
---- .. ../../base/model/bb4datainc.inc(730) 4 Mb
---- ... ../data/GKRATE.inc(60) 4 Mb
---- .. ../../base/model/bb4datainc.inc(735) 4 Mb
---- ... ../data/DE_VAR_T.inc(26220) 14 Mb
---- .. ../../base/model/bb4datainc.inc(740) 14 Mb
---- ... ../data/DH_VAR_T.inc(8800) 23 Mb
---- .. ../../base/model/bb4datainc.inc(745) 23 Mb
---- ... ../data/WTRRSVAR_S.inc(100) 23 Mb
---- .. ../../base/model/bb4datainc.inc(750) 23 Mb
---- ... ../data/WTRRRVAR_T.inc(72) 23 Mb
---- .. ../../base/model/bb4datainc.inc(755) 23 Mb
---- ... ../data/WND_VAR_T.inc(9462) 33 Mb
---- .. ../../base/model/bb4datainc.inc(760) 33 Mb
---- ... ../data/SOLE_VAR_T.inc(8749) 42 Mb
---- .. ../../base/model/bb4datainc.inc(765) 42 Mb
---- ... ../data/SOLH_VAR_T.inc(8745) 42 Mb
---- .. ../../base/model/bb4datainc.inc(770) 42 Mb
---- ... ../data/WAVE_VAR_T.inc(3) 42 Mb
---- .. ../../base/model/bb4datainc.inc(775) 42 Mb
---- ... ../data/X3FX.inc(29) 42 Mb
---- .. ../../base/model/bb4datainc.inc(780) 42 Mb
---- ... ../data/X3FX_VAR_T.inc(8751) 42 Mb
---- .. ../../base/model/bb4datainc.inc(785) 42 Mb
---- ... ../data/HYPPROFILS.inc(18) 42 Mb
---- .. ../../base/model/bb4datainc.inc(802) 42 Mb
---- ... ../data/YMODEL.inc(6) 42 Mb
---- .. ../../base/model/bb4datainc.inc(804) 42 Mb
---- ... ../data/YMODELDELTA.inc(6) 42 Mb
---- .. ../../base/model/bb4datainc.inc(820) 42 Mb
---- ... ../data/OMONEY.inc(2) 42 Mb
---- .. ../../base/model/bb4datainc.inc(825) 42 Mb
---- ... ../data/PENALTYQ.inc(5) 42 Mb
---- .. ../../base/model/bb4datainc.inc(833) 42 Mb
---- ... ../../base/addons/_hooks/pardefine.inc(36) 42 Mb
---- .. ../../base/model/bb4datainc.inc(835) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(596) 42 Mb
---- .. ../../base/addons/_hooks/isetdecdef.inc(24) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(622) 42 Mb
---- .. ../../base/addons/_hooks/pardeclare.inc(29) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1023) 42 Mb
---- .. ../../base/addons/_hooks/ipardecdef.inc(22) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1143) 42 Mb
---- .. ../../base/output/printout/printinc/print1.inc(353) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1148) 42 Mb
---- .. ../../base/logerror/logerinc/error2.inc(1119) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1179) 42 Mb
---- .. ../../base/addons/_hooks/reducecard.inc(4) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1274) 42 Mb
---- .. ../../base/addons/_hooks/vardeclare.inc(33) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1504) 42 Mb
---- .. ../../base/addons/_hooks/qobj.inc(36) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1536) 42 Mb
---- .. ../../base/addons/_hooks/qeeq.inc(24) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1553) 42 Mb
---- .. ../../base/addons/_hooks/qheq.inc(22) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1568) 42 Mb
---- .. ../../base/addons/_hooks/qgfeq.inc(20) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1645) 42 Mb
---- .. ../../base/addons/_hooks/qhyrsseq.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1656) 42 Mb
---- .. ../../base/addons/_hooks/qhyrsminvol.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1668) 42 Mb
---- .. ../../base/addons/_hooks/qhyrsmaxvol.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1683) 42 Mb
---- .. ../../base/addons/_hooks/qhymaxg.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1695) 42 Mb
---- .. ../../base/addons/_hooks/qestovolt.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1708) 42 Mb
---- .. ../../base/addons/_hooks/qestovolts.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1718) 42 Mb
---- .. ../../base/addons/_hooks/qhstovolt.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1731) 42 Mb
---- .. ../../base/addons/_hooks/qhstovolts.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1908) 42 Mb
---- .. ../../base/addons/_hooks/qkefuelc.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1919) 42 Mb
---- .. ../../base/addons/_hooks/qkefuelr.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1930) 42 Mb
---- .. ../../base/addons/_hooks/qkefuela.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(1983) 42 Mb
---- .. ../../base/addons/_hooks/qgeqcf.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2000) 42 Mb
---- .. ../../base/addons/_hooks/qgeqrf.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2017) 42 Mb
---- .. ../../base/addons/_hooks/qgeqaf.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2140) 42 Mb
---- .. ../../base/addons/_hooks/qktechgroupc.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2151) 42 Mb
---- .. ../../base/addons/_hooks/qktechgroupr.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2162) 42 Mb
---- .. ../../base/addons/_hooks/qktechgroupa.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2215) 42 Mb
---- .. ../../base/addons/_hooks/qxk_up.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2226) 42 Mb
---- .. ../../base/addons/_hooks/qxknaccumnet.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2293) 42 Mb
---- .. ../../base/addons/_hooks/qgknaccumgross.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2309) 42 Mb
---- .. ../../base/addons/_hooks/qgknaccumnet.inc(9) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2334) 42 Mb
---- .. ../../base/addons/_hooks/qgke_up.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2344) 42 Mb
---- .. ../../base/addons/_hooks/qgkh_up.inc(8) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2455) 42 Mb
---- .. ../../base/addons/_hooks/eqndecdef.inc(30) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2614) 42 Mb
---- .. ../../base/addons/_hooks/balbase4.inc(21) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2650) 42 Mb
---- .. ../../base/addons/_hooks/error2.inc(15) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2651) 42 Mb
---- .. ../../base/addons/BB4/errorBB4.inc(62) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2678) 42 Mb
---- .. ../../base/addons/BB4/BB4overview.inc(114) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2683) 42 Mb
---- .. ../../base/model/Balmorelbb4.sim(250) 42 Mb
---- ... ../../base/addons/_hooks/sim.inc(26) 42 Mb
---- .. ../../base/model/Balmorelbb4.sim(251) 42 Mb
---- ... ../../base/addons/_hooks/varloupfx.inc(8) 42 Mb
---- .. ../../base/model/Balmorelbb4.sim(300) 42 Mb
---- ... ../../base/addons/_hooks/solveend.inc(17) 42 Mb
---- .. ../../base/model/Balmorelbb4.sim(305) 42 Mb
---- ... ../../base/logerror/logerinc/balbase4.mss(120) 42 Mb
---- .. ../../base/model/Balmorelbb4.sim(341) 42 Mb
---- ... ../../base/addons/BB4/errorBB4.inc(62) 42 Mb
---- .. ../../base/model/Balmorelbb4.sim(369) 42 Mb
---- ... ../../base/addons/_hooks/varassign.inc(4) 42 Mb
---- .. ../../base/model/Balmorelbb4.sim(392) 42 Mb
---- . ../../base/model/Balmorelbb4.inc(2748) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(401) 2 Mb
+--- ..../../base/model/bb4datainc.inc(29) 2 Mb
+--- ...../data/CCCRRRAAA.inc(131) 3 Mb
+--- ..../../base/model/bb4datainc.inc(34) 3 Mb
+--- ...../data/CCC.inc(34) 3 Mb
+--- ..../../base/model/bb4datainc.inc(39) 3 Mb
+--- ...../data/RRR.inc(34) 3 Mb
+--- ..../../base/model/bb4datainc.inc(44) 3 Mb
+--- ...../data/AAA.inc(64) 3 Mb
+--- ..../../base/model/bb4datainc.inc(49) 3 Mb
+--- ...../data/CCCRRR.inc(34) 3 Mb
+--- ..../../base/model/bb4datainc.inc(54) 3 Mb
+--- ...../data/RRRAAA.inc(64) 3 Mb
+--- ..../../base/model/bb4datainc.inc(59) 3 Mb
+--- ...../data/C.inc(34) 3 Mb
+--- ..../../base/model/bb4datainc.inc(86) 3 Mb
+--- ...../data/YYY.inc(2) 3 Mb
+--- ..../../base/model/bb4datainc.inc(91) 3 Mb
+--- ...../data/SSS.inc(4) 3 Mb
+--- ..../../base/model/bb4datainc.inc(96) 3 Mb
+--- ...../data/TTT.inc(4) 3 Mb
+--- ..../../base/model/bb4datainc.inc(102) 3 Mb
+--- ...../../base/data/DEUSER.inc(4) 3 Mb
+--- ..../../base/model/bb4datainc.inc(107) 3 Mb
+--- ...../../base/data/DHUSER.inc(2) 3 Mb
+--- ..../../base/model/bb4datainc.inc(111) 3 Mb
+--- ...../data/FFF.inc(114) 3 Mb
+--- ..../../base/model/bb4datainc.inc(116) 3 Mb
+--- ...../data/FDATASET.inc(9) 3 Mb
+--- ..../../base/model/bb4datainc.inc(121) 3 Mb
+--- ...../data/FDATA.inc(96) 3 Mb
+--- ..../../base/model/bb4datainc.inc(126) 3 Mb
+--- ...../data/GGG.inc(183) 3 Mb
+--- ..../../base/model/bb4datainc.inc(131) 3 Mb
+--- ...../data/GDATASET.inc(58) 3 Mb
+--- ..../../base/model/bb4datainc.inc(136) 3 Mb
+--- ...../data/TECH_GROUP.inc(20) 3 Mb
+--- ..../../base/model/bb4datainc.inc(141) 3 Mb
+--- ...../data/TECH_GROUP_VALUE.inc(20) 3 Mb
+--- ..../../base/model/bb4datainc.inc(147) 3 Mb
+--- ...../../base/data/SUBTECH_GROUP.inc(25) 3 Mb
+--- ..../../base/model/bb4datainc.inc(152) 3 Mb
+--- ...../../base/data/SUBTECH_GROUP_VALUE.inc(25) 3 Mb
+--- ..../../base/model/bb4datainc.inc(156) 3 Mb
+--- ...../data/G.inc(183) 3 Mb
+--- ..../../base/model/bb4datainc.inc(165) 3 Mb
+--- ...../../base/addons/_hooks/acronyms.inc(15) 3 Mb
+--- ..../../base/model/bb4datainc.inc(166) 3 Mb
+--- ...../../base/addons/_hooks/setdeclare.inc(36) 3 Mb
+--- ..../../base/model/bb4datainc.inc(167) 3 Mb
+--- ...../../base/addons/_hooks/setdefine.inc(39) 3 Mb
+--- ..../../base/model/bb4datainc.inc(178) 3 Mb
+--- ...../data/GDATA.inc(188) 3 Mb
+--- ..../../base/model/bb4datainc.inc(186) 3 Mb
+--- ...../../base/addons/_hooks/gdataadditions.inc(17) 3 Mb
+--- ..../../base/model/bb4datainc.inc(202) 3 Mb
+--- ...../data/HYRSMAXVOL_G.inc(838) 3 Mb
+--- ..../../base/model/bb4datainc.inc(207) 3 Mb
+--- ...../data/HYRSDATASET.inc(8) 3 Mb
+--- ..../../base/model/bb4datainc.inc(212) 3 Mb
+--- ...../data/DF_QP.inc(5) 3 Mb
+--- ..../../base/model/bb4datainc.inc(217) 3 Mb
+--- ...../data/MPOLSET.inc(9) 3 Mb
+--- ..../../base/model/bb4datainc.inc(223) 3 Mb
+--- ...../data/AGKN.inc(138) 3 Mb
+--- ..../../base/model/bb4datainc.inc(229) 3 Mb
+--- ...../data/Y.inc(6) 3 Mb
+--- ..../../base/model/bb4datainc.inc(238) 3 Mb
+--- ...../data/S.inc(6) 3 Mb
+--- ..../../base/model/bb4datainc.inc(247) 3 Mb
+--- ...../data/T.inc(5) 3 Mb
+--- ..../../base/model/bb4datainc.inc(255) 3 Mb
+--- ...../data/YVALUE.inc(12) 3 Mb
+--- ..../../base/model/bb4datainc.inc(265) 3 Mb
+--- ...../data/TWORKDAY.inc(1) 3 Mb
+--- ..../../base/model/bb4datainc.inc(270) 3 Mb
+--- ...../data/TWEEKEND.inc(1) 3 Mb
+--- ..../../base/model/bb4datainc.inc(390) 3 Mb
+--- ...../data/GKFX.inc(803) 4 Mb
+--- ..../../base/model/bb4datainc.inc(396) 4 Mb
+--- ...../data/FMAXINVEST.inc(4) 4 Mb
+--- ..../../base/model/bb4datainc.inc(413) 4 Mb
+--- ...../data/DISLOSS_E.inc(35) 4 Mb
+--- ..../../base/model/bb4datainc.inc(418) 4 Mb
+--- ...../data/DISLOSS_H.inc(66) 4 Mb
+--- ..../../base/model/bb4datainc.inc(423) 4 Mb
+--- ...../data/DISCOST_E.inc(35) 4 Mb
+--- ..../../base/model/bb4datainc.inc(428) 4 Mb
+--- ...../data/DISCOST_H.inc(66) 4 Mb
+--- ..../../base/model/bb4datainc.inc(433) 4 Mb
+--- ...../data/FKPOT.inc(41) 4 Mb
+--- ..../../base/model/bb4datainc.inc(438) 4 Mb
+--- ...../data/TECHGROUPKPOT.inc(34) 4 Mb
+--- ..../../base/model/bb4datainc.inc(444) 4 Mb
+--- ...../../base/data/SUBTECHGROUPKPOT.inc(21) 4 Mb
+--- ..../../base/model/bb4datainc.inc(483) 4 Mb
+--- ...../data/FGEMIN.inc(5) 4 Mb
+--- ..../../base/model/bb4datainc.inc(488) 4 Mb
+--- ...../data/FGEMAX.inc(5) 4 Mb
+--- ..../../base/model/bb4datainc.inc(494) 4 Mb
+--- ...../data/GMINF.inc(4) 4 Mb
+--- ..../../base/model/bb4datainc.inc(500) 4 Mb
+--- ...../data/GMAXF.inc(5) 4 Mb
+--- ..../../base/model/bb4datainc.inc(506) 4 Mb
+--- ...../data/GEQF.inc(4) 4 Mb
+--- ..../../base/model/bb4datainc.inc(511) 4 Mb
+--- ...../data/GMAXFS.inc(6) 4 Mb
+--- ..../../base/model/bb4datainc.inc(523) 4 Mb
+--- ...../data/WTRRSFLH.inc(65) 4 Mb
+--- ..../../base/model/bb4datainc.inc(528) 4 Mb
+--- ...../data/WTRRRFLH.inc(64) 4 Mb
+--- ..../../base/model/bb4datainc.inc(534) 4 Mb
+--- ...../data/WNDFLH.inc(65) 4 Mb
+--- ..../../base/model/bb4datainc.inc(540) 4 Mb
+--- ...../data/SOLEFLH.inc(66) 4 Mb
+--- ..../../base/model/bb4datainc.inc(547) 4 Mb
+--- ...../data/SOLHFLH.inc(65) 4 Mb
+--- ..../../base/model/bb4datainc.inc(553) 4 Mb
+--- ...../data/WAVEFLH.inc(65) 4 Mb
+--- ..../../base/model/bb4datainc.inc(558) 4 Mb
+--- ...../data/HYRSDATA.inc(136) 4 Mb
+--- ..../../base/model/bb4datainc.inc(564) 4 Mb
+--- ...../../base/data/DISCOUNTRATE.inc(2) 4 Mb
+--- ..../../base/model/bb4datainc.inc(569) 4 Mb
+--- ...../../base/data/LIFETIME_X.inc(2) 4 Mb
+--- ..../../base/model/bb4datainc.inc(573) 4 Mb
+--- ...../data/ANNUITYCG.inc(6) 4 Mb
+--- ..../../base/model/bb4datainc.inc(578) 4 Mb
+--- ...../data/ANNUITYCX.inc(6) 4 Mb
+--- ..../../base/model/bb4datainc.inc(583) 4 Mb
+--- ...../data/GINVCOST.inc(3) 4 Mb
+--- ..../../base/model/bb4datainc.inc(589) 4 Mb
+--- ...../../base/data/GOMVCOSTO.inc(6) 4 Mb
+--- ..../../base/model/bb4datainc.inc(594) 4 Mb
+--- ...../../base/data/GOMVCOSTIN.inc(6) 4 Mb
+--- ..../../base/model/bb4datainc.inc(598) 4 Mb
+--- ...../data/GOMFCOST.inc(7) 4 Mb
+--- ..../../base/model/bb4datainc.inc(603) 4 Mb
+--- ...../data/GEFFRATE.inc(5) 4 Mb
+--- ..../../base/model/bb4datainc.inc(608) 4 Mb
+--- ...../data/DEFP_BASE.inc(34) 4 Mb
+--- ..../../base/model/bb4datainc.inc(613) 4 Mb
+--- ...../data/DHFP_BASE.inc(67) 4 Mb
+--- ..../../base/model/bb4datainc.inc(619) 4 Mb
+--- ...../../base/data/GKF_LO.inc(4) 4 Mb
+--- ..../../base/model/bb4datainc.inc(631) 4 Mb
+--- ...../data/DE.inc(48) 4 Mb
+--- ..../../base/model/bb4datainc.inc(640) 4 Mb
+--- ...../data/DH.inc(183) 4 Mb
+--- ..../../base/model/bb4datainc.inc(650) 4 Mb
+--- ...../data/XINVCOST.inc(90) 4 Mb
+--- ..../../base/model/bb4datainc.inc(655) 4 Mb
+--- ...../data/XKFX.inc(148) 4 Mb
+--- ..../../base/model/bb4datainc.inc(660) 4 Mb
+--- ...../data/XCOST.inc(50) 4 Mb
+--- ..../../base/model/bb4datainc.inc(665) 4 Mb
+--- ...../data/XLOSS.inc(61) 4 Mb
+--- ..../../base/model/bb4datainc.inc(672) 4 Mb
+--- ...../data/XKRATE.inc(5) 4 Mb
+--- ..../../base/model/bb4datainc.inc(677) 4 Mb
+--- ...../data/XMAXINV.inc(46) 4 Mb
+--- ..../../base/model/bb4datainc.inc(687) 4 Mb
+--- ...../data/FUELPRICE.inc(164) 4 Mb
+--- ..../../base/model/bb4datainc.inc(697) 4 Mb
+--- ...../data/M_POL.inc(401) 4 Mb
+--- ..../../base/model/bb4datainc.inc(715) 4 Mb
+--- ...../data/WEIGHT_S.inc(7) 4 Mb
+--- ..../../base/model/bb4datainc.inc(720) 4 Mb
+--- ...../data/WEIGHT_T.inc(8) 4 Mb
+--- ..../../base/model/bb4datainc.inc(725) 4 Mb
+--- ...../data/CHRONOHOUR.inc(4) 4 Mb
+--- ..../../base/model/bb4datainc.inc(730) 4 Mb
+--- ...../data/GKRATE.inc(60) 4 Mb
+--- ..../../base/model/bb4datainc.inc(735) 4 Mb
+--- ...../data/DE_VAR_T.inc(26220) 14 Mb
+--- ..../../base/model/bb4datainc.inc(740) 14 Mb
+--- ...../data/DH_VAR_T.inc(8800) 23 Mb
+--- ..../../base/model/bb4datainc.inc(745) 23 Mb
+--- ...../data/WTRRSVAR_S.inc(100) 23 Mb
+--- ..../../base/model/bb4datainc.inc(750) 23 Mb
+--- ...../data/WTRRRVAR_T.inc(72) 23 Mb
+--- ..../../base/model/bb4datainc.inc(755) 23 Mb
+--- ...../data/WND_VAR_T.inc(9462) 33 Mb
+--- ..../../base/model/bb4datainc.inc(760) 33 Mb
+--- ...../data/SOLE_VAR_T.inc(8749) 42 Mb
+--- ..../../base/model/bb4datainc.inc(765) 42 Mb
+--- ...../data/SOLH_VAR_T.inc(8745) 42 Mb
+--- ..../../base/model/bb4datainc.inc(770) 42 Mb
+--- ...../data/WAVE_VAR_T.inc(3) 42 Mb
+--- ..../../base/model/bb4datainc.inc(775) 42 Mb
+--- ...../data/X3FX.inc(29) 42 Mb
+--- ..../../base/model/bb4datainc.inc(780) 42 Mb
+--- ...../data/X3FX_VAR_T.inc(8751) 42 Mb
+--- ..../../base/model/bb4datainc.inc(785) 42 Mb
+--- ...../data/HYPPROFILS.inc(18) 42 Mb
+--- ..../../base/model/bb4datainc.inc(802) 42 Mb
+--- ...../data/YMODEL.inc(6) 42 Mb
+--- ..../../base/model/bb4datainc.inc(804) 42 Mb
+--- ...../data/YMODELDELTA.inc(6) 42 Mb
+--- ..../../base/model/bb4datainc.inc(820) 42 Mb
+--- ...../data/OMONEY.inc(2) 42 Mb
+--- ..../../base/model/bb4datainc.inc(825) 42 Mb
+--- ...../data/PENALTYQ.inc(5) 42 Mb
+--- ..../../base/model/bb4datainc.inc(833) 42 Mb
+--- ...../../base/addons/_hooks/pardefine.inc(36) 42 Mb
+--- ..../../base/model/bb4datainc.inc(835) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(596) 42 Mb
+--- ..../../base/addons/_hooks/isetdecdef.inc(24) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(622) 42 Mb
+--- ..../../base/addons/_hooks/pardeclare.inc(29) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1023) 42 Mb
+--- ..../../base/addons/_hooks/ipardecdef.inc(22) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1143) 42 Mb
+--- ..../../base/output/printout/printinc/print1.inc(353) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1148) 42 Mb
+--- ..../../base/logerror/logerinc/error2.inc(1119) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1179) 42 Mb
+--- ..../../base/addons/_hooks/reducecard.inc(4) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1274) 42 Mb
+--- ..../../base/addons/_hooks/vardeclare.inc(33) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1504) 42 Mb
+--- ..../../base/addons/_hooks/qobj.inc(36) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1536) 42 Mb
+--- ..../../base/addons/_hooks/qeeq.inc(24) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1553) 42 Mb
+--- ..../../base/addons/_hooks/qheq.inc(22) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1568) 42 Mb
+--- ..../../base/addons/_hooks/qgfeq.inc(20) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1645) 42 Mb
+--- ..../../base/addons/_hooks/qhyrsseq.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1656) 42 Mb
+--- ..../../base/addons/_hooks/qhyrsminvol.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1668) 42 Mb
+--- ..../../base/addons/_hooks/qhyrsmaxvol.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1683) 42 Mb
+--- ..../../base/addons/_hooks/qhymaxg.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1695) 42 Mb
+--- ..../../base/addons/_hooks/qestovolt.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1708) 42 Mb
+--- ..../../base/addons/_hooks/qestovolts.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1718) 42 Mb
+--- ..../../base/addons/_hooks/qhstovolt.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1731) 42 Mb
+--- ..../../base/addons/_hooks/qhstovolts.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1908) 42 Mb
+--- ..../../base/addons/_hooks/qkefuelc.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1919) 42 Mb
+--- ..../../base/addons/_hooks/qkefuelr.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1930) 42 Mb
+--- ..../../base/addons/_hooks/qkefuela.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(1983) 42 Mb
+--- ..../../base/addons/_hooks/qgeqcf.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2000) 42 Mb
+--- ..../../base/addons/_hooks/qgeqrf.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2017) 42 Mb
+--- ..../../base/addons/_hooks/qgeqaf.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2140) 42 Mb
+--- ..../../base/addons/_hooks/qktechgroupc.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2151) 42 Mb
+--- ..../../base/addons/_hooks/qktechgroupr.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2162) 42 Mb
+--- ..../../base/addons/_hooks/qktechgroupa.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2215) 42 Mb
+--- ..../../base/addons/_hooks/qxk_up.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2226) 42 Mb
+--- ..../../base/addons/_hooks/qxknaccumnet.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2293) 42 Mb
+--- ..../../base/addons/_hooks/qgknaccumgross.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2309) 42 Mb
+--- ..../../base/addons/_hooks/qgknaccumnet.inc(9) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2334) 42 Mb
+--- ..../../base/addons/_hooks/qgke_up.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2344) 42 Mb
+--- ..../../base/addons/_hooks/qgkh_up.inc(8) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2455) 42 Mb
+--- ..../../base/addons/_hooks/eqndecdef.inc(30) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2614) 42 Mb
+--- ..../../base/addons/_hooks/balbase4.inc(21) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2650) 42 Mb
+--- ..../../base/addons/_hooks/error2.inc(15) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2651) 42 Mb
+--- ..../../base/addons/BB4/errorBB4.inc(62) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2678) 42 Mb
+--- ..../../base/addons/BB4/BB4overview.inc(114) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2683) 42 Mb
+--- ..../../base/model/Balmorelbb4.sim(250) 42 Mb
+--- ...../../base/addons/_hooks/sim.inc(26) 42 Mb
+--- ..../../base/model/Balmorelbb4.sim(251) 42 Mb
+--- ...../../base/addons/_hooks/varloupfx.inc(8) 42 Mb
+--- ..../../base/model/Balmorelbb4.sim(300) 42 Mb
+--- ...../../base/addons/_hooks/solveend.inc(17) 42 Mb
+--- ..../../base/model/Balmorelbb4.sim(305) 42 Mb
+--- ...../../base/logerror/logerinc/balbase4.mss(120) 42 Mb
+--- ..../../base/model/Balmorelbb4.sim(341) 42 Mb
+--- ...../../base/addons/BB4/errorBB4.inc(62) 42 Mb
+--- ..../../base/model/Balmorelbb4.sim(369) 42 Mb
+--- ...../../base/addons/_hooks/varassign.inc(4) 42 Mb
+--- ..../../base/model/Balmorelbb4.sim(392) 42 Mb
+--- .../../base/model/Balmorelbb4.inc(2748) 42 Mb
 --- Balmorel.gms(3225) 42 Mb
---- . ../../base/addons/_hooks/endofmodel_post.inc(5) 42 Mb
---- .. ../../base/addons/all_endofmodelgdx/all_endofmodelgdx.inc(59) 42 Mb
---- . ../../base/addons/_hooks/endofmodel_post.inc(5) 42 Mb
+--- .../../base/addons/_hooks/endofmodel_post.inc(5) 42 Mb
+--- ..../../base/addons/all_endofmodelgdx/all_endofmodelgdx.inc(59) 42 Mb
+--- .../../base/addons/_hooks/endofmodel_post.inc(5) 42 Mb
 --- Balmorel.gms(3305) 42 Mb
---- . ../../base/output/OUTPUT_SUMMARY.inc(704) 42 Mb
+--- .../../base/output/OUTPUT_SUMMARY.inc(704) 42 Mb
 --- Balmorel.gms(3312) 42 Mb
---- Starting execution: elapsed 0:00:02.034
+--- Starting execution: elapsed 0:00:03.760
 --- Balmorel.gms(962) 43 Mb
 --- Balmorel.gms(965) 43 Mb
---- Balmorel.gms(79156) 124 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../output/temp/IWEIGHTY.gdx
---- Balmorel.gms(79681) 124 Mb
---- Balmorel.gms(80718) 128 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\output\inputout\INPUTDATAOUT.gdx
---- Balmorel.gms(80791) 138 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../output/temp/1INPUT.gdx
---- Balmorel.gms(82814) 506 Mb  5 secs
+--- Balmorel.gms(79156) 130 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../output/temp/IWEIGHTY.gdx
+--- Balmorel.gms(79681) 130 Mb
+rm: ../output/printout/*.*: No such file or directory
+--- Balmorel.gms(80718) 133 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\output\inputout\INPUTDATAOUT.gdx
+--- Balmorel.gms(80791) 137 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../output/temp/1INPUT.gdx
+--- Balmorel.gms(82814) 505 Mb  6 secs
 --- Generating LP model BALBASE4
---- Balmorel.gms(81021) 1446 Mb  80 secs
---- Balmorel.gms(81138) 2693 Mb  45 secs
---- Balmorel.gms(81175) 2897 Mb  9 secs
---- Balmorel.gms(81209) 6762 Mb  30 secs
---- Balmorel.gms(81258) 6903 Mb  11 secs
---- Balmorel.gms(81263) 7128 Mb  11 secs
---- Balmorel.gms(81405) 7207 Mb  4 secs
---- Balmorel.gms(81696) 7251 Mb  3 secs
---- Balmorel.gms(81706) 7294 Mb  3 secs
---- Balmorel.gms(82163) 7648 Mb  4 secs
---- Balmorel.gms(83062) 7784 Mb  35 secs
+--- Balmorel.gms(81021) 1416 Mb  95 secs
+--- Balmorel.gms(81138) 2651 Mb  26 secs
+--- Balmorel.gms(81175) 2856 Mb  4 secs
+--- Balmorel.gms(81209) 5964 Mb  13 secs
+--- Balmorel.gms(81258) 6104 Mb  3 secs
+--- Balmorel.gms(81263) 6330 Mb  4 secs
+--- Balmorel.gms(83062) 6940 Mb  21 secs
 --- LOOPS IYALIAS = 2030
 ---   16,959,241 rows  19,124,425 columns  59,767,177 non-zeroes
---- Executing CPLEX (Solvelink=2): elapsed 0:04:36.322
+--- Balmorel.gms(83062) 6940 Mb  22 secs
+--- Executing CPLEX: elapsed 0:03:23.179
+--- Balmorel.gms(83062) 6940 Mb  26 secs
 
-IBM ILOG CPLEX   33.2.0 r4f23b21 Released Dec 01, 2020 WEI x86 64bit/MS Window
-
---- GAMS/Cplex licensed for continuous and discrete problems.
+IBM ILOG CPLEX   24.7.1 r56632 Released Mar 14, 2016 WEI x86 64bit/MS Windows 
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+Cplex 12.6.3.0
 
 Reading parameter(s) from "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\cplex.op6"
 >>  * Option file 6 for CPLEX solver. For possible options, see the GAMS Solver Manual.
@@ -381,630 +365,136 @@ Reading parameter(s) from "C:\Users\geipel\Documents\GitHub\EEG-policy modelling
 >>  * The solution is returned by first method to finish.
 >>  * If memory tight, set the Threads parameter to 1.
 >> 
->>  LPmethod  6
+>>  LPmethod  4
 >>  Threads  -1
 >> 
 >> 
 Finished reading from "C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\cplex.op6"
-
---- Space for names approximately 2061.90 Mb
---- Use option 'names no' to turn use of names off
---- GMO memory 6874.21 Mb (peak 7020.12 Mb)
---- Dictionary memory 0.00 Mb
---- Cplex 12.10.0.0 link memory 558.85 Mb (peak 3663.75 Mb)
---- Starting Cplex
-
-Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de2ae
-CPXPARAM_Advance                                 0
-CPXPARAM_LPMethod                                6
-CPXPARAM_Threads                                 3
-CPXPARAM_Parallel                                1
-CPXPARAM_MIP_Display                             4
-CPXPARAM_Simplex_Limits_Iterations               2000000000
-CPXPARAM_TimeLimit                               1209600
-CPXPARAM_MIP_Tolerances_AbsMIPGap                0
-CPXPARAM_MIP_Tolerances_MIPGap                   9.9999999999999995e-07
-Parallel mode: deterministic, using up to 3 threads for concurrent optimization:
- * Starting dual Simplex on 1 thread...
- * Starting Barrier on 2 threads...
-Aggregator has done 1 substitutions...
+Resetting option THREADS of value -1 to 3 (4 cores detected).
+Reading data...
+Starting Cplex...
+Space for names approximately 2061.90 Mb
+Use option 'names no' to turn use of names off
+Aggregator has done 819471 substitutions...
 Tried aggregator 1 time.
-LP Presolve eliminated 9762898 rows and 9673983 columns.
+Aggregator has done 819471 substitutions...
+LP Presolve eliminated 9762899 rows and 9673983 columns.
 Aggregator did 819471 substitutions.
 Reduced LP has 6376871 rows, 8630971 columns, and 25403642 nonzeros.
-Presolve time = 116.58 sec. (20438.36 ticks)
-Initializing dual steep norms . . .
-Elapsed time = 139.81 sec. (24733.45 ticks, 1 iterations)
+Presolve time = 146.83 sec. (131079.67 ticks)
+Symmetry aggregator did 1215918 additional substitutions.
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 7.03 sec. (2808.15 ticks)
+Parallel mode: using up to 3 threads for barrier.
 
-Iteration log . . .
-Iteration:     1   Dual objective     =   58159443093.862366
-Perturbation started.
-Iteration:   101   Dual objective     =   58159443093.864334
-Iteration:  2726   Dual objective     =   59198071557.599747
-Iteration:  5369   Dual objective     =   60812531261.868622
-Iteration:  8188   Dual objective     =   61889972133.424408
-Iteration: 11065   Dual objective     =   62867583373.908356
-Elapsed time = 152.14 sec. (34734.12 ticks, 12906 iterations)
-Iteration: 13705   Dual objective     =   63882718967.120117
-Iteration: 16666   Dual objective     =   65018560875.396584
-Iteration: 19526   Dual objective     =   66205402024.636101
-Iteration: 22416   Dual objective     =   68319147185.793968
-Iteration: 25468   Dual objective     =   69309119374.150803
-Elapsed time = 164.44 sec. (44734.24 ticks, 26498 iterations)
-Iteration: 28420   Dual objective     =   70388123220.564911
-Iteration: 31244   Dual objective     =   71440153031.702377
-Iteration: 34129   Dual objective     =   72412727125.854721
-Iteration: 36980   Dual objective     =   73068535782.643845
-Iteration: 39354   Dual objective     =   73551005276.256332
-Elapsed time = 178.44 sec. (55877.03 ticks, 42140 iterations)
-Iteration: 42140   Dual objective     =   74330508134.969055
-Iteration: 44673   Dual objective     =   75117621615.201019
-Iteration: 47414   Dual objective     =   75853240153.249832
-Iteration: 49997   Dual objective     =   76509113811.664185
-Elapsed time = 193.83 sec. (66066.70 ticks, 52593 iterations)
-Iteration: 52593   Dual objective     =   77105555113.739685
-Iteration: 54669   Dual objective     =   77347220953.322525
-Iteration: 57179   Dual objective     =   77903417377.630600
-Elapsed time = 214.08 sec. (76069.09 ticks, 57275 iterations)
-Iteration: 59377   Dual objective     =   78254121142.909424
-Iteration: 61981   Dual objective     =   78780670368.531738
-Elapsed time = 243.36 sec. (86072.16 ticks, 62673 iterations)
-Iteration: 63607   Dual objective     =   78835388743.375031
-Iteration: 66010   Dual objective     =   79313366410.278915
-Elapsed time = 271.17 sec. (96073.44 ticks, 68032 iterations)
-Iteration: 68454   Dual objective     =   79706902844.484528
-Iteration: 70884   Dual objective     =   79973807372.050583
-Iteration: 73580   Dual objective     =   80952853257.728195
-Elapsed time = 299.74 sec. (106102.36 ticks, 74956 iterations)
-Iteration: 75994   Dual objective     =   81554218839.070129
-Iteration: 78621   Dual objective     =   82168443875.910751
-Iteration: 81337   Dual objective     =   82638671932.998489
-Iteration: 84073   Dual objective     =   83052255342.532028
-Elapsed time = 318.99 sec. (117026.10 ticks, 86833 iterations)
-Iteration: 86833   Dual objective     =   83556358205.195221
-Iteration: 89564   Dual objective     =   83935733821.366852
-Iteration: 92305   Dual objective     =   84310775833.434830
-Iteration: 95007   Dual objective     =   84672755473.119446
-Iteration: 97662   Dual objective     =   85003197289.601089
-Elapsed time = 335.41 sec. (127071.91 ticks, 100357 iterations)
-Iteration: 100357   Dual objective     =   85313850754.823486
-Iteration: 103086   Dual objective     =   85527446625.357010
-Iteration: 105861   Dual objective     =   85908698290.145355
-Iteration: 108351   Dual objective     =   86169145584.640579
-Iteration: 110945   Dual objective     =   86437773905.443054
-Elapsed time = 350.61 sec. (137092.25 ticks, 110946 iterations)
-Iteration: 113578   Dual objective     =   86791991616.201660
-Iteration: 116037   Dual objective     =   87020868857.270355
-Iteration: 118674   Dual objective     =   87340850957.917175
-Iteration: 121304   Dual objective     =   87593893932.342926
-Elapsed time = 366.30 sec. (147099.40 ticks, 121774 iterations)
-Iteration: 123742   Dual objective     =   87772357565.079132
-Iteration: 126304   Dual objective     =   87980220311.361679
-Iteration: 128943   Dual objective     =   88156683865.814407
-Iteration: 131482   Dual objective     =   88319788392.738449
-Elapsed time = 383.58 sec. (158029.16 ticks, 134151 iterations)
-Iteration: 134151   Dual objective     =   88502554510.057083
-Iteration: 136709   Dual objective     =   88687018527.408829
-Iteration: 139273   Dual objective     =   88869092406.283005
-Iteration: 141848   Dual objective     =   89368439033.422653
-Elapsed time = 410.92 sec. (168304.99 ticks, 144040 iterations)
-Iteration: 144040   Dual objective     =   89543864209.845200
-Iteration: 146633   Dual objective     =   89688407202.222397
-Iteration: 148601   Dual objective     =   89761976782.574432
-Iteration: 151027   Dual objective     =   89891826931.094223
-Elapsed time = 452.75 sec. (179411.19 ticks, 153474 iterations)
-Iteration: 153474   Dual objective     =   90018862162.018234
-Iteration: 155881   Dual objective     =   90169854213.548111
-Iteration: 158622   Dual objective     =   90313802701.256790
-Iteration: 161358   Dual objective     =   90459728779.208313
-Iteration: 163979   Dual objective     =   90584437871.311691
-Elapsed time = 479.34 sec. (190334.27 ticks, 166683 iterations)
-Iteration: 166683   Dual objective     =   90716970307.620544
-Iteration: 169328   Dual objective     =   90845661242.160995
-Iteration: 172149   Dual objective     =   90936878212.379150
-Iteration: 174868   Dual objective     =   91048333995.264191
-Iteration: 177585   Dual objective     =   91171209377.705429
-Elapsed time = 503.49 sec. (200349.34 ticks, 180093 iterations)
-Iteration: 180143   Dual objective     =   91294343967.211136
-Iteration: 182884   Dual objective     =   91406671310.736069
-Iteration: 185653   Dual objective     =   91523072409.381088
-Iteration: 188624   Dual objective     =   91626479905.815933
-Iteration: 191260   Dual objective     =   91733851487.507355
-Elapsed time = 526.47 sec. (210351.75 ticks, 192029 iterations)
-Iteration: 193304   Dual objective     =   91771946037.888229
-Iteration: 196082   Dual objective     =   91874043044.195908
-Iteration: 199112   Dual objective     =   91971537155.260483
-Iteration: 202126   Dual objective     =   92073214194.579681
-Elapsed time = 547.80 sec. (220577.62 ticks, 205048 iterations)
-Iteration: 205048   Dual objective     =   92146190753.413986
-Iteration: 207902   Dual objective     =   92222098862.749603
-Iteration: 210755   Dual objective     =   92308428933.325882
-Iteration: 213573   Dual objective     =   92390355691.105652
-Iteration: 216347   Dual objective     =   92476272125.214355
-Elapsed time = 572.61 sec. (230581.45 ticks, 216845 iterations)
-Iteration: 219159   Dual objective     =   92536838525.083176
-Iteration: 221915   Dual objective     =   92607030489.463333
-Iteration: 224769   Dual objective     =   92676910007.741531
-Elapsed time = 603.86 sec. (240668.38 ticks, 227456 iterations)
-Iteration: 227456   Dual objective     =   92738453401.836258
-Iteration: 230221   Dual objective     =   92821379288.880463
-Iteration: 233080   Dual objective     =   92883707830.013031
-Iteration: 235912   Dual objective     =   92943099611.827026
-Elapsed time = 636.11 sec. (251381.92 ticks, 238734 iterations)
-Iteration: 238734   Dual objective     =   93392520368.128616
-Iteration: 241298   Dual objective     =   93464732253.517822
-Iteration: 244116   Dual objective     =   93529181175.162323
-Iteration: 246896   Dual objective     =   93597733552.964172
-Iteration: 249816   Dual objective     =   93653257408.538483
-Elapsed time = 660.25 sec. (262327.36 ticks, 252897 iterations)
-Iteration: 252897   Dual objective     =   93733505356.146866
-Iteration: 259265   Dual objective     =   93816078682.670364
-Iteration: 262278   Dual objective     =   93880559592.703354
-Iteration: 265152   Dual objective     =   93945797462.502014
-Iteration: 268123   Dual objective     =   94004147325.297318
-Iteration: 271368   Dual objective     =   94068902900.330612
-Elapsed time = 681.17 sec. (273248.47 ticks, 274684 iterations)
-Iteration: 274684   Dual objective     =   94129415171.853470
-Iteration: 277886   Dual objective     =   94189871960.940613
-Iteration: 281160   Dual objective     =   94241353050.208847
-Iteration: 284329   Dual objective     =   94302021839.181046
-Iteration: 287576   Dual objective     =   94351629503.120132
-Iteration: 290797   Dual objective     =   94401761741.347565
-Iteration: 293790   Dual objective     =   94463847576.696320
-Elapsed time = 699.06 sec. (284004.01 ticks, 297162 iterations)
-Iteration: 297162   Dual objective     =   94505480723.222122
-Iteration: 300195   Dual objective     =   95320315596.246918
-Iteration: 303575   Dual objective     =   95376246732.635269
-Iteration: 306949   Dual objective     =   95434769014.080948
-Iteration: 310035   Dual objective     =   95486427453.443802
-Iteration: 314900   Dual objective     =   95568036965.312210
-Elapsed time = 720.00 sec. (295055.81 ticks, 317957 iterations)
-Iteration: 317957   Dual objective     =   95620079999.857819
-Iteration: 321383   Dual objective     =   95664931150.590607
-Iteration: 324732   Dual objective     =   95787401203.059692
-Iteration: 328126   Dual objective     =   95842294802.018997
-Iteration: 332736   Dual objective     =   95930707318.256973
-Iteration: 339465   Dual objective     =   96139017020.266281
-Elapsed time = 737.45 sec. (305607.67 ticks, 343407 iterations)
-Iteration: 343407   Dual objective     =   96226808476.896759
-Iteration: 346637   Dual objective     =   96292818988.749756
-Iteration: 350280   Dual objective     =   96356220444.676636
-Iteration: 353969   Dual objective     =   96422655173.738373
-Iteration: 357580   Dual objective     =   96472583716.522980
-Iteration: 361204   Dual objective     =   96526818404.202927
-Iteration: 364857   Dual objective     =   96589220993.690552
-Elapsed time = 760.77 sec. (315622.03 ticks, 365444 iterations)
-Iteration: 368491   Dual objective     =   96647036417.124191
-Iteration: 371934   Dual objective     =   96688243501.317062
-Iteration: 376027   Dual objective     =   96733047398.191071
-Iteration: 379860   Dual objective     =   96775979386.102188
-Iteration: 384570   Dual objective     =   96877087813.213272
-Elapsed time = 783.36 sec. (326374.36 ticks, 392941 iterations)
-Iteration: 392941   Dual objective     =   97352791022.796127
-Iteration: 396407   Dual objective     =   97399711154.250305
-Iteration: 399321   Dual objective     =   97429787328.215286
-Iteration: 402722   Dual objective     =   97469771173.669220
-Iteration: 407796   Dual objective     =   97606607259.827667
-Iteration: 411862   Dual objective     =   97682760538.419785
-Elapsed time = 801.16 sec. (336609.79 ticks, 415684 iterations)
-Iteration: 415684   Dual objective     =   97725824307.590958
-Iteration: 419818   Dual objective     =   97778859134.382523
-Iteration: 424101   Dual objective     =   97842563917.012924
-Iteration: 428448   Dual objective     =   97904215071.326111
-Iteration: 432788   Dual objective     =   97971037742.701126
-Iteration: 436796   Dual objective     =   98024783321.171249
-Elapsed time = 817.77 sec. (346725.76 ticks, 440632 iterations)
-Iteration: 440632   Dual objective     =   98083517870.790634
-Iteration: 444992   Dual objective     =   98142645944.286392
-Iteration: 449328   Dual objective     =   98196335276.892807
-Iteration: 453566   Dual objective     =   98247859261.968124
-Iteration: 457410   Dual objective     =   98288974925.148346
-Elapsed time = 842.53 sec. (357510.93 ticks, 460807 iterations)
-Iteration: 460807   Dual objective     =   98324882260.819046
-Iteration: 467440   Dual objective     =   98437736248.743484
-Iteration: 471784   Dual objective     =   98485030862.527023
-Iteration: 476714   Dual objective     =   98534810415.336090
-Iteration: 482961   Dual objective     =   98617133480.672089
-Elapsed time = 868.69 sec. (367514.40 ticks, 483338 iterations)
-Iteration: 484631   Dual objective     =   98625151568.377838
-Iteration: 486700   Dual objective     =   98638677527.521210
-Iteration: 491357   Dual objective     =   98685397583.228485
-Elapsed time = 902.55 sec. (378729.24 ticks, 496237 iterations)
-Iteration: 496237   Dual objective     =   98732660867.157471
-Iteration: 501023   Dual objective     =   98781127040.449905
-Iteration: 505798   Dual objective     =   98828309809.786896
-Iteration: 510778   Dual objective     =   98873944642.410065
-Iteration: 516826   Dual objective     =   98913183198.747787
-Iteration: 521217   Dual objective     =   98948344253.038071
-Elapsed time = 925.13 sec. (389719.30 ticks, 526181 iterations)
-Iteration: 526181   Dual objective     =   98993397673.514832
-Iteration: 530917   Dual objective     =   99031004025.662872
-Iteration: 536224   Dual objective     =   99071246924.464447
-Iteration: 541174   Dual objective     =   99108812721.057953
-Iteration: 546125   Dual objective     =   99144021957.332626
-Iteration: 553864   Dual objective     =   99226095811.677231
-Elapsed time = 946.59 sec. (399751.97 ticks, 557293 iterations)
-Iteration: 558980   Dual objective     =   99262962930.003555
-Iteration: 564478   Dual objective     =   99662124470.925674
-Iteration: 572178   Dual objective     =   99783373985.956024
-Iteration: 579608   Dual objective     =   99893653980.364441
-Iteration: 584971   Dual objective     =   99926155665.758759
-Elapsed time = 966.53 sec. (410808.52 ticks, 592918 iterations)
-Iteration: 592918   Dual objective     =  100004929889.932449
-Iteration: 598592   Dual objective     =  100041818092.066879
-Iteration: 602789   Dual objective     =  100063465611.298965
-Iteration: 607402   Dual objective     =  100087910459.053879
-Iteration: 612798   Dual objective     =  100118970055.259171
-Elapsed time = 993.42 sec. (421760.25 ticks, 618414 iterations)
-Iteration: 618414   Dual objective     =  100151720295.914597
-Iteration: 623902   Dual objective     =  100183579685.511139
-Iteration: 631735   Dual objective     =  100235611888.247864
-Iteration: 637021   Dual objective     =  100392526941.998413
-Iteration: 642976   Dual objective     =  100427627538.040115
-Elapsed time = 1017.27 sec. (432539.42 ticks, 650129 iterations)
-Iteration: 650129   Dual objective     =  100550603949.579285
-Iteration: 656441   Dual objective     =  100705795070.953049
-Iteration: 662958   Dual objective     =  101096500180.134506
-Iteration: 670539   Dual objective     =  101163343757.452728
-Iteration: 680540   Dual objective     =  101187545367.720032
-Elapsed time = 1035.03 sec. (442571.95 ticks, 680541 iterations)
-Iteration: 688489   Dual objective     =  101265925222.887085
-Iteration: 695925   Dual objective     =  101307079775.423752
-Iteration: 701768   Dual objective     =  101328702052.375244
-Iteration: 708905   Dual objective     =  101583071412.213974
-Elapsed time = 1047.41 sec. (452571.97 ticks, 712057 iterations)
-Iteration: 715669   Dual objective     =  101608719238.458023
-Iteration: 725056   Dual objective     =  101754835527.420212
-Iteration: 734912   Dual objective     =  101788056939.325760
-Iteration: 741274   Dual objective     =  101887931373.801407
-Elapsed time = 1060.58 sec. (462600.75 ticks, 745722 iterations)
-Iteration: 748428   Dual objective     =  101930219650.397125
-Iteration: 757193   Dual objective     =  102082571198.612747
-Iteration: 765073   Dual objective     =  102105956383.315140
-Iteration: 771017   Dual objective     =  102117893208.717941
-Elapsed time = 1074.30 sec. (472601.71 ticks, 772954 iterations)
-Iteration: 781018   Dual objective     =  102188031755.361923
-Iteration: 791019   Dual objective     =  102296593233.001251
-Iteration: 801020   Dual objective     =  102377709302.987976
-Elapsed time = 1085.38 sec. (482855.69 ticks, 810600 iterations)
-Iteration: 810600   Dual objective     =  102417032518.229370
-Iteration: 820601   Dual objective     =  102464583094.883102
-Iteration: 828290   Dual objective     =  102520072277.335739
-Iteration: 835419   Dual objective     =  102600975772.702698
-Elapsed time = 1097.27 sec. (493487.82 ticks, 845420 iterations)
-Iteration: 845420   Dual objective     =  102652918558.274933
-Iteration: 855353   Dual objective     =  102697879788.586777
-Iteration: 865354   Dual objective     =  102740852838.592133
-Iteration: 875355   Dual objective     =  102788426990.325455
-Elapsed time = 1109.25 sec. (503953.17 ticks, 885356 iterations)
-Iteration: 885356   Dual objective     =  102836397293.558289
-Iteration: 892615   Dual objective     =  102880644023.728668
-Iteration: 900521   Dual objective     =  102901145117.124924
-Iteration: 907877   Dual objective     =  102923133944.910446
-Elapsed time = 1121.08 sec. (513953.27 ticks, 915526 iterations)
-Iteration: 917532   Dual objective     =  102950413696.755875
-Iteration: 927533   Dual objective     =  103013470635.033981
-Iteration: 937534   Dual objective     =  103062445908.729523
-Elapsed time = 1136.70 sec. (523953.31 ticks, 940739 iterations)
-Iteration: 947334   Dual objective     =  103148385680.508987
-Iteration: 954495   Dual objective     =  103179529749.222916
-Iteration: 962919   Dual objective     =  103195135636.299774
-Elapsed time = 1162.36 sec. (533957.72 ticks, 968995 iterations)
-Iteration: 972526   Dual objective     =  103288787929.211700
-Iteration: 981055   Dual objective     =  103322866608.906097
-Iteration: 991056   Dual objective     =  103352421922.880295
-Elapsed time = 1184.84 sec. (543957.72 ticks, 992694 iterations)
-Iteration: 999995   Dual objective     =  103375676461.065506
-Iteration: 1009996   Dual objective     =  103407870335.549988
-Elapsed time = 1200.72 sec. (553957.81 ticks, 1017442 iterations)
-Iteration: 1019997   Dual objective     =  103441702734.418228
-Iteration: 1029998   Dual objective     =  103610118238.348633
-Iteration: 1038739   Dual objective     =  103640729366.336716
-Elapsed time = 1225.22 sec. (564414.29 ticks, 1048740 iterations)
-Iteration: 1048740   Dual objective     =  103666817672.441910
-Iteration: 1058022   Dual objective     =  103687207661.562805
-Iteration: 1064906   Dual objective     =  103711714912.532700
-Iteration: 1074907   Dual objective     =  103738414166.334457
-Elapsed time = 1243.84 sec. (574944.87 ticks, 1081468 iterations)
-Iteration: 1081468   Dual objective     =  103762329361.612976
-Iteration: 1089620   Dual objective     =  103781589631.481155
-Iteration: 1099621   Dual objective     =  103802081206.744217
-Elapsed time = 1257.52 sec. (584944.96 ticks, 1108867 iterations)
-Iteration: 1109622   Dual objective     =  103826382075.055801
-Iteration: 1118536   Dual objective     =  103840411876.681320
-Elapsed time = 1271.64 sec. (595355.43 ticks, 1128094 iterations)
-Iteration: 1128094   Dual objective     =  103874460252.839417
-Iteration: 1138095   Dual objective     =  103897467052.067917
-Iteration: 1148096   Dual objective     =  103924486229.357285
-Iteration: 1158097   Dual objective     =  103994838548.738495
-Elapsed time = 1294.39 sec. (605519.77 ticks, 1167163 iterations)
-Iteration: 1167163   Dual objective     =  104035942648.310349
-Iteration: 1174202   Dual objective     =  104052510437.089844
-Iteration: 1182254   Dual objective     =  104072268090.626373
-Iteration: 1189289   Dual objective     =  104090707366.433258
-Elapsed time = 1309.11 sec. (615525.90 ticks, 1192306 iterations)
-Iteration: 1199190   Dual objective     =  104107763378.319199
-Iteration: 1209191   Dual objective     =  104129102630.263855
-Elapsed time = 1320.81 sec. (625528.61 ticks, 1215940 iterations)
-Iteration: 1216953   Dual objective     =  104159324410.218826
-Iteration: 1226954   Dual objective     =  104181546279.231918
-Iteration: 1236955   Dual objective     =  104250793554.975937
-Elapsed time = 1338.52 sec. (635528.62 ticks, 1242269 iterations)
-Iteration: 1246956   Dual objective     =  104282781403.112656
-Iteration: 1256957   Dual objective     =  104323773959.381729
-Iteration: 1266958   Dual objective     =  104376312861.738556
-Elapsed time = 1355.95 sec. (645528.63 ticks, 1269744 iterations)
-Iteration: 1276959   Dual objective     =  104391754779.109238
-Iteration: 1286960   Dual objective     =  104423605853.718384
-Elapsed time = 1368.86 sec. (655529.13 ticks, 1294631 iterations)
-Iteration: 1294776   Dual objective     =  104432570145.406586
-Iteration: 1302682   Dual objective     =  104441325733.287811
-Elapsed time = 1384.49 sec. (665896.30 ticks, 1312372 iterations)
-Iteration: 1312372   Dual objective     =  104504059920.911057
-Iteration: 1322373   Dual objective     =  104513865976.946823
-Elapsed time = 1391.86 sec. (675896.34 ticks, 1329146 iterations)
-Iteration: 1332374   Dual objective     =  104541503975.339310
-Iteration: 1341270   Dual objective     =  104577979709.346497
-Iteration: 1351271   Dual objective     =  104613847966.594574
-Elapsed time = 1405.74 sec. (685896.35 ticks, 1354964 iterations)
-Iteration: 1359992   Dual objective     =  104658878329.265335
-Iteration: 1369993   Dual objective     =  104673523960.508224
-Iteration: 1379303   Dual objective     =  104688001936.048691
-Elapsed time = 1423.09 sec. (695899.58 ticks, 1383398 iterations)
-Iteration: 1388070   Dual objective     =  104698001231.978409
-Iteration: 1398071   Dual objective     =  104717269474.596909
-Elapsed time = 1436.03 sec. (705899.77 ticks, 1403229 iterations)
-Iteration: 1407312   Dual objective     =  104764351424.093124
-Iteration: 1417313   Dual objective     =  104781678086.046722
-Iteration: 1424842   Dual objective     =  104828962034.473648
-Elapsed time = 1449.17 sec. (715899.83 ticks, 1426236 iterations)
-Iteration: 1434843   Dual objective     =  104842797476.568573
-Iteration: 1444844   Dual objective     =  104858084324.549774
-Elapsed time = 1461.33 sec. (725900.01 ticks, 1452075 iterations)
-Iteration: 1454845   Dual objective     =  104873285828.576706
-Iteration: 1464846   Dual objective     =  104882706229.769867
-Iteration: 1474847   Dual objective     =  104888959067.614517
-Elapsed time = 1474.05 sec. (735902.25 ticks, 1480863 iterations)
-Iteration: 1484848   Dual objective     =  104899446337.757401
-Iteration: 1491033   Dual objective     =  104912066280.277161
-Elapsed time = 1491.34 sec. (746944.83 ticks, 1500127 iterations)
-Iteration: 1500127   Dual objective     =  104918205583.212814
-Iteration: 1510128   Dual objective     =  104938506763.906494
-Iteration: 1519749   Dual objective     =  104950351529.740112
-Elapsed time = 1504.63 sec. (756945.92 ticks, 1520660 iterations)
-Iteration: 1529750   Dual objective     =  104953841494.258820
-Iteration: 1539751   Dual objective     =  104964206059.860641
-Iteration: 1549752   Dual objective     =  104976804641.611740
-Elapsed time = 1524.38 sec. (767340.40 ticks, 1558941 iterations)
-Iteration: 1558941   Dual objective     =  105004952596.700470
-Iteration: 1568942   Dual objective     =  105027060408.785614
-Iteration: 1578943   Dual objective     =  105039824789.408813
-Iteration: 1588763   Dual objective     =  105053834966.888016
-Elapsed time = 1535.53 sec. (777340.61 ticks, 1595847 iterations)
-Iteration: 1598764   Dual objective     =  105059711622.355774
-Elapsed time = 1540.94 sec. (787340.71 ticks, 1608129 iterations)
-Iteration: 1608765   Dual objective     =  105066952996.476181
-Iteration: 1618766   Dual objective     =  105097905501.969910
-Iteration: 1628767   Dual objective     =  105105269170.795349
-Elapsed time = 1554.28 sec. (797851.63 ticks, 1638768 iterations)
-Iteration: 1638768   Dual objective     =  105111691636.946289
-Iteration: 1646421   Dual objective     =  105118085542.219315
-Iteration: 1656422   Dual objective     =  105142048777.636063
-Elapsed time = 1563.61 sec. (807852.05 ticks, 1660395 iterations)
-Iteration: 1666423   Dual objective     =  105153565222.364182
-Iteration: 1676424   Dual objective     =  105183361517.508713
-Elapsed time = 1572.39 sec. (817852.31 ticks, 1678495 iterations)
-Iteration: 1686425   Dual objective     =  105191595058.872543
-Elapsed time = 1579.16 sec. (828375.70 ticks, 1696426 iterations)
-Iteration: 1696426   Dual objective     =  105198180763.208679
-Iteration: 1706427   Dual objective     =  105203619840.721222
-Iteration: 1716428   Dual objective     =  105221412836.397049
-Iteration: 1726429   Dual objective     =  105237586218.036011
-Elapsed time = 1590.44 sec. (838375.89 ticks, 1729349 iterations)
-Iteration: 1736430   Dual objective     =  105244768538.561981
-Iteration: 1746431   Dual objective     =  105270143816.300064
-Elapsed time = 1600.13 sec. (848376.16 ticks, 1746796 iterations)
-Iteration: 1756432   Dual objective     =  105282736146.409317
-Iteration: 1760815   Dual objective     =  105305584950.243790
-Iteration: 1766593   Dual objective     =  105309247639.898422
-Elapsed time = 1608.69 sec. (858378.87 ticks, 1773258 iterations)
-Iteration: 1776594   Dual objective     =  105313784600.898636
-Iteration: 1786595   Dual objective     =  105320892827.287430
-Iteration: 1794856   Dual objective     =  105323451569.446411
-Elapsed time = 1636.33 sec. (868379.14 ticks, 1798499 iterations)
-Iteration: 1804857   Dual objective     =  105342430383.892349
-Iteration: 1814858   Dual objective     =  105343994762.350220
-Elapsed time = 1651.02 sec. (878379.20 ticks, 1824013 iterations)
-Iteration: 1824859   Dual objective     =  105350138205.286835
-Iteration: 1830151   Dual objective     =  105351837737.857422
-Elapsed time = 1662.77 sec. (888379.45 ticks, 1834923 iterations)
-Iteration: 1840152   Dual objective     =  105354951385.492172
-Iteration: 1850153   Dual objective     =  105367664129.346100
-Iteration: 1858874   Dual objective     =  105384271932.675095
-Elapsed time = 1675.59 sec. (898475.19 ticks, 1860009 iterations)
-Iteration: 1867353   Dual objective     =  105393572669.289871
-Iteration: 1877354   Dual objective     =  105402626520.105988
-Elapsed time = 1686.44 sec. (908475.88 ticks, 1882859 iterations)
-Iteration: 1887355   Dual objective     =  105409973978.161514
-Iteration: 1897356   Dual objective     =  105416632263.973831
-Elapsed time = 1696.91 sec. (918476.98 ticks, 1899306 iterations)
-Iteration: 1903343   Dual objective     =  105423805731.605530
-Iteration: 1913344   Dual objective     =  105438217945.726471
-Elapsed time = 1710.88 sec. (929225.33 ticks, 1916996 iterations)
-Iteration: 1916996   Dual objective     =  105439196189.066086
-Iteration: 1926997   Dual objective     =  105443114908.355408
-Elapsed time = 1717.13 sec. (939225.72 ticks, 1928282 iterations)
-Iteration: 1936998   Dual objective     =  105456183289.939560
-Elapsed time = 1722.49 sec. (949226.17 ticks, 1938297 iterations)
-Iteration: 1945602   Dual objective     =  105470534399.221146
-Iteration: 1955603   Dual objective     =  105471750010.410477
-Elapsed time = 1731.50 sec. (959288.98 ticks, 1960004 iterations)
-Iteration: 1963296   Dual objective     =  105477019870.852829
-Iteration: 1973297   Dual objective     =  105483361603.269363
-Iteration: 1983298   Dual objective     =  105497116686.701019
-Iteration: 1993299   Dual objective     =  105499703871.195267
-Elapsed time = 1744.56 sec. (969294.48 ticks, 1997276 iterations)
-Iteration: 2001476   Dual objective     =  105504143447.789688
-Iteration: 2005950   Dual objective     =  105506699304.592743
-Elapsed time = 1753.34 sec. (979294.81 ticks, 2011159 iterations)
-Iteration: 2015951   Dual objective     =  105514369035.601761
-Iteration: 2025952   Dual objective     =  105524734196.294693
-Iteration: 2035953   Dual objective     =  105526422769.942001
-Elapsed time = 1763.49 sec. (989294.88 ticks, 2041011 iterations)
-Iteration: 2044057   Dual objective     =  105530116146.379761
-Iteration: 2054058   Dual objective     =  105536001712.098114
-Iteration: 2064059   Dual objective     =  105540032264.826187
-Iteration: 2073405   Dual objective     =  105544827610.494247
-Elapsed time = 1776.53 sec. (999294.95 ticks, 2081054 iterations)
-Iteration: 2083406   Dual objective     =  105550692599.851166
-Iteration: 2093407   Dual objective     =  105559189092.035233
-Iteration: 2103408   Dual objective     =  105562178353.466095
-Iteration: 2113409   Dual objective     =  105564755937.434113
-Elapsed time = 1792.08 sec. (1009420.94 ticks, 2123410 iterations)
-Iteration: 2123410   Dual objective     =  105575167684.320724
-Iteration: 2133411   Dual objective     =  105580185954.672348
-Iteration: 2143412   Dual objective     =  105586780635.184311
-Iteration: 2153413   Dual objective     =  105589921373.617203
-Elapsed time = 1808.06 sec. (1020497.12 ticks, 2158987 iterations)
-Iteration: 2158987   Dual objective     =  105594271727.125259
-Iteration: 2166063   Dual objective     =  105595970878.965973
-Iteration: 2176064   Dual objective     =  105598205460.457642
-Iteration: 2183960   Dual objective     =  105600493492.542603
-Iteration: 2193961   Dual objective     =  105604137828.047897
-Elapsed time = 1824.22 sec. (1031054.66 ticks, 2203451 iterations)
-Iteration: 2203451   Dual objective     =  105608296254.117355
-Iteration: 2213452   Dual objective     =  105610050841.068588
-Iteration: 2223453   Dual objective     =  105614465015.067947
-Iteration: 2233454   Dual objective     =  105617446694.218063
-Iteration: 2243455   Dual objective     =  105619066047.229385
-Elapsed time = 1837.86 sec. (1041059.15 ticks, 2245534 iterations)
-Iteration: 2253456   Dual objective     =  105620810911.039719
-Iteration: 2259961   Dual objective     =  105621329781.216232
-Iteration: 2269962   Dual objective     =  105622375200.080048
-Iteration: 2275517   Dual objective     =  105623976492.539764
-Elapsed time = 1856.59 sec. (1051059.27 ticks, 2276198 iterations)
-Iteration: 2285518   Dual objective     =  105625476839.594971
-Iteration: 2295519   Dual objective     =  105626776881.920822
-Elapsed time = 1867.20 sec. (1061839.37 ticks, 2304471 iterations)
-Iteration: 2304471   Dual objective     =  105628165327.340729
-Iteration: 2312199   Dual objective     =  105628805553.657410
-Iteration: 2322200   Dual objective     =  105629601947.529846
-Iteration: 2332201   Dual objective     =  105632455276.102768
-Elapsed time = 1878.94 sec. (1071839.53 ticks, 2340406 iterations)
-Iteration: 2342202   Dual objective     =  105633517201.698273
-Iteration: 2352203   Dual objective     =  105634230504.973557
-Iteration: 2362204   Dual objective     =  105635436992.913757
-Iteration: 2367229   Dual objective     =  105637615356.014664
-Elapsed time = 1892.58 sec. (1081839.71 ticks, 2367840 iterations)
-Iteration: 2370974   Dual objective     =  105640441282.798950
-Iteration: 2380975   Dual objective     =  105641656852.313751
-Iteration: 2390976   Dual objective     =  105643020992.050430
-Elapsed time = 1903.30 sec. (1091840.71 ticks, 2395115 iterations)
-Iteration: 2400977   Dual objective     =  105644046602.148117
-Iteration: 2410978   Dual objective     =  105646201039.312119
-Iteration: 2420979   Dual objective     =  105648151617.100067
-Iteration: 2430980   Dual objective     =  105648959328.044128
-Elapsed time = 1919.61 sec. (1102689.13 ticks, 2440981 iterations)
-Iteration: 2440981   Dual objective     =  105650778778.289352
-Iteration: 2447245   Dual objective     =  105651322616.040131
-Iteration: 2455537   Dual objective     =  105651944648.831268
-Iteration: 2465388   Dual objective     =  105653100741.108047
-Iteration: 2470559   Dual objective     =  105653287369.213181
-Elapsed time = 1934.74 sec. (1112693.47 ticks, 2470611 iterations)
-Elapsed time = 1937.03 sec. (1122694.02 ticks, 2477358 iterations)
-Iteration: 2480560   Dual objective     =  105654858394.771317
-Iteration: 2490193   Dual objective     =  105655228355.694366
-Iteration: 2499400   Dual objective     =  105656283951.969574
-Elapsed time = 1947.24 sec. (1132694.08 ticks, 2504919 iterations)
-Iteration: 2509401   Dual objective     =  105656541790.117004
-Iteration: 2519402   Dual objective     =  105656764794.614044
-Iteration: 2529403   Dual objective     =  105657274409.485916
-Elapsed time = 1962.64 sec. (1144059.10 ticks, 2539404 iterations)
-Iteration: 2539404   Dual objective     =  105658185928.959106
-Iteration: 2549405   Dual objective     =  105658909746.200165
-Iteration: 2557550   Dual objective     =  105659124942.663498
-Iteration: 2563049   Dual objective     =  105659233340.022919
-Elapsed time = 1982.09 sec. (1155111.53 ticks, 2571095 iterations)
-Iteration: 2571095   Dual objective     =  105659496188.516724
-Iteration: 2581096   Dual objective     =  105659758273.945770
-Iteration: 2584498   Dual objective     =  105660063376.111679
-Iteration: 2593251   Dual objective     =  105660326777.254227
-Iteration: 2603252   Dual objective     =  105660636650.588455
-Elapsed time = 1999.30 sec. (1165111.57 ticks, 2606577 iterations)
-Iteration: 2609705   Dual objective     =  105660744025.058441
-Iteration: 2616097   Dual objective     =  105660784518.649536
-Iteration: 2625585   Dual objective     =  105660811438.185760
-Elapsed time = 2014.31 sec. (1176084.90 ticks, 2634016 iterations)
-Iteration: 2634016   Dual objective     =  105660842287.088730
-Iteration: 2642376   Dual objective     =  105660862175.875641
-Iteration: 2646432   Dual objective     =  105660876189.637970
-Iteration: 2651166   Dual objective     =  105660889561.265427
-Elapsed time = 2031.92 sec. (1189016.55 ticks, 2658289 iterations)
-Iteration: 2658289   Dual objective     =  105660901122.923813
-Iteration: 2662839   Dual objective     =  105660905942.388382
-Elapsed time = 2041.64 sec. (1199859.67 ticks, 2670175 iterations)
-Iteration: 2670175   Dual objective     =  105660923661.706528
-Iteration: 2676673   Dual objective     =  105660924216.183838
-Iteration: 2686279   Dual objective     =  105660925658.605164
-Elapsed time = 2055.09 sec. (1212148.54 ticks, 2692130 iterations)
-Iteration: 2692130   Dual objective     =  105660926545.029907
-Iteration: 2699480   Dual objective     =  105660926869.827560
-Iteration: 2709481   Dual objective     =  105660927283.826691
-Removing perturbation.
+***NOTE: Found 162 dense columns.
 
-Dual simplex solved model.
-
-
---- LP status (1): optimal.
---- Cplex Time: 2439.86sec (det. 1227527.03 ticks)
-
-
-Optimal solution found
-Objective:  105660925182.781372
-
+Number of nonzeros in lower triangle of A*A' = 17131572
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 4.53 sec. (2182.91 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 3
+  Rows in Factor            = 5651165
+  Integer space required    = 13990906
+  Total non-zeros in factor = 70410533
+  Total FP ops to factor    = 6300990735
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0  2.2548151e+011 -1.6574182e+012 7.95e+008 1.02e+009 1.09e+009 1.00e+000
+   1  2.1188519e+011 -1.4657415e+012 5.75e+008 7.41e+008 9.72e+008 6.93e-004
+   2  2.0458292e+011 -1.4157227e+012 4.86e+008 6.27e+008 9.42e+008 3.70e-004
+   3  1.9708555e+011 -1.3334155e+012 4.03e+008 5.19e+008 8.93e+008 2.15e-004
+   4  1.8384394e+011 -1.0813032e+012 2.77e+008 3.57e+008 7.42e+008 1.35e-004
+   5  1.8118221e+011 -8.7119082e+011 2.55e+008 3.29e+008 6.15e+008 1.02e-004
+   6  1.7724322e+011 -7.8286523e+011 2.25e+008 2.90e+008 5.62e+008 9.13e-005
+   7  1.7583752e+011 -7.5535539e+011 2.08e+008 2.67e+008 5.45e+008 9.08e-005
+   8  1.6974938e+011 -6.7025769e+011 1.64e+008 2.11e+008 4.94e+008 8.43e-005
+   9  1.6507940e+011 -5.6501546e+011 1.35e+008 1.73e+008 4.30e+008 7.99e-005
+  10  1.6331309e+011 -5.5257022e+011 1.25e+008 1.61e+008 4.23e+008 7.95e-005
+  11  1.5948204e+011 -4.7886362e+011 1.00e+008 1.29e+008 3.78e+008 7.79e-005
+  12  1.5590622e+011 -3.9557109e+011 8.36e+007 1.08e+008 3.27e+008 7.91e-005
+  13  1.5226960e+011 -3.2974660e+011 6.91e+007 8.91e+007 2.86e+008 8.16e-005
+  14  1.4775449e+011 -3.0007064e+011 5.42e+007 6.98e+007 2.68e+008 8.35e-005
+  15  1.4376052e+011 -2.3927692e+011 4.17e+007 5.37e+007 2.30e+008 8.88e-005
+  16  1.4048442e+011 -1.9239408e+011 3.31e+007 4.26e+007 2.01e+008 9.51e-005
+  17  1.3819184e+011 -1.6580461e+011 2.80e+007 3.60e+007 1.84e+008 9.99e-005
+  18  1.3365637e+011 -1.2491822e+011 1.88e+007 2.42e+007 1.58e+008 1.09e-004
+  19  1.3261632e+011 -1.0210404e+011 1.70e+007 2.19e+007 1.43e+008 1.17e-004
+  20  1.3144537e+011 -8.0371205e+010 1.52e+007 1.97e+007 1.29e+008 1.25e-004
+  21  1.2891695e+011 -6.0547728e+010 1.17e+007 1.51e+007 1.17e+008 1.34e-004
+  22  1.2839688e+011 -5.4755138e+010 1.11e+007 1.43e+007 1.13e+008 1.38e-004
+  23  1.2806949e+011 -5.0754420e+010 1.07e+007 1.38e+007 1.10e+008 1.40e-004
+  24  1.2724344e+011 -4.1312858e+010 9.80e+006 1.26e+007 1.04e+008 1.46e-004
+  25  1.2657157e+011 -2.3659317e+010 9.11e+006 1.17e+007 9.26e+007 1.60e-004
+  26  1.2603948e+011 -1.3789319e+010 8.63e+006 1.11e+007 8.61e+007 1.69e-004
+  27  1.2541316e+011 -6.9218861e+009 8.10e+006 1.04e+007 8.15e+007 1.76e-004
+  28  1.2432504e+011  5.5152665e+009 7.23e+006 9.32e+006 7.32e+007 1.92e-004
+  29  1.2311223e+011  1.1728782e+010 6.35e+006 8.19e+006 6.90e+007 2.02e-004
+  30  1.2193275e+011  1.5168405e+010 5.54e+006 7.13e+006 6.67e+007 2.07e-004
+  31  1.2012328e+011  2.3287624e+010 4.30e+006 5.54e+006 6.12e+007 2.23e-004
+  32  1.1873378e+011  3.5189629e+010 3.42e+006 4.40e+006 5.31e+007 2.51e-004
+  33  1.1769062e+011  4.2302192e+010 2.85e+006 3.67e+006 4.82e+007 2.73e-004
+  34  1.1665301e+011  4.5424072e+010 2.33e+006 3.01e+006 4.61e+007 2.84e-004
+  35  1.1587296e+011  5.5492660e+010 1.96e+006 2.53e+006 3.91e+007 3.28e-004
+  36  1.1527453e+011  5.6251596e+010 1.73e+006 2.23e+006 3.85e+007 3.32e-004
+  37  1.1462083e+011  5.9610285e+010 1.47e+006 1.90e+006 3.62e+007 3.51e-004
+  38  1.1418647e+011  6.2363589e+010 1.33e+006 1.72e+006 3.42e+007 3.70e-004
+  39  1.1366431e+011  6.7154654e+010 1.17e+006 1.50e+006 3.08e+007 4.07e-004
+  40  1.1359940e+011  6.7993476e+010 1.15e+006 1.48e+006 3.01e+007 4.14e-004
+  41  1.1303422e+011  7.0009510e+010 9.95e+005 1.28e+006 2.87e+007 4.33e-004
+  42  1.1255914e+011  7.3409167e+010 8.72e+005 1.12e+006 2.62e+007 4.71e-004
+  43  1.1230470e+011  7.5885029e+010 8.12e+005 1.05e+006 2.44e+007 5.03e-004
+  44  1.1176396e+011  7.7678866e+010 6.94e+005 8.94e+005 2.30e+007 5.30e-004
+  45  1.1142427e+011  8.0348759e+010 6.21e+005 8.00e+005 2.10e+007 5.77e-004
+  46  1.1121328e+011  8.2846347e+010 5.79e+005 7.46e+005 1.92e+007 6.30e-004
+  47  1.1079875e+011  8.5281490e+010 5.02e+005 6.47e+005 1.73e+007 6.92e-004
+  48  1.1074774e+011  8.6041500e+010 4.93e+005 6.36e+005 1.67e+007 7.15e-004
+  49  1.1011939e+011  8.9226650e+010 3.89e+005 5.01e+005 1.43e+007 8.30e-004
+  50  1.0962576e+011  9.0203848e+010 3.16e+005 4.08e+005 1.35e+007 8.74e-004
+  51  1.0924820e+011  9.3453710e+010 2.62e+005 3.38e+005 1.10e+007 1.07e-003
+  52  1.0897161e+011  9.4801460e+010 2.29e+005 2.95e+005 9.87e+006 1.18e-003
+  53  1.0855363e+011  9.7151134e+010 1.83e+005 2.35e+005 7.96e+006 1.45e-003
+  54  1.0804069e+011  9.9640456e+010 1.34e+005 1.72e+005 5.87e+006 1.95e-003
+ERROR: Solver "CPLEX" returned with nonzero exitcode 1 
+--- Restarting execution
+--- Balmorel.gms(83062) 1507 Mb
 --- Reading solution for model BALBASE4
---- Balmorel.gms(83062) 7784 Mb  2689 secs
---- GDX Point C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\BALBASE4_p.gdx
---- Executing after solve: elapsed 0:48:49.811
---- Balmorel.gms(82814) 7784 Mb
+--- Executing after solve: elapsed 0:16:37.743
+--- Balmorel.gms(82814) 1508 Mb
 
 C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model>move "BALBASE4_p.gdx" "..\output\temp/2030.gdx" 
-        1 Datei(en) verschoben.
---- Balmorel.gms(83369) 7784 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/HYRSG.gdx
---- Balmorel.gms(83370) 7784 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/VHYRS_SL.gdx
---- Balmorel.gms(83371) 7784 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/WATERVAL.gdx
---- Balmorel.gms(83384) 7784 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/XKACCUMNET.gdx
---- Balmorel.gms(83385) 7784 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/GKACCUMNET.gdx
---- Balmorel.gms(83398) 7784 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/GVESTOVOLTS.gdx
---- Balmorel.gms(83399) 7784 Mb
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/GVHSTOVOLTS.gdx
---- Balmorel.gms(83438) 7784 Mb  11 secs
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\all_endofmodel.gdx
---- Balmorel.gms(83449) 7784 Mb
+Das System kann die angegebene Datei nicht finden.
+--- Balmorel.gms(83369) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/HYRSG.gdx
+--- Balmorel.gms(83370) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/VHYRS_SL.gdx
+--- Balmorel.gms(83371) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/WATERVAL.gdx
+--- Balmorel.gms(83384) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/XKACCUMNET.gdx
+--- Balmorel.gms(83385) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/GKACCUMNET.gdx
+--- Balmorel.gms(83398) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/GVESTOVOLTS.gdx
+--- Balmorel.gms(83399) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../../simex/GVHSTOVOLTS.gdx
+--- Balmorel.gms(83438) 1508 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\all_endofmodel.gdx
+--- Balmorel.gms(83449) 1508 Mb
 Output file: merged.gdx
-Reading file: ..\output\temp\1INPUT.gdx
-Reading file: ..\output\temp\2030.gdx
-Reading file: ..\output\temp\IWEIGHTY.gdx
-
-Merge complete, 3 input files merged
---- Balmorel.gms(83450) 7784 Mb
+Reading file: ..\output\temp\IWEIGHTY.gdx         
+Merge complete
+--- Balmorel.gms(83450) 1508 Mb
         1 Datei(en) verschoben.
---- Balmorel.gms(83453) 7784 Mb
+--- Balmorel.gms(83453) 1508 Mb
 Output file: merged.gdx
-Reading file: ..\output\BASE.gdx
-
-Merge complete, 1 input files merged
---- Balmorel.gms(83455) 7784 Mb
+Reading file: ..\output\BASE.gdx         
+Merge complete
+--- Balmorel.gms(83455) 1508 Mb
         1 Datei(en) verschoben.
---- Balmorel.gms(83460) 7784 Mb
+--- Balmorel.gms(83460) 1508 Mb
 GDX2SQLITE v 0.7
-GDX Library      33.2.0 r4f23b21 Released Dec 01, 2020 WEI x86 64bit/MS Window
+GDX Library      24.7.1 r56632 Released Mar 14, 2016 WEI x86 64bit/MS Windows 
 Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model
 
    InputFile:..\output\BASE-results.gdx
@@ -1354,53 +844,53 @@ Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balm
      IGMAXFS(0 records)
      ISIMWEIGHT(0 records)
      IORD_IY(0 records)
-     VOBJ(2 records)
-     VGE_T(6621888 records)
-     VGH_T(3459456 records)
-     VGF_T(7023744 records)
-     VX_T(777504 records)
-     VGKN(270 records)
+     VOBJ(1 records)
+     VGE_T(0 records)
+     VGH_T(0 records)
+     VGF_T(0 records)
+     VX_T(0 records)
+     VGKN(0 records)
      VXKN(0 records)
      VGHYPMS_T(0 records)
-     VHYRS_S(780 records)
-     VESTOLOADT(471744 records)
-     VESTOLOADTS(148512 records)
+     VHYRS_S(0 records)
+     VESTOLOADT(0 records)
+     VESTOLOADTS(0 records)
      VHSTOLOADT(0 records)
      VHSTOLOADTS(0 records)
-     VESTOVOLT(471744 records)
-     VESTOVOLTS(148512 records)
+     VESTOVOLT(0 records)
+     VESTOVOLTS(0 records)
      VHSTOVOLT(0 records)
      VHSTOVOLTS(0 records)
-     VGKNACCUMNET(270 records)
+     VGKNACCUMNET(0 records)
      VGKNACCUMGROSS(0 records)
      VXKNACCUMNET(0 records)
-     QOBJ(2 records)
-     QEEQ(235872 records)
-     QHEQ(235872 records)
-     QGFEQ(7023744 records)
+     QOBJ(1 records)
+     QEEQ(0 records)
+     QHEQ(0 records)
+     QGFEQ(0 records)
      QGFNEQ(0 records)
-     QGCBGBPR(235872 records)
+     QGCBGBPR(0 records)
      QGCBGBPRBYPASS1(0 records)
      QGCBGBPRBYPASS2(0 records)
-     QGCBGEXT(2349984 records)
-     QGCVGEXT(2349984 records)
-     QGGETOH(471744 records)
-     QHYRSSEQ(780 records)
-     QHYRSMINVOL(780 records)
-     QHYRSMAXVOL(780 records)
-     QHYMAXG(131040 records)
+     QGCBGEXT(0 records)
+     QGCVGEXT(0 records)
+     QGGETOH(0 records)
+     QHYRSSEQ(0 records)
+     QHYRSMINVOL(0 records)
+     QHYRSMAXVOL(0 records)
+     QHYMAXG(0 records)
      QHYMINRS(0 records)
-     QESTOVOLT(471744 records)
-     QESTOVOLTS(148512 records)
+     QESTOVOLT(0 records)
+     QESTOVOLTS(0 records)
      QHSTOVOLT(0 records)
      QHSTOVOLTS(0 records)
      QHSTOLOADT(0 records)
      QHSTOLOADTLIM(0 records)
-     QESTOLOADTLIM(471744 records)
+     QESTOLOADTLIM(0 records)
      QHSTOVOLTLIM(0 records)
-     QESTOVOLTLIM(471744 records)
+     QESTOVOLTLIM(0 records)
      QHSTOVGHTLIM(0 records)
-     QESTOVGETLIM(471744 records)
+     QESTOVGETLIM(0 records)
      QHSTOLOADTS(0 records)
      QHSTOLOADTLIMS(0 records)
      QESTOLOADTLIMS(0 records)
@@ -1418,9 +908,9 @@ Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balm
      QKSUBTECHGROUPR(0 records)
      QKSUBTECHGROUPA(0 records)
      QGMINFUELC(0 records)
-     QGMAXFUELC(27 records)
+     QGMAXFUELC(0 records)
      QGMINFUELR(0 records)
-     QGMAXFUELR(27 records)
+     QGMAXFUELR(0 records)
      QGMINFUELA(0 records)
      QGMAXFUELA(0 records)
      QGMINCF(0 records)
@@ -1457,10 +947,10 @@ Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balm
      QMAXINVESTCF(0 records)
      QMAXINVESTGROWTHCG(0 records)
      QMAXINVESTNAF(0 records)
-     QGKNACCUMNET(270 records)
+     QGKNACCUMNET(0 records)
      QGKNACCUMGROSS(0 records)
-     QGKE_UP(1415232 records)
-     QGKH_UP(471744 records)
+     QGKE_UP(0 records)
+     QGKH_UP(0 records)
      QGKE_LO(0 records)
      QGKH_LO(0 records)
      QEGKCOMB1UP(0 records)
@@ -1514,24 +1004,19 @@ Current directory:C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balm
      EL_DEMAND_YCRST(0 records)
      DH_DEMAND_YCRAST(0 records)
      EMI_YCRAG(0 records)
-     Merged_set_1(3 records)
+     Merged_set_1(2 records)
      Merged_set_2(1 records)
-   Inserts:40061213
-   Elapsed:212.00 seconds
-   Inserts/second:188972.44
+   Inserts:3977546
+   Elapsed:27.23 seconds
+   Inserts/second:146093.66
    Done
 
---- Balmorel.gms(83583) 7784 Mb  5 secs
---- Balmorel.gms(83591) 7784 Mb  3 secs
---- Balmorel.gms(83604) 7784 Mb  6 secs
---- Balmorel.gms(83626) 7784 Mb  6 secs
---- Balmorel.gms(83719) 7784 Mb  4 secs
---- Balmorel.gms(83888) 7784 Mb  3 secs
---- GDX File (execute_unload) C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\MainResults.gdx
+--- Balmorel.gms(83888) 1520 Mb
+--- GDX File C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\MainResults.gdx
 --- Putfile fileMERGESAVEPOINTRESULTSbat C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\MERGESAVEPOINTRESULTS.bat
 --- Putfile errorfile C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\logerror\errors.out
 --- Putfile logfile C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\logerror\logfile.out
 --- Putfile printoutoverview C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\model\../output/printout/printoutoverview.out
 --- Putfile BB4overview C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\scen_RE40-Trade\logerror\BB4overview.out
 *** Status: Normal completion
---- Job Balmorel.gms Stop 02/04/21 18:19:41 elapsed 0:56:06.532
+--- Job Balmorel.gms Stop 03/18/21 15:55:57 elapsed 0:17:18.651

@@ -9,7 +9,7 @@
 * The solution is returned by first method to finish.
 * If memory tight, set the Threads parameter to 1.
 
-LPmethod  6
+LPmethod  4
 Threads  -1
 
 
