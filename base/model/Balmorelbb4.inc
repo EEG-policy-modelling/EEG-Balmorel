@@ -264,7 +264,7 @@ SET ILINKSTO(G,G)          "1st set: Heat storage, 2nd set: technologies allowed
 * Printing of data to the list file controlled by %ONOFFDATALISTING% and %ONOFFCODELISTING%:
 %ONOFFDATALISTING%
 
-PARAMETER GKFX(YYY,AAA,GGG)    "Capacity of exogenously given generation technologies (MW)";
+PARAMETER GKFX(YYY,AAA,GGG)    "Capacity of exogenously given generation technologies (MW except for storages, where it is MWh)";
 * Printing of data to the list file controlled by %ONOFFDATALISTING% and %ONOFFCODELISTING%:
 %ONOFFCODELISTING%
 
@@ -702,6 +702,8 @@ GINVCOST(IA,G)$((NOT GINVCOST(IA,G)) AND (SUM(Y,GKFX(Y,IA,G)) OR AGKN(IA,G))) = 
 
 * Time aggregation:
 $ifi %timeaggr%==yes  $include '../../base/addons/timeaggregation/timeaggr.inc';
+* Include internal sets affected by S and T in addons:
+$include "../../base/addons/_hooks/isetdecdef_st.inc"
 
 * The following relates technology and fuel:
 SET IGF(GGG,FFF)   "Relation between technology type and fuel type";
