@@ -8,6 +8,8 @@ $ifi %dflexquant%==yes            $include "../../base/addons/demandflexquant/df
 
 $ifi %BB4%==yes $goto beginbb4
 
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_vardeclare.inc";
+
 $ifi %HYDROGEN%==yes  $include   "../../base/addons/hydrogen/hydrogen_vardeclare.inc";
 
 $ifi not %BB4%==yes $goto endoffile
@@ -15,6 +17,8 @@ $ifi not %BB4%==yes $goto endoffile
 $label  beginbb4
 
 $ifi not %bb4%==yes $goto endoffile
+
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_vardeclare.inc";
 
 $ifi %HYDROGEN%==yes      $include   "../../base/addons/hydrogen/bb4/hydrogen_vardeclare.inc";
 $ifi %UnitComm%==yes  $include   "../../base/addons/unitcommitment/bb4/uc_vardeclare.inc";
@@ -28,6 +32,8 @@ $ifi %DEMANDRESPONSE%==yes      $include        "../../base/addons/demandrespons
 $ifi %DECOM%==yes  $include   "../../base/addons/DECOM/DECOM_vardeclare.inc";
 
 $ifi %vqdebug%==yes       $include   "../../base/addons/vqdebug/bb4/vqdebug_declare.inc";
+
+$ifi %DSF%==yes  $include   "../../base/addons/DSF/DSF_vardeclare.inc";
 
 
 $label endoffile

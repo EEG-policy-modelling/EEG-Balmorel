@@ -7,6 +7,8 @@ $ifi %dflexquant%==yes   $include "../../base/addons/demandflexquant/dflexquant_
 
 $ifi %BB4%==yes $goto beginbb4
 
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_qobj.inc";
+
 $ifi %HYDROGEN%==yes   $include   "../../base/addons/hydrogen/hydrogen_qobj.inc";
 
 $ifi not %BB4%==yes $goto endoffile
@@ -14,6 +16,9 @@ $ifi not %BB4%==yes $goto endoffile
 $label  beginbb4
 
 $ifi not %bb4%==yes $goto endoffile
+
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_qobj.inc";
+
 $ifi %import_results%==yes  $include   "../../base/addons/import_results/import_results_qobj.inc";    
 
 $ifi %HYDROGEN%==yes   $include   "../../base/addons/hydrogen/bb4/hydrogen_qobj.inc";

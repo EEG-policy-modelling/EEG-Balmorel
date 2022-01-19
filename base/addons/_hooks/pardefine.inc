@@ -9,6 +9,8 @@ $ifi %FLOWBASED%==yes $include    "../../base/addons/flowbased/flowbased_pardefi
 
 $ifi %BB4%==yes $goto beginbb4
 
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_pardefine.inc";
+
 $ifi %HYDROGEN%==yes  $include   "../../base/addons/hydrogen/hydrogen_pardefine.inc";
 *This is only tested for BB1 and BB2:
 $ifi %COMBTECH%==yes  $include   "../../base/addons/combtech/combtech_pardefine.inc";
@@ -16,6 +18,8 @@ $ifi %COMBTECH%==yes  $include   "../../base/addons/combtech/combtech_pardefine.
 $ifi not %BB4%==yes $goto endoffile
 
 $label  beginbb4
+
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_pardefine.inc";
 
 $ifi %import_results%==yes  $include   "../../base/addons/import_results/import_results_pardefine.inc"; 
 

@@ -2,11 +2,14 @@
 * Latest revision 20170419 (hr)
 $ifi %BB4%==yes $goto beginbb4
 
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_qeeq.inc";
 $ifi %HYDROGEN%==yes   $include   "../../base/addons/hydrogen/hydrogen_qeeq.inc";
 
 $ifi not %BB4%==yes $goto endoffile
 
 $label  beginbb4
+
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_qeeq.inc";
 
 $ifi %HYDROGEN%==yes   $include   "../../base/addons/hydrogen/bb4/hydrogen_qeeq.inc";
 * The following implemented only for bb4
@@ -20,5 +23,6 @@ $ifi %DEMANDRESPONSE%==yes 	$include 	"../../base/addons/demandresponse/bb4/dr_q
 $ifi %vqdebug%==yes   $setglobal equation qeeq
 $ifi %vqdebug%==yes   $include   "../../base/addons/vqdebug/bb4/vqdebug_equations.inc";
 
+$ifi %DSF%==yes   $include   "../../base/addons/DSF/DSF_qeeq.inc";
 
 $label endoffile

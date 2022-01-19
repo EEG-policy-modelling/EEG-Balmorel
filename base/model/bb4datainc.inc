@@ -198,6 +198,13 @@ $include "../../base/addons/_hooks/gdataadditions.inc"
 $if not errorfree $abort "Balmorel processing aborted after inclusion of file dataincBB4.inc due to technology related data errors";
 * ------------------------------------------------------------------------------
 
+$ontext
+PARAMETER GDSTOHLOAD3(AAA,GGG) "Hours to load storage for pumped storage with categories" %semislash%
+$if     EXIST '../data/GDSTOHLOAD3.inc' $INCLUDE         '../data/GDSTOHLOAD3.inc';
+$if not EXIST '../data/GDSTOHLOAD3.inc' $INCLUDE '../../base/data/GDSTOHLOAD3.inc';
+%semislash%;
+$offtext
+
 PARAMETER HYRSMAXVOL_G(AAA,GGG) "Reservoir capacity (MWh storage capacity / MW installed capacity)"  %semislash%
 $if     EXIST '../data/HYRSMAXVOL_G.inc' $INCLUDE         '../data/HYRSMAXVOL_G.inc';
 $if not EXIST '../data/HYRSMAXVOL_G.inc' $INCLUDE '../../base/data/HYRSMAXVOL_G.inc';

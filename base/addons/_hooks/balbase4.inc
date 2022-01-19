@@ -18,4 +18,8 @@ $ifi %GRIDTARIFFS%==yes  $include   "../../base/addons/GridTariffs/bb4/GridTarif
 $ifi %DEMANDRESPONSE%==yes      $include        "../../base/addons/demandresponse/bb4/dr_balbase4.inc";
 $ifi %DECOM%==yes  $include   "../../base/addons/DECOM/DECOM_balbase4.inc";
 
+$ifi %EV%==yes    $include   "../../base/addons/EV/bb4/EV_balbase4.inc";
+
+$ifi %DSF%==yes  $include   "../../base/addons/DSF/DSF_balbase4.inc";
+
 $label endoffile

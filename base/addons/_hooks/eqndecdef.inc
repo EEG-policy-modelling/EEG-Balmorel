@@ -2,6 +2,8 @@
 
 $ifi %BB4%==yes $goto beginbb4
 
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_eqndecdef.inc"
+
 $ifi %COMBTECH%==yes $include "../../base/addons/combtech/combtech_eqndecdef.inc"
 $ifi %HYDROGEN%==yes $include "../../base/addons/hydrogen/hydrogen_eqndecdef.inc"
 
@@ -12,6 +14,7 @@ $ifi not %BB4%==yes $goto endoffile
 
 $label  beginbb4
 
+$ifi %EV%==yes $include "../../base/addons/EV/bb4/EV_eqndecdef.inc"
 
 $ifi %import_results%==yes  $include   "../../base/addons/import_results/import_results_eqndecdef.inc";
 
@@ -27,4 +30,7 @@ $ifi %GRIDTARIFFS%==yes  $include   "../../base/addons/GridTariffs/bb4/GridTarif
 $ifi %DEMANDRESPONSE%==yes      $include        "../../base/addons/demandresponse/bb4/dr_eqndecdef.inc";
 
 $ifi %DECOM%==yes  $include   "../../base/addons/DECOM/DECOM_eqndecdef.inc";
+
+$ifi %DSF%==yes  $include   "../../base/addons/DSF/DSF_eqndecdef.inc";
+
 $label endoffile

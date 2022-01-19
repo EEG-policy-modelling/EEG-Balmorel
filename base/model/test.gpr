@@ -1,0 +1,17 @@
+[PROJECT]
+
+[RP:UNTITLED_1]
+1=
+
+[RP:BALMOREL]
+1=
+
+[OPENWINDOW_1]
+FILE0=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.gms
+FILE1=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.lst
+FILE2=C:\Users\geipel\Documents\GitHub\EEG-policy modelling\EEG-Balmorel\base\model\Balmorel.gms
+MAXIM=0
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=400

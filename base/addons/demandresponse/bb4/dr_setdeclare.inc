@@ -15,6 +15,8 @@ DR_SHIFT_TERI_VENT
 DR_SHIFT_TERI_COOL
 DR_SHIFT_TERI_WATER
 DR_SHIFT_TERI_HEAT
+HP_WTR_TNK
+Heat_pump
 / ;
 
 SET DR_TECH(DR_TECHNOLOGIES)               'Demand response technology in the simulation'
@@ -33,7 +35,10 @@ DR_SHIFT_TERI_VENT
 DR_SHIFT_TERI_COOL
 DR_SHIFT_TERI_WATER
 DR_SHIFT_TERI_HEAT
+HP_WTR_TNK
+Heat_pump
 / ;
+
 
 SET DR_DATASET
 /    
@@ -55,7 +60,7 @@ DRLOSS
 DRUTLOSS
 DRMINLOAD
 DRREGLIM
-/;   
+/; 
 
 SET DR_TECH_SHIFT(DR_TECH)'Shifting demand response technology'
 SET DR_TECH_SHED(DR_TECH) 'Shedding demand response technology'
