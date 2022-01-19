@@ -9,7 +9,7 @@ It was extended to mixed fleets by F.Hasengst in 2021.
 
 
 ### Input Excel Files
-The input excel files for the EV Addon can't be uploades because the are bigger than 100MB.
+The input excel files for the EV Addon can't be uploaded because they are bigger than 100MB.
 
 
 
